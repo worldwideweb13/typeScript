@@ -178,8 +178,9 @@ const registerValidators: ValidatorConfig  = {};
 
 // Courseインスタンスのプロパティtitleのプロパティデコレーター
 function Required(target: any, propName: string) {
-  // target (プロトタイプ)のconstructor関数名を参照. それをregisterValidatorsのkeyに設定する
+  // target (プロトタイプ)のconstructorが持っている名前(title)を参照. それをregisterValidatorsのkeyに設定する
   registerValidators[target.constructor.name] = {
+    // 以下の一文を入れることで配列に値が追加されるようになる（ない場合は、値が上書きされてしまう）
     ...registerValidators[target.constructor.name],
     [propName]: ['required'],
   }
@@ -187,7 +188,7 @@ function Required(target: any, propName: string) {
 
 // Courseインスタンスのプロパティpriceのプロパティデコレーター
 function PositiveNumber(target: any, propName: string) {
-  // target (プロトタイプ)のconstructor関数名を参照. それをregisterValidatorsのkeyに設定する
+  // target (プロトタイプ)のconstructorが持っている名前(price)を参照. それをregisterValidatorsのkeyに設定する
   registerValidators[target.constructor.name] = {
     ...registerValidators[target.constructor.name],
     [propName]: ['positive'],

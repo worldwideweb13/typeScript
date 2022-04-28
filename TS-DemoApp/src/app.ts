@@ -146,6 +146,27 @@ function autobind(
   return adjDescripter;
 }
 
+// component Class
+// class Component<T extends HTMLElement, U extends HTMLElement> {
+//   templateElement: HTMLTemplateElement;
+//   hostElement: T;
+//   element: U;
+
+//   constructor(
+//     templateId: string,
+//     hostElementId: string,
+//     newElementId?: string
+//   ) {
+//     // コンテンツを表示するためにアクセスしなければいけない要素へのアクセス修飾子
+//     this.templateElement = document.getElementById(
+//         templateId,
+//     )! as HTMLTemplateElement;
+//     this.hostElement = document.getElementById("app")! as T;
+
+//     const importedNode = document
+//   }
+// }
+
 // projectList Class
 class projectList {
   templateElement: HTMLTemplateElement;
@@ -182,7 +203,13 @@ class projectList {
          →submitHandler() → addProject() → for (const listnerersFn of this.listnerers)...の順で実行されます
     */
     projectState.addlistnerers((projects: Project[]) => {
-      this.assignedProjects = projects;
+      const relevantProjects = projects.filter((prj) => {
+        if (this.type === "active") {
+          return prj.status === ProjectStatus.Active;
+        }
+        return prj.status === ProjectStatus.Finished;
+      });
+      this.assignedProjects = relevantProjects;
       // プロジェクト一覧を active or finished-projects-listタグ直下にliタグで挿入する
       this.renderProjects();
     });
@@ -196,6 +223,8 @@ class projectList {
     const listEl = document.getElementById(
       `${this.type}-projects-list`
     )! as HTMLUListElement;
+    // 現在domに追加されているプロジェクトは全てクリアする
+    listEl.innerHTML = "";
     for (const prjItem of this.assignedProjects) {
       const listItem = document.createElement("li");
       listItem.textContent = prjItem.title;

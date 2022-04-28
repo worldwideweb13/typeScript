@@ -15,18 +15,29 @@ class Project {
 }
 
 // project State Management...タスクの状態管理クラス
-type listnerer = (items: Project[]) => void;
+// hoge<T>...ジェネリック型. hogeクラス/関数の型はジェネリック
+type Listener<T> = (items: T[]) => void;
 
-class ProjectState {
+class State<T> {
   // listnerers...関数の配列
-  private listnerers: listnerer[] = [];
+  protected listeners: Listener<T>[] = [];
+
+  // 関数を引数に受け取ってlistnerersに格納する
+  addlistnerers(listenersFn: Listener<T>) {
+    this.listeners.push(listenersFn);
+  }
+}
+
+class ProjectState extends State<Project> {
   //  タスク一覧を管理するプロパティ
   private projects: Project[] = [];
   // アプリケーション全体で必ず一つのインスタンスしか存在しない
   private static instance: ProjectState;
 
   // private constructor...シングルトン。インスタンスが一つしかないことを保証するデザインパターン
-  private constructor() {}
+  private constructor() {
+    super();
+  }
 
   static getInstance() {
     if (this.instance) {
@@ -34,11 +45,6 @@ class ProjectState {
     }
     this.instance = new ProjectState();
     return this.instance;
-  }
-
-  // 関数を引数に受け取ってlistnerersに格納する
-  addlistnerers(listnerersFn: listnerer) {
-    this.listnerers.push(listnerersFn);
   }
 
   // プロジェクトを新たに追加する関数
@@ -58,13 +64,13 @@ class ProjectState {
          今回は関数を配列形式で保持する listnerers から関数を取り出して実行する
          実行する関数には引数にプロジェクト一覧の配列(projects)を渡す         
     */
-    for (const listnerersFn of this.listnerers) {
+    for (const listenersFn of this.listeners) {
       /* 
-        const listnerersFn = 関数 なので listnerersFn(引数) で関数実行
+        const listenersFn = 関数 なので listenersFn(引数) で関数実行
         projectsはどこからでも書き換え可能なので、引数として無闇に利用するとバグの温床になる
         そのため、slice()メソッドでコピーした引数を利用するようにする
       */
-      listnerersFn(this.projects.slice());
+      listenersFn(this.projects.slice());
     }
   }
 }
@@ -147,43 +153,24 @@ function autobind(
 }
 
 // component Class
-// class Component<T extends HTMLElement, U extends HTMLElement> {
-//   templateElement: HTMLTemplateElement;
-//   hostElement: T;
-//   element: U;
-
-//   constructor(
-//     templateId: string,
-//     hostElementId: string,
-//     newElementId?: string
-//   ) {
-//     // コンテンツを表示するためにアクセスしなければいけない要素へのアクセス修飾子
-//     this.templateElement = document.getElementById(
-//         templateId,
-//     )! as HTMLTemplateElement;
-//     this.hostElement = document.getElementById("app")! as T;
-
-//     const importedNode = document
-//   }
-// }
-
-// projectList Class
-class projectList {
+// 抽象クラス(abstract)...インスタンス化不可。継承クラスでのみインスタンス化される
+abstract class Component<T extends HTMLElement, U extends HTMLElement> {
   templateElement: HTMLTemplateElement;
-  hostElement: HTMLDivElement;
-  element: HTMLElement;
-  assignedProjects: Project[];
+  hostElement: T;
+  element: U;
 
-  // constructor引数にリテラル or ユニオン型の'type'を設定
-  constructor(private type: "active" | "finished") {
+  constructor(
+    templateId: string,
+    hostElementId: string,
+    insertAtStart: boolean,
+    // 任意のパラメータは必須パラメータの後に設定しなければならない
+    newElementId?: string
+  ) {
     // コンテンツを表示するためにアクセスしなければいけない要素へのアクセス修飾子
     this.templateElement = document.getElementById(
-      "project-list"
+      templateId
     )! as HTMLTemplateElement;
-    this.hostElement = document.getElementById("app")! as HTMLDivElement;
-    //  初期化
-    this.assignedProjects = [];
-
+    this.hostElement = document.getElementById(hostElementId)! as T;
     /* importNode(arg1,bool)...arg1に取得するDOM要素、bool = deepCloneフラグ。arg1の下の階層の要素も取得する場合はtrue,
              templateElement.content...templateエレメントの内側の要素を取得したいときは'.content'
       */
@@ -191,16 +178,52 @@ class projectList {
       this.templateElement.content,
       true
     );
-    // firstElementChild...直下の子要素(importedNode直下の子要素<section id='projects'> をHTMLElementとして取得)
-    this.element = importedNode.firstElementChild as HTMLElement;
-    // DOM要素に'user-input'タグを追加（CSSを適用）
-    this.element.id = `${this.type}-projects`;
+    // firstElementChild...直下の子要素(importedNode直下の子要素をHTMLElementとして取得)
+    this.element = importedNode.firstElementChild as U;
+    // DOM要素に任意の名前のid名を追加（CSSを適用）
+    if (newElementId) {
+      this.element.id = newElementId;
+    }
 
+    this.attach(insertAtStart);
+  }
+
+  // index.html にrenderProjects() で描画したHTMLコンテンツを挿入
+  // 引数やプログラムの実行順序によりエラーが生じる実装は、abstractを使い、呼び出し先で関数実行をする
+  abstract configure(): void;
+  abstract renderContent(): void;
+
+  // index.html にrenderProjects() で描画したHTMLコンテンツを挿入する関数
+  private attach(insertAtBeginning: boolean) {
+    // beforebegin...element の直前に挿入 | beforeend...element 内部の、最後の子要素の後に挿入
+    this.hostElement.insertAdjacentElement(
+      insertAtBeginning ? "afterbegin" : "beforeend",
+      this.element
+    );
+  }
+}
+
+// projectList Class
+class projectList extends Component<HTMLDivElement, HTMLElement> {
+  assignedProjects: Project[];
+
+  // constructor引数にリテラル or ユニオン型の'type'を設定
+  constructor(private type: "active" | "finished") {
+    super("project-list", "app", false, `${type}-projects`);
+    //  初期化
+    this.assignedProjects = [];
+
+    this.configure();
+    // index.html にrenderProjects() で描画したHTMLコンテンツを挿入
+    this.renderContent();
+  }
+
+  configure() {
     /*  新しいプロジェクトが追加された時にaddListner関数実行。
         addListner関数は、ProjectState.listnerers に関数を配列形式で保持します
         addListner関数は引数に関数を取るため、引数に関数式を入れます...addListner(() => {})
         配列に保持する関数はrenderProjects()です。この関数はユーザーがプロジェクトの'登録'ボタンを押下した時に実行されます
-         →submitHandler() → addProject() → for (const listnerersFn of this.listnerers)...の順で実行されます
+         →submitHandler() → addProject() → for (const listenersFn of this.listnerers)...の順で実行されます
     */
     projectState.addlistnerers((projects: Project[]) => {
       const relevantProjects = projects.filter((prj) => {
@@ -213,9 +236,15 @@ class projectList {
       // プロジェクト一覧を active or finished-projects-listタグ直下にliタグで挿入する
       this.renderProjects();
     });
-    // index.html にrenderProjects() で描画したHTMLコンテンツを挿入
-    this.attach();
-    this.renderContent();
+  }
+
+  renderContent() {
+    const listId = `${this.type}-projects-list`;
+    // ul要素のid名にactive-projects-list or finished-projects-list を追加
+    this.element.querySelector("ul")!.id = listId;
+    // h2要素のテキストに実行中プロジェクト / 完了プロジェクト を追加
+    this.element.querySelector("h2")!.textContent =
+      this.type === "active" ? "実行中プロジェクト" : "完了プロジェクト";
   }
 
   // プロジェクト一覧をhtml要素に追加する関数
@@ -231,49 +260,16 @@ class projectList {
       listEl.appendChild(listItem);
     }
   }
-
-  private renderContent() {
-    const listId = `${this.type}-projects-list`;
-    // ul要素のid名にactive-projects-list or finished-projects-list を追加
-    this.element.querySelector("ul")!.id = listId;
-    // h2要素のテキストに実行中プロジェクト / 完了プロジェクト を追加
-    this.element.querySelector("h2")!.textContent =
-      this.type === "active" ? "実行中プロジェクト" : "完了プロジェクト";
-  }
-  // index.html にrenderProjects() で描画したHTMLコンテンツを挿入する関数
-  // beforeend...element 内部の、最後の子要素の後に挿入
-  private attach() {
-    this.hostElement.insertAdjacentElement("beforeend", this.element);
-  }
 }
 
 // projectInput Class
-class projectInput {
-  templateElement: HTMLTemplateElement;
-  hostElement: HTMLDivElement;
-  element: HTMLFormElement;
+class projectInput extends Component<HTMLDivElement, HTMLFormElement> {
   titleInputElement: HTMLInputElement;
   descriptionInputElement: HTMLInputElement;
   mandayInputElement: HTMLInputElement;
 
   constructor() {
-    // コンテンツを表示するためにアクセスしなければいけない要素へのアクセス修飾子
-    this.templateElement = document.getElementById(
-      "project-input"
-    )! as HTMLTemplateElement;
-    this.hostElement = document.getElementById("app")! as HTMLDivElement;
-
-    /* importNode(arg1,bool)...arg1に取得するDOM要素、bool = deepCloneフラグ。arg1の下の階層の要素も取得する場合はtrue,
-           templateElement.content...templateエレメントの内側の要素を取得したいときは'.content'
-    */
-    const importedNode = document.importNode(
-      this.templateElement.content,
-      true
-    );
-    // firstElementChild...直下の子要素(importedNode直下の子要素がformタグなのでHTMLFormElementに変換)
-    this.element = importedNode.firstElementChild as HTMLFormElement;
-    // DOM要素に'user-input'タグを追加（CSSを適用）
-    this.element.id = "user-input";
+    super("project-input", "app", true, "user-input");
     this.titleInputElement = this.element.querySelector(
       "#title"
     ) as HTMLInputElement;
@@ -285,8 +281,20 @@ class projectInput {
     ) as HTMLInputElement;
 
     this.configure();
-    this.attach();
   }
+
+  configure() {
+    /*
+      .bind(this)...submitHandlerで使うthisの指し示すオブジェクトは、このコンテクスト（呼び出しもと）のthisと一緒です
+       ↑の一文がない場合、addEventListener(arg1,method)のmethodで使われるthisは呼び出し元（送信ボタンのhtml要素）になる
+      */
+    //   this.element.addEventListener('submit',this.submitHandler.bind(this));
+    this.element.addEventListener("submit", this.submitHandler);
+  }
+
+  // renderContent() で実行すべき関数はないが、抽象クラスの制約を満たすために空で設定
+  // 抽象(abstraci) に設定されたクラス・関数は継承先で必ず実行されなければいけない
+  renderContent() {}
 
   // :[]...戻り値をタプル型に設定
   // タプル型...要素を追加・削除・変更できない.TS上で使える型（JSでは利用できない。JSでは配列として認識される）
@@ -347,20 +355,6 @@ class projectInput {
       projectState.addProject(title, desc, manday);
       this.clearInputs();
     }
-  }
-
-  private configure() {
-    /*
-      .bind(this)...submitHandlerで使うthisの指し示すオブジェクトは、このコンテクスト（呼び出しもと）のthisと一緒です
-       ↑の一文がない場合、addEventListener(arg1,method)のmethodで使われるthisは呼び出し元（送信ボタンのhtml要素）になる
-      */
-    //   this.element.addEventListener('submit',this.submitHandler.bind(this));
-    this.element.addEventListener("submit", this.submitHandler);
-  }
-
-  // appタグ直下にelement要素を挿入する
-  private attach() {
-    this.hostElement.insertAdjacentElement("afterbegin", this.element);
   }
 }
 

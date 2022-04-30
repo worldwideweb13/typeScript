@@ -203,6 +203,28 @@ abstract class Component<T extends HTMLElement, U extends HTMLElement> {
   }
 }
 
+// ProjectItem Class...プロジェクトをリスト形式でHTMLに描画するためのクラス
+class ProjectItem extends Component<HTMLUListElement, HTMLLIElement> {
+  private project: Project;
+  constructor(hostId: string, project: Project) {
+    super("single-project", hostId, false, project.id);
+    this.project = project;
+
+    this.configure();
+    this.renderContent();
+  }
+
+  configure() {}
+
+  renderContent() {
+    // element...継承元のプロパテ。ここでは<template id="single-project">直下の子要素<ul>を指す
+    this.element.querySelector("h2")!.textContent = this.project.title;
+    this.element.querySelector("h3")!.textContent =
+      this.project.manday.toString();
+    this.element.querySelector("p")!.textContent = this.project.description;
+  }
+}
+
 // projectList Class
 class projectList extends Component<HTMLDivElement, HTMLElement> {
   assignedProjects: Project[];
@@ -230,14 +252,15 @@ class projectList extends Component<HTMLDivElement, HTMLElement> {
         if (this.type === "active") {
           return prj.status === ProjectStatus.Active;
         }
-        return prj.status === ProjectStatus.Finished;
-      });
+        return prj.status=== ProjectStatus.Finished;
+      }); 
       this.assignedProjects = relevantProjects;
       // プロジェクト一覧を active or finished-projects-listタグ直下にliタグで挿入する
       this.renderProjects();
     });
   }
 
+  // 実行中プロジェクト/完了プロジェクト  をDOMに追加
   renderContent() {
     const listId = `${this.type}-projects-list`;
     // ul要素のid名にactive-projects-list or finished-projects-list を追加
@@ -255,9 +278,7 @@ class projectList extends Component<HTMLDivElement, HTMLElement> {
     // 現在domに追加されているプロジェクトは全てクリアする
     listEl.innerHTML = "";
     for (const prjItem of this.assignedProjects) {
-      const listItem = document.createElement("li");
-      listItem.textContent = prjItem.title;
-      listEl.appendChild(listItem);
+      new ProjectItem(listEl.id, prjItem);
     }
   }
 }

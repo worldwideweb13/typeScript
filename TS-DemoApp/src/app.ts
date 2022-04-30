@@ -206,6 +206,16 @@ abstract class Component<T extends HTMLElement, U extends HTMLElement> {
 // ProjectItem Class...プロジェクトをリスト形式でHTMLに描画するためのクラス
 class ProjectItem extends Component<HTMLUListElement, HTMLLIElement> {
   private project: Project;
+
+  // getter関数
+  get manday() {
+      if(this.project.manday < 20) {
+          return this.project.manday.toString() + '人日';
+      } else {
+          return (this.project.manday / 20).toString() + '人月';
+      }
+  }
+
   constructor(hostId: string, project: Project) {
     super("single-project", hostId, false, project.id);
     this.project = project;
@@ -219,8 +229,7 @@ class ProjectItem extends Component<HTMLUListElement, HTMLLIElement> {
   renderContent() {
     // element...継承元のプロパテ。ここでは<template id="single-project">直下の子要素<ul>を指す
     this.element.querySelector("h2")!.textContent = this.project.title;
-    this.element.querySelector("h3")!.textContent =
-      this.project.manday.toString();
+    this.element.querySelector("h3")!.textContent = this.manday;
     this.element.querySelector("p")!.textContent = this.project.description;
   }
 }

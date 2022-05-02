@@ -9,6 +9,9 @@ typeScriptの自学習用リポジトリ。
 
 ### typeScriptの学習環境作成手順
 
+```
+npm start
+```
  
 ### 開発の苦労した点
 

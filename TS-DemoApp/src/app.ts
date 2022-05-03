@@ -1,19 +1,5 @@
-// Drag & Drop
-// Draggable...ドラックできるオブジェクト（プロジェクト）
-interface Draggable {
-  // DragEventはTSに組み込まれているイベント
-  dragStartHandler(event: DragEvent): void;
-  dragEndHandler(event: DragEvent): void;
-}
-// DragTarget... ドラックしたオブジェクトを配置する場所("active" | "finished" -projcets)
-interface DragTarget {
-  // dragOverHandler...dorag&drop中に、その場所が有効なdrop対象の場所かをブラウザに伝える
-  dragOverHandler(event: DragEvent): void;
-  // dragOverHandlerでdropの許可がでた時に、オブジェクトに変更を加える
-  dropHandler(event: DragEvent): void;
-  // ビジュアル上のフィードバックを行うときに使うハンドラー
-  dragLeaveHandler(event: DragEvent): void;
-}
+// トリプルクラスディレクティブ...tsの機能でファイルの依存関係を表す
+/// <reference  path="drag-drop-interfaces.ts" />
 
 // プロジェクト（ユーザーが登録するプロジェクト）のType
 enum ProjectStatus {
@@ -236,7 +222,7 @@ abstract class Component<T extends HTMLElement, U extends HTMLElement> {
 // implements...interface Draggable を適用する
 class ProjectItem
   extends Component<HTMLUListElement, HTMLLIElement>
-  implements Draggable
+  implements DDinterfaces.Draggable
 {
   private project: Project;
 
@@ -289,7 +275,7 @@ class ProjectItem
 // projectList Class
 class projectList
   extends Component<HTMLDivElement, HTMLElement>
-  implements DragTarget
+  implements DDinterfaces.DragTarget
 {
   assignedProjects: Project[];
 

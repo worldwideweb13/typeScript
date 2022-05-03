@@ -10,7 +10,7 @@ typeScriptの自学習用リポジトリ。
 ### typeScriptの学習環境作成手順
 
 
-
+開発環境でのサーバー開始（localhost）
 ```
 npm start
 ```

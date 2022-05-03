@@ -11,8 +11,9 @@ typeScriptの自学習用リポジトリ。"TS-プロジェクト名"でリポ�
 ### typeScriptの学習環境作成手順
 
 TSを動かす上で必要なnode-moduleは重いので、各プロジェクトファイルから抜いてあります。
-対象ファイル直下でnode-moduleをインストールすることで動作確認が取れます
-node-module　のインストール￥
+対象ファイル直下でnode-moduleをインストールすることで動作確認が取れます。
+
+node-module　のインストール
 ```
 npm install
 ```

@@ -15,6 +15,7 @@ typeScriptの自学習用リポジトリ。
 npm start
 ```
 
+typeScript  の全ファイルの変化を監視する（ウォッチモード）
 ```
 tsc -w
 ```

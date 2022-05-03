@@ -10,7 +10,7 @@ typeScriptの自学習用リポジトリ。"TS-プロジェクト名"でリポ�
 
 ### typeScriptの学習環境作成手順
 
-TSを動かす上で必要なnode-moduleは重いので、各プロジェクトファイルから抜いてあります。
+* TSを動かす上で必要なnode-moduleは重いので、各プロジェクトファイルから抜いてあります。
 対象ファイル直下でnode-moduleをインストールすることで動作確認が取れます。
 
 node-module　のインストール
@@ -18,10 +18,10 @@ node-module　のインストール
 npm install
 ```
 
+* TS-libs　TS-DemoApp ではwebpackを利用しています。これらのフォルダでは、webpackをインストールしてアプリケーションの実行環境を作っています
 
-開発環境でのサーバー開始（localhost）
-```
-npm start
+開発環境でのwebpackインストールコマンド
+ npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-loader
 ```
 
 typeScript  の全ファイルの変化を監視する（ウォッチモード）

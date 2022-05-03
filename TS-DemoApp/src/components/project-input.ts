@@ -1,4 +1,8 @@
+// project-input.ts と依存関係にあるファイルを全て取り込みます
 /// <reference path="base-component.ts" />
+/// <reference path="../decorators/autobind.ts" />
+/// <reference path="../util/validation.ts" />
+/// <reference path="../state/project-state.ts" />
 
 namespace App {
   // projectInput Class

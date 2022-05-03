@@ -1,4 +1,4 @@
-import { Project, ProjectStatus } from "../models/project.js";
+import { Project, ProjectStatus } from "../models/project";
 
 // project State Management...タスクの状態管理クラス
 // hoge<T>...ジェネリック型. hogeクラス/関数の型はジェネリック

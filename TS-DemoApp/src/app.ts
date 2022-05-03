@@ -4,10 +4,12 @@
  ///...トリプルクラスディレクティブ...tsの機能でファイルの依存関係を表す
 */
 
-import { projectInput } from "./components/project-input.js";
-import { projectList } from "./components/project-list.js";
+import { projectInput } from "./components/project-input";
+import { projectList } from "./components/project-list";
 
 // インスタンスの生成
 new projectInput();
 new projectList("active");
 new projectList("finished");
+
+console.log("こんにちは");

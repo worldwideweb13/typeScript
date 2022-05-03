@@ -21,12 +21,10 @@ npm install
 * TS-libs　TS-DemoApp ではwebpackを利用しています。これらのフォルダでは、webpackをインストールしてアプリケーションの実行環境を作っています
 
 開発環境でのwebpackインストールコマンド
-``　`
+```
 npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-loader
 ```
-
 typeScript  の全ファイルの変化を監視する（ウォッチモード）
-
 ```
 tsc -w
 ```

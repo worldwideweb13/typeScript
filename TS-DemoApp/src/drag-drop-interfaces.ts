@@ -1,4 +1,5 @@
-namespace DDinterfaces {
+// interface はts独自の機能なのでコンパイルされた時に、drag-drop-interfaces.jsファイルの中身は空になる
+namespace App {
   // Drag & Drop
   // Draggable...ドラックできるオブジェクト（プロジェクト）
   export interface Draggable {

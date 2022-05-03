@@ -5,15 +5,18 @@
 * 使用API: LineメッセージAPI(Liff)
 
 ### 概要
-typeScriptの自学習用リポジトリ。
+typeScriptの自学習用リポジトリ。"TS-プロジェクト名"でリポジトリを分けて、分野毎の学習をしています。
+
 
 ### typeScriptの学習環境作成手順
 
-
-node-module　のインストール
+TSを動かす上で必要なnode-moduleは重いので、各プロジェクトファイルから抜いてあります。
+対象ファイル直下でnode-moduleをインストールすることで動作確認が取れます
+node-module　のインストール￥
 ```
 npm install
 ```
+
 
 開発環境でのサーバー開始（localhost）
 ```
@@ -24,8 +27,6 @@ typeScript  の全ファイルの変化を監視する（ウォッチモード�
 ```
 tsc -w
 ```
-
-
  
 ### 開発の苦労した点
 

@@ -1,12 +1,12 @@
 // default export されたものは{}が省略できる(base-component.js でクラスに export className() されたもの)
 // ./base-component.jsにアクセスする際はこのファイルでは'Cmp'と記述する
-import Cmp from "./base-component.js";
+import Cmp from "./base-component";
 // *...全ての関数、プロパティにアクセスする
 // as Validation...validation.jsのプロパティにアクセスする際は'Validation.プロパティ名'で利用する
-import * as Validation from "../util/validation.js";
+import * as Validation from "../util/validation";
 // asは{}内でも宣言可能
-import { autobind as Autobind } from "../decorators/autobind.js";
-import { projectState } from "../state/project-state.js";
+import { autobind as Autobind } from "../decorators/autobind";
+import { projectState } from "../state/project-state";
 
 // projectInput Class
 export class projectInput extends Cmp<HTMLDivElement, HTMLFormElement> {

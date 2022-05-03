@@ -1,10 +1,15 @@
-import { Component } from "./base-component.js";
-import { Validatable, validate } from "../util/validation.js";
-import { autobind } from "../decorators/autobind.js";
+// default export されたものは{}が省略できる(base-component.js でクラスに export className() されたもの)
+// ./base-component.jsにアクセスする際はこのファイルでは'Cmp'と記述する
+import Cmp from "./base-component.js";
+// *...全ての関数、プロパティにアクセスする
+// as Validation...validation.jsのプロパティにアクセスする際は'Validation.プロパティ名'で利用する
+import * as Validation from "../util/validation.js";
+// asは{}内でも宣言可能
+import { autobind as Autobind } from "../decorators/autobind.js";
 import { projectState } from "../state/project-state.js";
 
 // projectInput Class
-export class projectInput extends Component<HTMLDivElement, HTMLFormElement> {
+export class projectInput extends Cmp<HTMLDivElement, HTMLFormElement> {
   titleInputElement: HTMLInputElement;
   descriptionInputElement: HTMLInputElement;
   mandayInputElement: HTMLInputElement;
@@ -45,16 +50,16 @@ export class projectInput extends Component<HTMLDivElement, HTMLFormElement> {
     const enteredDescription = this.descriptionInputElement.value;
     const enteredManday = this.mandayInputElement.value;
 
-    const titleValidatable: Validatable = {
+    const titleValidatable: Validation.Validatable = {
       value: enteredTitle,
       required: true,
     };
-    const descriptionValidatable: Validatable = {
+    const descriptionValidatable: Validation.Validatable = {
       value: enteredDescription,
       required: true,
       minLength: 5,
     };
-    const mandayValidatable: Validatable = {
+    const mandayValidatable: Validation.Validatable = {
       value: +enteredManday,
       required: true,
       min: 1,
@@ -62,9 +67,9 @@ export class projectInput extends Component<HTMLDivElement, HTMLFormElement> {
     };
 
     if (
-      !validate(titleValidatable) ||
-      !validate(descriptionValidatable) ||
-      !validate(mandayValidatable)
+      !Validation.validate(titleValidatable) ||
+      !Validation.validate(descriptionValidatable) ||
+      !Validation.validate(mandayValidatable)
     ) {
       alert("入力値が正しくありません。");
       // void型を返す（戻り値がない） ※1
@@ -82,7 +87,7 @@ export class projectInput extends Component<HTMLDivElement, HTMLFormElement> {
   }
 
   // デコレーターの利用
-  @autobind
+  @Autobind
   // 登録ボタンが押された時に実行される関数
   private submitHandler(event: Event) {
     event.preventDefault();

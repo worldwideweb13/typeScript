@@ -4,12 +4,10 @@
  ///...トリプルクラスディレクティブ...tsの機能でファイルの依存関係を表す
 */
 
-/// <reference path="./components/project-input.ts" />
-/// <reference path="./components/project-list.ts" />
+import { projectInput } from "./components/project-input.js";
+import { projectList } from "./components/project-list.js";
 
-namespace App {
-  // インスタンスの生成
-  new projectInput();
-  new projectList("active");
-  new projectList("finished");
-}
+// インスタンスの生成
+new projectInput();
+new projectList("active");
+new projectList("finished");

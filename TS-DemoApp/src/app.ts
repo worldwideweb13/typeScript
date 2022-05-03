@@ -76,6 +76,18 @@ class ProjectState extends State<Project> {
       ProjectStatus.Active
     );
     this.projects.push(newProject);
+    this.updateListeners();
+  }
+
+  moveProject(projectId: string, newStatus: ProjectStatus) {
+    const project = this.projects.find((prj) => prj.id === projectId);
+    if (project && project.status !== newStatus) {
+      project.status = newStatus;
+      this.updateListeners();
+    }
+  }
+
+  private updateListeners() {
     /* 
          for(val of objects){}...反復可能なobjectsから要素を一つずつ取り出して{}の処理を実行する
          今回は関数を配列形式で保持する listnerers から関数を取り出して実行する
@@ -83,10 +95,10 @@ class ProjectState extends State<Project> {
     */
     for (const listenersFn of this.listeners) {
       /* 
-        const listenersFn = 関数 なので listenersFn(引数) で関数実行
-        projectsはどこからでも書き換え可能なので、引数として無闇に利用するとバグの温床になる
-        そのため、slice()メソッドでコピーした引数を利用するようにする
-      */
+              const listenersFn = 関数 なので listenersFn(引数) で関数実行
+              projectsはどこからでも書き換え可能なので、引数として無闇に利用するとバグの温床になる
+              そのため、slice()メソッドでコピーした引数を利用するようにする
+            */
       listenersFn(this.projects.slice());
     }
   }
@@ -248,7 +260,11 @@ class ProjectItem
   @autobind
   // implements Draggable
   dragStartHandler(event: DragEvent): void {
-    console.log(event);
+    // dataTransfer...drageventに存在するプロパティでドラッグしたオブジェクトのデータを保管しておける
+    // setData(dataFormat,data)...第１引数にdataのデータ形式、第２引数にドロップした先のオブジェクトに渡す値
+    event.dataTransfer!.setData("text/plain", this.project.id);
+    // effectAllowed...ブラウザ上でカーソルがどのように表示されるのかを決めるプロパティ
+    event.dataTransfer!.effectAllowed = "move";
   }
   dragEndHandler(_: DragEvent): void {
     console.log("drag終了");
@@ -289,12 +305,26 @@ class projectList
   }
 
   @autobind
-  dragOverHandler(_: DragEvent): void {
-    const listEl = this.element.querySelector("ul")!;
-    // element.classList...特定の要素のクラス名を追加したり、削除したり、参照したりすることが出来るプロパティ
-    listEl.classList.add("droppable");
+  dragOverHandler(event: DragEvent): void {
+    //
+    if (event.dataTransfer && event.dataTransfer.types[0] === "text/plain") {
+      // JSの初期設定でドラッグイベントにはドロップが許可されていない
+      // そのためpreventDefault()により、初期動作を停止して、ドロップイベントを呼び出すことでドロップが可能になる
+      event.preventDefault();
+      const listEl = this.element.querySelector("ul")!;
+      // element.classList...特定の要素のクラス名を追加したり、削除したり、参照したりすることが出来るプロパティ
+      listEl.classList.add("droppable");
+    }
   }
-  dropHandler(_: DragEvent): void {}
+
+  @autobind
+  dropHandler(event: DragEvent): void {
+    const prjId = event.dataTransfer!.getData("text/plain");
+    projectState.moveProject(
+      prjId,
+      this.type === "active" ? ProjectStatus.Active : ProjectStatus.Finished
+    );
+  }
   @autobind
   dragLeaveHandler(_: DragEvent): void {
     const listEl = this.element.querySelector("ul")!;

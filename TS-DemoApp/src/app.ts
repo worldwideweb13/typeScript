@@ -1,3 +1,20 @@
+// Drag & Drop
+// Draggable...ドラックできるオブジェクト（プロジェクト）
+interface Draggable {
+  // DragEventはTSに組み込まれているイベント
+  dragStartHandler(event: DragEvent): void;
+  dragEndHandler(event: DragEvent): void;
+}
+// DragTarget... ドラックしたオブジェクトを配置する場所("active" | "finished" -projcets)
+interface DragTarget {
+  // dragOverHandler...dorag&drop中に、その場所が有効なdrop対象の場所かをブラウザに伝える
+  dragOverHandler(event: DragEvent): void;
+  // dragOverHandlerでdropの許可がでた時に、オブジェクトに変更を加える
+  dropHandler(event: DragEvent): void;
+  // ビジュアル上のフィードバックを行うときに使うハンドラー
+  dragLeaveHandler(event: DragEvent): void;
+}
+
 // プロジェクト（ユーザーが登録するプロジェクト）のType
 enum ProjectStatus {
   Active,
@@ -204,16 +221,20 @@ abstract class Component<T extends HTMLElement, U extends HTMLElement> {
 }
 
 // ProjectItem Class...プロジェクトをリスト形式でHTMLに描画するためのクラス
-class ProjectItem extends Component<HTMLUListElement, HTMLLIElement> {
+// implements...interface Draggable を適用する
+class ProjectItem
+  extends Component<HTMLUListElement, HTMLLIElement>
+  implements Draggable
+{
   private project: Project;
 
   // getter関数
   get manday() {
-      if(this.project.manday < 20) {
-          return this.project.manday.toString() + '人日';
-      } else {
-          return (this.project.manday / 20).toString() + '人月';
-      }
+    if (this.project.manday < 20) {
+      return this.project.manday.toString() + "人日";
+    } else {
+      return (this.project.manday / 20).toString() + "人月";
+    }
   }
 
   constructor(hostId: string, project: Project) {
@@ -224,10 +245,25 @@ class ProjectItem extends Component<HTMLUListElement, HTMLLIElement> {
     this.renderContent();
   }
 
-  configure() {}
+  @autobind
+  // implements Draggable
+  dragStartHandler(event: DragEvent): void {
+    console.log(event);
+  }
+  dragEndHandler(_: DragEvent): void {
+    console.log("drag終了");
+  }
 
+  // extends Component(継承)
+  configure() {
+    // 'dragstart','dragend' はaddEventListener事前に用意されているイベント引数
+    this.element.addEventListener("dragstart", this.dragStartHandler);
+    this.element.addEventListener("dragend", this.dragEndHandler);
+  }
+  // extends Component(継承)
   renderContent() {
     // element...継承元のプロパテ。ここでは<template id="single-project">直下の子要素<ul>を指す
+    // getterはプロパティと同じ形式で呼び出される(this.manday)
     this.element.querySelector("h2")!.textContent = this.project.title;
     this.element.querySelector("h3")!.textContent = this.manday;
     this.element.querySelector("p")!.textContent = this.project.description;
@@ -235,7 +271,10 @@ class ProjectItem extends Component<HTMLUListElement, HTMLLIElement> {
 }
 
 // projectList Class
-class projectList extends Component<HTMLDivElement, HTMLElement> {
+class projectList
+  extends Component<HTMLDivElement, HTMLElement>
+  implements DragTarget
+{
   assignedProjects: Project[];
 
   // constructor引数にリテラル or ユニオン型の'type'を設定
@@ -249,7 +288,25 @@ class projectList extends Component<HTMLDivElement, HTMLElement> {
     this.renderContent();
   }
 
+  @autobind
+  dragOverHandler(_: DragEvent): void {
+    const listEl = this.element.querySelector("ul")!;
+    // element.classList...特定の要素のクラス名を追加したり、削除したり、参照したりすることが出来るプロパティ
+    listEl.classList.add("droppable");
+  }
+  dropHandler(_: DragEvent): void {}
+  @autobind
+  dragLeaveHandler(_: DragEvent): void {
+    const listEl = this.element.querySelector("ul")!;
+    // element.classList...特定の要素のクラス名を追加したり、削除したり、参照したりすることが出来るプロパティ
+    listEl.classList.remove("droppable");
+  }
+
   configure() {
+    // element...継承元クラスのelement
+    this.element.addEventListener("dragover", this.dragOverHandler);
+    this.element.addEventListener("drop", this.dropHandler);
+    this.element.addEventListener("dragleave", this.dragLeaveHandler);
     /*  新しいプロジェクトが追加された時にaddListner関数実行。
         addListner関数は、ProjectState.listnerers に関数を配列形式で保持します
         addListner関数は引数に関数を取るため、引数に関数式を入れます...addListner(() => {})
@@ -261,8 +318,8 @@ class projectList extends Component<HTMLDivElement, HTMLElement> {
         if (this.type === "active") {
           return prj.status === ProjectStatus.Active;
         }
-        return prj.status=== ProjectStatus.Finished;
-      }); 
+        return prj.status === ProjectStatus.Finished;
+      });
       this.assignedProjects = relevantProjects;
       // プロジェクト一覧を active or finished-projects-listタグ直下にliタグで挿入する
       this.renderProjects();

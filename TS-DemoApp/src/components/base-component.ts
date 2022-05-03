@@ -1,6 +1,9 @@
 // component Class
 // 抽象クラス(abstract)...インスタンス化不可。継承クラスでのみインスタンス化される
-export abstract class Component<T extends HTMLElement, U extends HTMLElement> {
+export default abstract class Component<
+  T extends HTMLElement,
+  U extends HTMLElement
+> {
   templateElement: HTMLTemplateElement;
   hostElement: T;
   element: U;

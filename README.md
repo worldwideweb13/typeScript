@@ -21,9 +21,9 @@ npm install
 * [TS-libs](typeScript/TS-libs) プロジェクトの実行環境
   * [lodash](https://lodash.com/) のインストール　※webpackで利用するため `npm i --save lodash`
   * [@types/lodash](https://www.npmjs.com/package/@types/lodash/) のインストール `npm install --save-dev @types/lodash`
-  * [class-transfer](https://www.npmjs.com/package/class-transformer#installation) のインストール 
-    *`npm install class-transformer --save`
-    *`npm install reflect-metadata --save`
+  * [class-transfer](https://www.npmjs.com/package/class-transformer#installation) のインストール
+    * `npm install class-transformer --save`
+    * `npm install reflect-metadata --save`
 
 * TS-libs　TS-DemoApp ではwebpackを利用しています。これらのフォルダでは、webpackをインストールしてアプリケーションの実行環境を作っています
 

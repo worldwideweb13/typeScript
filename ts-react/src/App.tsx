@@ -28,13 +28,21 @@ const App: React.FC = () => {
       { id: Math.random().toString(), text: text },
     ]);
   };
+
+  const todoDeleteHandler = (todoId: string) => {
+    // object.filter()...object内の要素全てにfilerを適用
+    // filter(無名関数)の結果,trueの場合は、その要素を残し、falseの場合にその要素を取り除く
+    // ↑の処理によりstateが更新される
+    setTodos((prevTodos) => prevTodos.filter((todo) => todo.id !== todoId));
+  };
+
   /* 
    onAddTodo...関数の参照. NewTodoに関数(todoHandler)を渡し、引き渡した先で、関数を実行する
   */
   return (
     <div className="App">
       <NewTodo onAddTodo={todoAddHandler} />
-      <TodoList items={todos} />
+      <TodoList items={todos} onDeleteTodo={todoDeleteHandler} />
     </div>
   );
 };

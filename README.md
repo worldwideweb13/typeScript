@@ -18,7 +18,7 @@ node-module　のインストール
 npm install
 ```
 
-* [TS-libs](typeScript/TS-libs) プロジェクトの実行環境  ※これらのサードパーティライブラリーをインストールした際は、　`npm start`　でサーバー再起動をかけることで適用されます 
+* [TS-libs](typeScript/TS-libs) プロジェクトの実行環境    ※これらのサードパーティライブラリーをインストールした際は、`npm start`でサーバー再起動をかけることで適用されます 
   * [lodash](https://lodash.com/) のインストール　※webpackで利用するため `npm i --save lodash`
   * [@types/lodash](https://www.npmjs.com/package/@types/lodash/) のインストール `npm install --save-dev @types/lodash`
   * [class-transfer](https://www.npmjs.com/package/class-transformer#installation) のインストール

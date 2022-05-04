@@ -26,6 +26,11 @@ npm install
     * `npm install reflect-metadata --save`
   * [class-validator](https://www.npmjs.com/package/class-validator) のインストール `npm install class-validator --save`
 
+* [TS-mapApp](typeScript/TS-mapApp)...キーワード検索でGoogleMapを表示します。GoogleMapAPI,typeScriptで作成しました。
+  * 動作をさせる際は、axiosをインストールします。
+`npm install --save axios`
+
+
 * TS-libs　TS-DemoApp ではwebpackを利用しています。これらのフォルダでは、webpackをインストールしてアプリケーションの実行環境を作っています
 
 開発環境でのwebpackインストールコマンド

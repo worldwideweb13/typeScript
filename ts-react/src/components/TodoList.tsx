@@ -1,4 +1,5 @@
 import React from "react";
+import "./TodoList.css";
 
 interface TodoListProps {
   // items...配列の中にオブジェクト形式で値をもつプロパティ[{key => val..},{}...]の構造

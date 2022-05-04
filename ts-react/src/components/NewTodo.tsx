@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import "./NewTodo.css";
 
 // App.tsxからでPropsで関数(onAddTodo={todoAddHandler} )を引数に受け取っているため、typeで引数の型を定義
 type NewTodoProps = {
@@ -21,7 +22,7 @@ const NewTodo: React.FC<NewTodoProps> = (props) => {
     // onSubmit...フォームを送信する時に処理を実行する
     // ref...ユーザーの入力値を取得する属性
     <form onSubmit={todoSubmitHandler}>
-      <div>
+      <div className="form-control">
         <label htmlFor="todo-text">Todo内容</label>
         <input type="text" id="todo-text" ref={textInputRef} />
       </div>

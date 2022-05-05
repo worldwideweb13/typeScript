@@ -36,21 +36,23 @@ $ npm install
 ---
 ### Node.js & Express & typeScript の開発環境作成
 ここでは[ts-node](typeScript/ts-node) の実行環境に必要なパッケージ、サードパーティライブラリーを記載しておく
-* プロジェクトファイルに package.json の作成 / typeScriptpプロジェクトとして初期化
+* プロジェクトファイルに package.json の作成 / typeScriptpプロジェクトとして初期化　※ [tsconfig.json](typeScript/ts-node/tsconfig.json) の設定はソース参照。
 ```
 $ npm init
 $ tsc --init
 ```
-* 
-
-開発環境でのwebpackインストールコマンド
+* expressフレームワーク/ body-parser のインストール　。　　body-parserはexpressサーバーで受け取ったリクエストパラメーターをパースするためのパッケージ
 ```
+$ npm install --save express body-parser
+```
+* 開発環境で必要なパッケージのインストール nodemon...JSファイルをnode.jsで実行し、ファイルやフォルダの変更を監視。変更があった時にnode.js のアプリケーションサーバーを自動で再起動する（開発の効率化）
+* 
+```
+$ npm install --save-dev nodemon
 $ npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-loader
 ```
 typeScript  の全ファイルの変化を監視する（ウォッチモード）
-```
-$ tsc -w
-```
+
  
 ### 開発の苦労した点
 

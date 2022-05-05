@@ -15,7 +15,7 @@ typeScriptの自学習用リポジトリ。"TS-プロジェクト名"でリポ�
 
 node-module　のインストール
 ```
-npm install
+$ npm install
 ```
 
 * TS-libs　TS-DemoApp ではwebpackを利用しています。これらのフォルダでは、webpackをインストールしてアプリケーションの実行環境を作っています。`npm install --save @types/google.maps`
@@ -35,16 +35,18 @@ npm install
 
 ### Node.js & Express & typeScript の開発環境作成
 ここでは[ts-node](typeScript/ts-node) の実行環境に必要なパッケージ、サードパーティライブラリーを記載しておく
-
+```
+$ npm init  ☜ プロジェクトファイルに package.json の作成
+```
 
 
 開発環境でのwebpackインストールコマンド
 ```
-npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-loader
+$ npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-loader
 ```
 typeScript  の全ファイルの変化を監視する（ウォッチモード）
 ```
-tsc -w
+$ tsc -w
 ```
  
 ### 開発の苦労した点

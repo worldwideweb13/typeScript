@@ -36,7 +36,7 @@ $ npm install
 ### Node.js & Express & typeScript の開発環境作成
 ここでは[ts-node](typeScript/ts-node) の実行環境に必要なパッケージ、サードパーティライブラリーを記載しておく
 ```
-$ npm init   `プロジェクトファイルに package.json の作成` 
+$ npm init    // プロジェクトファイルに package.json の作成 
 ```
 
 

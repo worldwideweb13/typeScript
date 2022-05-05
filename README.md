@@ -46,9 +46,18 @@ $ tsc --init
 $ npm install --save express body-parser
 ```
 * 開発環境で必要なパッケージのインストール nodemon...JSファイルをnode.jsで実行し、ファイルやフォルダの変更を監視。変更があった時にnode.js のアプリケーションサーバーを自動で再起動する（開発の効率化）
-* 
+* nodemonを利用するにあたりpackage.jsonで追記が必要。詳細は[package.json](typeScript/ts-node/package.json) 参照。 
 ```
 $ npm install --save-dev nodemon
+```
+
+* Node.js　express関数、型定義の読み込み　のため@typesをインストール　
+```
+$ npm install --save-dev @types/node
+$ npm install --save-dev @types/express
+```
+
+```
 $ npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-loader
 ```
 typeScript  の全ファイルの変化を監視する（ウォッチモード）

@@ -17,6 +17,10 @@ node-module　のインストール
 ```
 $ npm install
 ```
+typeScript  の全ファイルの変化を監視する（ウォッチモード）
+```
+$ tsc -w
+```
 
 * TS-libs　TS-DemoApp ではwebpackを利用しています。これらのフォルダでは、webpackをインストールしてアプリケーションの実行環境を作っています。`npm install --save @types/google.maps`
 
@@ -62,4 +66,3 @@ $ npm install --save-dev @types/express
 ```
 $ npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-loader
 ```
-typeScript  の全ファイルの変化を監視する（ウォッチモード）

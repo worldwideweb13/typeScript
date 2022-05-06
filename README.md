@@ -1,17 +1,18 @@
 # typeScript
 
+### 概要
 * 学習期間: 2022年4月~5月 
 * 使用技術: TypeScript, Express, React,
 * 使用API: GoogleMapAP
 
-### 概要
 typeScriptの自学習用リポジトリ。"TS-プロジェクト名"でリポジトリを分けて、分野毎の学習しました。
+
+---
 
 ### typeScriptの学習環境作成手順
 * TSを動かす上で必要なnode-moduleは重いので、各プロジェクトファイルから抜いてあります。
 対象ファイル直下でnode-moduleをインストールすることで動作確認が取れます。
 
----
 node-module　のインストール
 ```
 $ npm install

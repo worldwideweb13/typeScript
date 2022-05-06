@@ -35,8 +35,8 @@ $ npm install
 
 ---
 ### Node.js & Express & typeScript の開発環境作成
-ここでは[ts-node](typeScript/ts-node) の実行環境に必要なパッケージ、サードパーティライブラリーを記載しておく
-[本アプリケーション](typeScript/ts-node)は、ExpressにてCRUD処理を実装したアプリケーションになります。[Postman](https://www.postman.com/)にて動作確認を行いました。
+ここでは[ts-node](ts-node) の実行環境に必要なパッケージ、サードパーティライブラリーを記載しておく
+[本アプリケーション](ts-node)は、ExpressにてCRUD処理を実装したアプリケーションになります。[Postman](https://www.postman.com/)にて動作確認を行いました。
 
 * プロジェクトファイルに package.json の作成 / typeScriptpプロジェクトとして初期化　※ [tsconfig.json](typeScript/ts-node/tsconfig.json) の設定はソース参照。
 ```

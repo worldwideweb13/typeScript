@@ -2,10 +2,13 @@
 // const express = require("express");
 // es moduleでのimport方法
 import express, { Request, Response, NextFunction } from "express";
-import { ServerResponse } from "http";
 import todoRoutes from "./root/todos";
+// json(body-parser)...ミドルウェアで、json形式でクライアントから取得したデータをreq.body経由で取得、操作できるようにします
+import { json } from "body-parser";
 
 const app = express();
+// json(body-parser)を使うことで、req.bodyのjsonオブジェクトを受け取れるようになる
+app.use(json());
 
 /*
  use("route", filename)... ここでは"route"(/todos)へのリクエストは全てfilename(todoRoutes)のルーティング設定を利用する、という意味

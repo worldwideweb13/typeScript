@@ -22,8 +22,9 @@ console.log(GLOBAL);
 // class-transfer の利用
 import "reflect-metadata";
 import { plainToInstance } from "class-transformer";
-
 import { Product } from "./product.model";
+// class-validator
+import { validate } from "class-validator";
 
 // const p1 = new Product("スコーン", 150);
 // console.log(p1);
@@ -32,6 +33,17 @@ const products = [
   { title: "スコーン", price: 150 },
   { title: "トッポ", price: 180 },
 ];
+
+// class-validatorの実行確認
+const newProd = new Product("", -10);
+validate(newProd).then((errors) => {
+  if (errors.length > 0) {
+    console.log("バリデーションエラー！");
+    console.log(errors);
+  } else {
+    console.log(newProd.getInformation());
+  }
+});
 
 // map関数を使って配列の値一つずつインスタンス化をする
 // const loadedProducts = products.map((prod) => {

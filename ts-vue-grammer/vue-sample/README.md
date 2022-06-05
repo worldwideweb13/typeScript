@@ -7,3 +7,8 @@ This template should help get you started developing with Vue 3 and TypeScript i
 - RefとReactive
 -  v-model 双方向バインド
 -  . v-on 処理を埋め込む
+-  Computed Property
+-  watch
+-  CompositionAPI と OptionAPI
+-  script setup
+-  ライフサイクルの扱い方

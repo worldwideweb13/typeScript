@@ -12,3 +12,6 @@ This template should help get you started developing with Vue 3 and TypeScript i
 -  CompositionAPI と OptionAPI
 -  script setup
 -  ライフサイクルの扱い方
+-  v-if 条件付きレンダリング
+-  Props 親から子へ
+-  Emits 子から親へ

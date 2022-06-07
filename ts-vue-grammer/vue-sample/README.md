@@ -15,8 +15,11 @@ This template should help get you started developing with Vue 3 and TypeScript i
 -  v-if 条件付きレンダリング
 -  Props 親から子へ
 -  Emits 子から親へ
+-  カスタムディレクティブ
+-  modifiers (修飾子)
 -  v-modelとdropdown, checkbox, radiobutton
+
 -  CSSによるアニメーション
 -  Transitionによるアニメーション
 -  Modalのアニメーション
--   Listのアニメーション
+-  Listのアニメーション

@@ -6,11 +6,12 @@ This template should help get you started developing with Vue 3 and TypeScript i
 
 - [RefとReactive](https://github.com/worldwideweb13/typeScript/commit/e92d8baeea003575b234c0019600142d28220059)
 - [v-model 双方向バインド](https://github.com/worldwideweb13/typeScript/commit/4c8a29fffcbff94210b87da71e59bfd76bfbc93e)
--  . v-on 処理を埋め込む
 -  [Computed Property](https://github.com/worldwideweb13/typeScript/commit/b81e4685e53c98263d8e9a39b8f89c94f2ad8789)
 -  [watch](https://github.com/worldwideweb13/typeScript/commit/70e3591b2d10d115b9abc0139d236c4d6ae35a57)
 -  [静的なリスト表示(v-for)](https://github.com/worldwideweb13/typeScript/commit/72c999a1eaf49cd83ba16f70a97c4258dc5047b9)
--  v-if 条件付きレンダリング
+-  [動的なリスト表示(v-for)](https://github.com/worldwideweb13/typeScript/commit/dddfb5e3a7a9d2c4f4e6eae247f08bdab1dffb5d)
+-  [動的なリスト削除](https://github.com/worldwideweb13/typeScript/commit/a4cb84470274efa898c2fdd8eed85dc401be88e8)
+-  [v-if 条件付きレンダリング](https://github.com/worldwideweb13/typeScript/commit/ca36f7a67da9c3d6d8f75bc6c02c1863807f042a)
 -  Props 親から子へ
 -  Emits 子から親へ
 -  カスタムディレクティブ

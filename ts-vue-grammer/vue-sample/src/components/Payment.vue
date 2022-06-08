@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from "@vue/reactivity";
 import { reactive, ref } from "vue";
 
 // const itemName1 = ref<string>("Desk");
@@ -10,14 +11,24 @@ const url1 = "https://00m.in/MfVce";
 // 変数をオブジェクト化して、オブジェクトにreactive()をかける!
 const item1 = reactive({
   name: "Desk",
-  price: 40000
-})
+  price: 40000,
+});
 
+const budget = 50000;
+
+const priceLabel = computed(() => {
+  if (item1.price > budget * 2) {
+    return "supper expensive!";
+  } else if (item1.price > budget) {
+    return "too expensive..";
+  } else {
+    return item1.price + 'yen'
+  }
+});
 
 const buy = (itemName: string) => {
   alert("Are you sure to buy " + itemName + "?");
 };
-
 
 const input = (event: any) => {
   // objectそのものが定数(const)であっても中のプロパティに関しては変更可能
@@ -29,9 +40,9 @@ const inputPrice = (event: any) => {
 };
 
 const clear = () => {
-  item1.name = ''
-  item1.price = 0
-}
+  item1.name = "";
+  item1.price = 0;
+};
 </script>
 
 <template>
@@ -44,7 +55,7 @@ const clear = () => {
     <button v-on:click="clear">Clear</button>
     <div class="payment">
       <label>{{ item1.name }}</label>
-      <label>${{ item1.price }}</label>
+      <label>${{ priceLabel }}</label>
       <a v-bind:href="url1">bought at...</a>
       <button v-on:click="buy(item1.name)">buy</button>
     </div>

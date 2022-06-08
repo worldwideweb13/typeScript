@@ -12,7 +12,7 @@ This template should help get you started developing with Vue 3 and TypeScript i
 -  [動的なリスト表示(v-for)](https://github.com/worldwideweb13/typeScript/commit/dddfb5e3a7a9d2c4f4e6eae247f08bdab1dffb5d)
 -  [動的なリスト削除](https://github.com/worldwideweb13/typeScript/commit/a4cb84470274efa898c2fdd8eed85dc401be88e8)
 -  [v-if 条件付きレンダリング](https://github.com/worldwideweb13/typeScript/commit/ca36f7a67da9c3d6d8f75bc6c02c1863807f042a)
--  Props 親から子へ
+-  [Props 親から子へ](https://github.com/worldwideweb13/typeScript/commit/f40dc4363b049dc40f69856d6c4ce90bb5812f37)
 -  Emits 子から親へ
 -  カスタムディレクティブ
 -  modifiers (修飾子)

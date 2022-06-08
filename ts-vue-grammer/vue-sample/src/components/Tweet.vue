@@ -14,11 +14,9 @@ const tweets = ref([
   },
 ]);
 
-const inputtingDescription = ref<string>("");
-const postTweet = () => {
-  const tweet = { id: Math.random(), description: inputtingDescription.value };
+const postTweet = (description: string) => {
+  const tweet = { id: Math.random(), description };
   tweets.value.push(tweet);
-  inputtingDescription.value = "";
 };
 
 const deleteTweet = (id: number) => {
@@ -29,11 +27,11 @@ const deleteTweet = (id: number) => {
 <template>
   <div class="container">
     <h1>Tweeter</h1>
-    <TweetPostFormVue />
+    <TweetPostFormVue @post-tweet="postTweet" />
     <div class="tweet-container">
       <p v-if="tweets.length <= 0">No tweets have been added</p>
       <ul v-else>
-          <TweetListVue :tweets="tweets" />
+        <TweetListVue :tweets="tweets" @delete-tweet="deleteTweet" />
       </ul>
     </div>
   </div>
@@ -45,7 +43,6 @@ const deleteTweet = (id: number) => {
   flex-direction: column;
   align-items: center;
 }
-
 
 .delete-button {
   color: #fff;

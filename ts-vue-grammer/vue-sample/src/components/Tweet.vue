@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import { ref } from "vue";
+import TweetPostFormVue from "./TweetPostForm.vue";
+import TweetListVue from "./TweetList.vue";
+
 const tweets = ref([
   {
     id: 0,
@@ -26,19 +29,11 @@ const deleteTweet = (id: number) => {
 <template>
   <div class="container">
     <h1>Tweeter</h1>
-    <div class="form-container">
-      <input v-model="inputtingDescription" />
-      <button class="save-button" @click="postTweet()">post</button>
-    </div>
+    <TweetPostFormVue />
     <div class="tweet-container">
       <p v-if="tweets.length <= 0">No tweets have been added</p>
       <ul v-else>
-        <li v-for="tweet in tweets" :key="tweet.id" class="tweet-list">
-          <span>{{ tweet.description }}</span>
-          <button class="delete-button" @click="deleteTweet(tweet.id)">
-            delete
-          </button>
-        </li>
+          <TweetListVue :tweets="tweets" />
       </ul>
     </div>
   </div>
@@ -51,42 +46,6 @@ const deleteTweet = (id: number) => {
   align-items: center;
 }
 
-.save-button {
-  color: #fff;
-  font-weight: bold;
-  background-color: #68c9c9;
-  border-radius: 2px;
-  border: none;
-  width: 60px;
-  height: 22px;
-}
-.delete-button {
-  color: #fff;
-  font-weight: bold;
-  background-color: #d9ba3d;
-  border-radius: 2px;
-  border: none;
-  width: 60px;
-  height: 22px;
-}
-
-.delete-button:hover {
-  background-color: #7f6a13;
-}
-
-.save-button:hover {
-  background-color: #1baaaa;
-}
-.tweet-list {
-  list-style: none;
-  margin-bottom: 12px;
-  border-radius: 4px;
-  display: flex;
-  justify-content: space-between;
-  background-color: rgb(204, 219, 233);
-  padding: 8px 20px;
-  width: 300px;
-}
 
 .delete-button {
   color: #fff;
@@ -104,16 +63,5 @@ const deleteTweet = (id: number) => {
 
 input {
   margin-bottom: 16px;
-}
-
-.form-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: aliceblue;
-  padding: 24px 0;
-  width: 60%;
-  margin-bottom: 12px;
-  border-radius: 4px;
 }
 </style>

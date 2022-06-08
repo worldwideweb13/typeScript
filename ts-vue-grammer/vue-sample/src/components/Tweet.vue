@@ -31,7 +31,7 @@ const deleteTweet = (id: number) => {
     <div class="tweet-container">
       <p v-if="tweets.length <= 0">No tweets have been added</p>
       <ul v-else>
-        <TweetListVue :tweets="tweets" @delete-tweet="deleteTweet" />
+        <TweetListVue :tweets="tweets" :delete-tweet="deleteTweet" />
       </ul>
     </div>
   </div>

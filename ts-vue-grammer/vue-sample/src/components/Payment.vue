@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from "@vue/reactivity";
-import { reactive, ref } from "vue";
+import { reactive, ref, watch, toRefs } from "vue";
 
 // const itemName1 = ref<string>("Desk");
 const itemName2 = "Bike";
@@ -16,28 +16,43 @@ const item1 = reactive({
 
 const budget = 50000;
 
-const priceLabel = computed(() => {
-  if (item1.price > budget * 2) {
-    return "supper expensive!";
-  } else if (item1.price > budget) {
-    return "too expensive..";
-  } else {
-    return item1.price + 'yen'
-  }
-});
+// const priceLabel = computed(() => {
+//   if (item1.price > budget * 2) {
+//     return "supper expensive!";
+//   } else if (item1.price > budget) {
+//     return "too expensive..";
+//   } else {
+//     return item1.price + "yen";
+//   }
+// });
 
 const buy = (itemName: string) => {
   alert("Are you sure to buy " + itemName + "?");
 };
 
-const input = (event: any) => {
-  // objectそのものが定数(const)であっても中のプロパティに関しては変更可能
-  item1.name = event.target.value;
-};
 
-const inputPrice = (event: any) => {
-  item1.price = event.target.value;
-};
+const priceLabel = ref<string>(item1.price + 'yen')
+
+// watch(property,method)...propertyにはリアクティブな値を渡す必要がある
+// toRefs(name)...nameをリアクティブな値に変換
+const { price } = toRefs(item1)
+watch(price,() => {
+  if (price.value > budget * 2) {
+    priceLabel.value = "supper expensive!";
+  } else if (price.value > budget) {
+    priceLabel.value = "too expensive..";
+  } else {
+    priceLabel.value = price.value + "yen";
+  }  
+})
+// const input = (event: any) => {
+//   // objectそのものが定数(const)であっても中のプロパティに関しては変更可能
+//   item1.name = event.target.value;
+// };
+
+// const inputPrice = (event: any) => {
+//   item1.price = event.target.value;
+// };
 
 const clear = () => {
   item1.name = "";

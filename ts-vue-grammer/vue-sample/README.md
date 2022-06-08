@@ -5,7 +5,7 @@ This template should help get you started developing with Vue 3 and TypeScript i
 ## Recommended IDE Setup
 
 - [RefとReactive](https://github.com/worldwideweb13/typeScript/commit/e92d8baeea003575b234c0019600142d28220059)
--  v-model 双方向バインド
+- [v-model 双方向バインド](https://github.com/worldwideweb13/typeScript/commit/4c8a29fffcbff94210b87da71e59bfd76bfbc93e)
 -  . v-on 処理を埋め込む
 -  [Computed Property](https://github.com/worldwideweb13/typeScript/commit/b81e4685e53c98263d8e9a39b8f89c94f2ad8789)
 -  watch

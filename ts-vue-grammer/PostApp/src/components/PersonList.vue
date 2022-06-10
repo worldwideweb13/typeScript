@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { defineProps } from "vue";
+import { defineProps, defineEmits } from "vue";
 import { Person } from "./Persons.vue";
 
 type Props = {
@@ -7,6 +7,12 @@ type Props = {
 };
 
 defineProps<Props>();
+
+const emit = defineEmits(["delete-person"]);
+
+const deletePerson = (id: number) => {
+  emit("delete-person", id);
+};
 </script>
 
 <template>
@@ -14,7 +20,7 @@ defineProps<Props>();
     <span>{{ person.name }}</span>
     <span>age: {{ person.age }}</span>
     <button>
-      <span>delete</span>
+      <span @click="deletePerson(person.id)"> delete</span>
     </button>
   </li>
 </template>

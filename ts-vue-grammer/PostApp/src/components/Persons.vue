@@ -21,15 +21,23 @@ const persons: Ref<Person[]> = ref([
     age: 32,
   },
 ]);
+
+const registerPerson = (person: Person) => {
+  persons.value.push(person);
+};
+
+const deletePerson = (id: number) => {
+  persons.value = persons.value.filter((t) => t.id !== id );
+};
 </script>
 
 <template>
   <div class="container">
     <h1>Title</h1>
-    <PersonPostFormVue />
+    <PersonPostFormVue @register="registerPerson" />
     <div class="list-container">
       <ul>
-        <PersonListVue :persons="persons" />
+        <PersonListVue :persons="persons" @delete-person="deletePerson" />
       </ul>
     </div>
   </div>

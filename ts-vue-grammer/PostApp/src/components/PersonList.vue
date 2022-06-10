@@ -10,8 +10,10 @@ defineProps<Props>();
 
 const emit = defineEmits(["delete-person"]);
 
-const deletePerson = (id: number) => {
-  emit("delete-person", id);
+const deletePerson = (id: number, name: string) => {
+  if (confirm(name + "さんを削除しますか？")) {
+    emit("delete-person", id);
+  }
 };
 </script>
 
@@ -20,7 +22,7 @@ const deletePerson = (id: number) => {
     <span>{{ person.name }}</span>
     <span>age: {{ person.age }}</span>
     <button>
-      <span @click="deletePerson(person.id)"> delete</span>
+      <span @click="deletePerson(person.id, person.name)"> delete</span>
     </button>
   </li>
 </template>

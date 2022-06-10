@@ -10,9 +10,9 @@ const register = () => {
     name: inputtingName.value,
     age: inputtingAge.value,
   };
-  console.log('person...',person)
   emit("register", person);
 };
+
 </script>
 
 <template>

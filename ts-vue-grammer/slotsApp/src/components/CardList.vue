@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import CardVue from "./Card.vue";
 import Card from "./Card.vue";
 import RocketIcon from "./RocketIcon.vue";
 </script>
@@ -19,6 +18,10 @@ import RocketIcon from "./RocketIcon.vue";
         <RocketIcon />
         <RocketIcon />
       </div>
+      <template #footer>
+        <span>これは変更後のFooterです</span>
+        <RocketIcon size="20px" />
+      </template>
     </Card>
 
     <Card title="Icons with Text" class="card with-text-card">

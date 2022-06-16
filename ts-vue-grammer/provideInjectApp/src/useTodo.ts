@@ -1,4 +1,4 @@
-import { ref } from "vue";
+import { InjectionKey, ref } from "vue";
 
 type Todo = {
   id: number;
@@ -37,3 +37,9 @@ export const todos = (() => {
 
   return { todos, addTodo };
 })();
+
+// TodoType name...name の型を取得する.
+type TodoType = typeof todos;
+// InjectionKey<name>...nameの型でinjectできるkeyですよ、という宣言
+// Symebol(string)...stringの文字列をとって一意のIDを生成する
+export const todoKey: InjectionKey<TodoType> = Symbol("useTodos");

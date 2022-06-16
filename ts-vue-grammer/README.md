@@ -26,6 +26,7 @@ This template should help get you started developing with Vue 3 and TypeScript i
 -  [slots](https://github.com/worldwideweb13/typeScript/commit/1e1d2e0c98ed642596dbf07949af64db0645e322)
 -  [名前つきSlot](https://github.com/worldwideweb13/typeScript/commit/69ae64e849670cce5e686d37e03d2059ebcdbd08)
 -  [動的なコンポーネント](https://github.com/worldwideweb13/typeScript/commit/28bb28e41314a1e66989fc4f131f17a4afe1827a)
+-  [ダイアログとテレポート](https://github.com/worldwideweb13/typeScript/commit/5aa9b472add0a12bb5bc7017cfaa0c913f238597)
 -  カスタムディレクティブ
 -  modifiers (修飾子)
 -  v-modelとdropdown, checkbox, radiobutton

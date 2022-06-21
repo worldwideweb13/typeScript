@@ -33,7 +33,7 @@ This template should help get you started developing with Vue 3 and TypeScript i
 -  [modifiers (修飾子)](https://github.com/worldwideweb13/typeScript/commit/8bbc4c1aad7d219ddcd0eccf2e6f8a5819bc48ca)
 -  [v-modelとdropdown, checkbox, radiobutton](https://github.com/worldwideweb13/typeScript/commit/5ec26231703e348e502d44bbf64fc1051d9bbea3)
 -  [v-modelとカスタムコンポーネント](https://github.com/worldwideweb13/typeScript/commits/main)
--  CSSによるアニメーション
+-  [CSSによるアニメーション](https://github.com/worldwideweb13/typeScript/commit/3770fac29b527f9180ddcae2e912555291bedf3f)
 -  Transitionによるアニメーション
 -  Modalのアニメーション
 -  Listのアニメーション

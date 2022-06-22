@@ -1,5 +1,9 @@
 <template>
   <div class="container">
+    <UserList></UserList>
+  </div>
+
+  <div class="container">
     <div class="circle"></div>
     <button @click="animateCircle" :class="{ animate: animateCircle }">
       Animate
@@ -27,6 +31,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import Modal from "./components/Modal.vue";
+import UserList from "./components/UserList.vue";
 
 const animatingCircle = ref(false);
 const paragraphVisible = ref(false);

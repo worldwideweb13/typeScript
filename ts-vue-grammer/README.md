@@ -35,5 +35,5 @@ This template should help get you started developing with Vue 3 and TypeScript i
 -  [v-modelとカスタムコンポーネント](https://github.com/worldwideweb13/typeScript/commits/main)
 -  [CSSによるアニメーション](https://github.com/worldwideweb13/typeScript/commit/3770fac29b527f9180ddcae2e912555291bedf3f)
 -  [Transitionによるアニメーション](https://github.com/worldwideweb13/typeScript/commit/e43824b7d330658ad5de3dfc047d2ac9a7d3d05b)
--  Modalのアニメーション
+-  [Modalのアニメーション](https://github.com/worldwideweb13/typeScript/commit/9679a6797b3667687761f61523cdccccefbb845e)
 -  Listのアニメーション

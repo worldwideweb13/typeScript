@@ -12,18 +12,35 @@
     </transition>
     <button @click="toggleParagraph">Switch</button>
   </div>
+
+  <!-- <transition name="modal"> -->
+  <modal :open="dialogIsVisible">
+    <p>This is a test modal</p>
+    <button @click="toggleModal">Close</button>
+  </modal>
+  <!-- </transition> -->
+  <div class="container">
+    <button @click="toggleModal">Modal</button>
+  </div>
 </template>
 
 <script setup lang="ts">
 import { ref } from "vue";
+import Modal from "./components/Modal.vue";
 
 const animatingCircle = ref(false);
 const paragraphVisible = ref(false);
+const dialogIsVisible = ref(false);
+
 const animateCircle = () => {
   animatingCircle.value = true;
 };
 const toggleParagraph = () => {
   paragraphVisible.value = !paragraphVisible.value;
+};
+
+const toggleModal = () => {
+  dialogIsVisible.value = !dialogIsVisible.value;
 };
 </script>
 

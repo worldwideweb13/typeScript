@@ -12,6 +12,7 @@ This template should help get you started developing with Vue 3 and TypeScript i
 - [style/class](https://github.com/worldwideweb13/typeScript/commit/f5cef191b7a1fa987f65b915cf30a4161523fb95)
 - [RefとReactive](https://github.com/worldwideweb13/typeScript/commit/e92d8baeea003575b234c0019600142d28220059)
 - [v-cloak](https://github.com/worldwideweb13/typeScript/commit/0d9dfcc9e76a4b2c9d55134fc225109ac45ff783)
+- [v-on](https://github.com/worldwideweb13/typeScript/commit/dbb242f2d6b3716749d561fdfc964d93a800cf19)
 - [v-model 双方向バインド](https://github.com/worldwideweb13/typeScript/commit/4c8a29fffcbff94210b87da71e59bfd76bfbc93e)
 -  [Computed Property](https://github.com/worldwideweb13/typeScript/commit/b81e4685e53c98263d8e9a39b8f89c94f2ad8789)
 -  [watch](https://github.com/worldwideweb13/typeScript/commit/70e3591b2d10d115b9abc0139d236c4d6ae35a57)

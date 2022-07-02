@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <button v-on:click="btnClicked">クリック！</button>
+      <button @click="btnClicked">@クリック！</button><br />
+      <button @click="btnClickedEvent">イベント取得</button>
+      <button @click="btnClickedArgs('引数')">引数を取得</button>
+      <button @click="btnClickedArgsEvent('引数', $event)">
+        引数とイベントを同時に取得
+      </button>
+    </div>
+
+    <script>
+      let app = new Vue({
+        el: "#app",
+        data() {
+          return {};
+        },
+        methods: {
+          btnClicked() {
+            console.log("Vueがクリックされた");
+          },
+          btnClickedEvent(e) {
+            console.log(e);
+          },
+          btnClickedArgs(str) {
+            console.log(str);
+          },
+          btnClickedArgsEvent(str, e) {
+            console.log(str, e);
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

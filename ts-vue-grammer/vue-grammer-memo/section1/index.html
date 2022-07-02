@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- 仮想DOM -->
+      {{ message }}
+      <a v-bind:href="google">Googleへのリンク</a>
+      <a :href="google">Googleへのリンク</a>
+    </div>
+
+    <script>
+      let app = new Vue({
+        el: "#app",
+        data() {
+          return {
+            message: "Hello Vue!",
+            google: "https://www.google.com/?hl=ja",
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

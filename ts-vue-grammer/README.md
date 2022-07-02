@@ -8,6 +8,8 @@ This template should help get you started developing with Vue 3 and TypeScript i
 
 ## Recommended IDE Setup
 
+- [v-bind](https://github.com/worldwideweb13/typeScript/commit/e50bd3e0b77205f8fd8fb546713e383a4cb99a1d)
+- [style/class](https://github.com/worldwideweb13/typeScript/commit/f5cef191b7a1fa987f65b915cf30a4161523fb95)
 - [RefとReactive](https://github.com/worldwideweb13/typeScript/commit/e92d8baeea003575b234c0019600142d28220059)
 - [v-model 双方向バインド](https://github.com/worldwideweb13/typeScript/commit/4c8a29fffcbff94210b87da71e59bfd76bfbc93e)
 -  [Computed Property](https://github.com/worldwideweb13/typeScript/commit/b81e4685e53c98263d8e9a39b8f89c94f2ad8789)

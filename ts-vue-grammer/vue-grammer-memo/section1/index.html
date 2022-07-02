@@ -20,6 +20,7 @@
       <a :href="google">Googleへのリンク</a><br />
       <div :style="{fontSize:fontSize, color:color}">Styleテスト</div>
       <div :class="{active: isActive}">classのテスト</div>
+      <div v-show="isDisplay">isDisplayがtrueの時に表示</div>
     </div>
 
     <script>
@@ -32,6 +33,7 @@
             fontSize: "20px",
             color: "blue",
             isActive: true,
+            isDisplay: true,
           };
         },
       });

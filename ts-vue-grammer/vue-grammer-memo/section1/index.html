@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <title>Document</title>
+    <style>
+      .active {
+        border: 1px solid red;
+      }
+    </style>
   </head>
   <body>
     <div id="app">
       <!-- 仮想DOM -->
       {{ message }}
-      <a v-bind:href="google">Googleへのリンク</a>
-      <a :href="google">Googleへのリンク</a>
+      <a v-bind:href="google">Googleへのリンク</a><br />
+      <a :href="google">Googleへのリンク</a><br />
+      <div :style="{fontSize:fontSize, color:color}">Styleテスト</div>
+      <div :class="{active: isActive}">classのテスト</div>
     </div>
 
     <script>
@@ -22,6 +29,9 @@
           return {
             message: "Hello Vue!",
             google: "https://www.google.com/?hl=ja",
+            fontSize: "20px",
+            color: "blue",
+            isActive: true,
           };
         },
       });

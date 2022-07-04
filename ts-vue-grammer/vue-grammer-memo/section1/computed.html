@@ -26,6 +26,26 @@
           return {
             price: 100,
             number: 2,
+            books: [
+              {
+                id: 1,
+                title: "我輩は猫である",
+                author: "夏目漱石",
+                url: "https://natsume.com",
+              },
+              {
+                id: 2,
+                title: "人間失格",
+                author: "太宰治",
+                url: "https://dazai.com",
+              },
+              {
+                id: 3,
+                title: "金閣寺",
+                author: "三島由紀夫",
+                url: "https://mishima.com",
+              },
+            ],
           };
         },
         methods: {
@@ -41,7 +61,14 @@
           //   },
           totalPrice: (app) => app.number * app.price,
         },
-        watch: {},
+        watch: {
+          books: {
+            handler() {
+              console.log("監視されました");
+            },
+            deep: true,
+          },
+        },
       });
 
       console.log(this); // windowオブジェクト

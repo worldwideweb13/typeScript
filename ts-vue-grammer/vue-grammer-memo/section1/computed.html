@@ -15,10 +15,8 @@
   <body>
     <div id="app">
       <!-- 仮想DOM -->
-      {{ totalPriceMethods() }}
-      {{ totalPriceMethods() }}
-      {{ totalPrice }}
-      {{ totalPrice }}
+      {{ totalPriceMethods() }} {{ totalPriceMethods() }} {{ totalPrice }} {{
+      totalPrice }}
     </div>
 
     <script>
@@ -32,18 +30,33 @@
         },
         methods: {
           totalPriceMethods() {
-            console.log("methodが呼び出されました");
+            // console.log("methodが呼び出されました");
             return this.number * this.price;
           },
         },
         computed: {
-          totalPrice() {
-            console.log("computedが呼び出されました");
-            return this.number * this.price;
-          },
+          //   totalPrice() {
+          //     console.log("computedが呼び出されました");
+          //     return this.number * this.price;
+          //   },
+          totalPrice: (app) => app.number * app.price,
         },
         watch: {},
       });
+
+      console.log(this); // windowオブジェクト
+
+      const obj = {
+        test: function () {
+          console.log(this); // オブジェクトの中
+        },
+      };
+
+      const objArrow = {
+        test: () => {
+          console.log(this); // windowオブジェクト
+        },
+      };
     </script>
   </body>
 </html>

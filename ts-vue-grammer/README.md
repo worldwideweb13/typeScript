@@ -15,7 +15,7 @@ This template should help get you started developing with Vue 3 and TypeScript i
 - [v-on](https://github.com/worldwideweb13/typeScript/commit/dbb242f2d6b3716749d561fdfc964d93a800cf19)
 - [v-model 双方向バインド](https://github.com/worldwideweb13/typeScript/commit/4c8a29fffcbff94210b87da71e59bfd76bfbc93e)
 -  [Computed Property](https://github.com/worldwideweb13/typeScript/commit/b81e4685e53c98263d8e9a39b8f89c94f2ad8789)
--  [Computed Propertyの基本]()
+-  [Computed Propertyの基本](https://github.com/worldwideweb13/typeScript/commit/d3842a85d5ca2ab7620c785ba6f1fa144163db47)
 -  [Computed Propertyの省略形](https://github.com/worldwideweb13/typeScript/commit/d2eb68b5367fabc2b1169fc836dc7464237e57ab)
 -  [watch](https://github.com/worldwideweb13/typeScript/commit/70e3591b2d10d115b9abc0139d236c4d6ae35a57)
 -  [静的なリスト表示(v-for)](https://github.com/worldwideweb13/typeScript/commit/72c999a1eaf49cd83ba16f70a97c4258dc5047b9)

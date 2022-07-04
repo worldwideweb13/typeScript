@@ -18,6 +18,7 @@ This template should help get you started developing with Vue 3 and TypeScript i
 -  [Computed Propertyの基本](https://github.com/worldwideweb13/typeScript/commit/d3842a85d5ca2ab7620c785ba6f1fa144163db47)
 -  [Computed Propertyの省略形](https://github.com/worldwideweb13/typeScript/commit/d2eb68b5367fabc2b1169fc836dc7464237e57ab)
 -  [watch](https://github.com/worldwideweb13/typeScript/commit/70e3591b2d10d115b9abc0139d236c4d6ae35a57)
+-  [watch(別解説)](https://github.com/worldwideweb13/typeScript/commit/fb46f3fcd801f4bdc359ab400d1706216508df30)
 -  [静的なリスト表示(v-for)](https://github.com/worldwideweb13/typeScript/commit/72c999a1eaf49cd83ba16f70a97c4258dc5047b9)
 - [様々なv-for　の書き方事例](https://github.com/worldwideweb13/typeScript/commit/29567330891c4af47e7c5faf8e023cf6e2b3b105)
 -  [静的なリスト表示(v-for)](https://github.com/worldwideweb13/typeScript/commit/72c999a1eaf49cd83ba16f70a97c4258dc5047b9)

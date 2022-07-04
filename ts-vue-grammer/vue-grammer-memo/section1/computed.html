@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title>Document</title>
+    <style>
+      .active {
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <!-- 仮想DOM -->
+      {{ totalPriceMethods() }}
+      {{ totalPriceMethods() }}
+      {{ totalPrice }}
+      {{ totalPrice }}
+    </div>
+
+    <script>
+      let app = new Vue({
+        el: "#app",
+        data() {
+          return {
+            price: 100,
+            number: 2,
+          };
+        },
+        methods: {
+          totalPriceMethods() {
+            console.log("methodが呼び出されました");
+            return this.number * this.price;
+          },
+        },
+        computed: {
+          totalPrice() {
+            console.log("computedが呼び出されました");
+            return this.number * this.price;
+          },
+        },
+        watch: {},
+      });
+    </script>
+  </body>
+</html>

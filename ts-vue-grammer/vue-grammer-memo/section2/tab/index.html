@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <section class="tab">
+            <ul class="tab__label">
+                <li v-for="(item, id) in items" :key="item.id">
+                    <a href="#" @click.prevent="activate(item.id)"
+                    :class="{active: active === item.id }"
+                    >{{ item.title }}</a>
+                </li>
+            </ul>
+
+            <div class="tab__content" v-show="active === 1">
+                サイトの情報。サイトの情報
+            </div>
+            <div class="tab__content" v-show="active === 2">
+                商品情報。商品情報。
+            </div>
+            <div class="tab__content" v-show="active === 3">
+                お問合せ。お問合せ。
+            </div>
+
+        </section>
+    </div>
+
+    <script>
+        let app = new Vue({
+            el: '#app',
+            data(){
+                return {
+                    active: 1,
+                    items: [
+                        {id:1, title:'サイトの情報'},
+                        {id:2, title:'商品情報'},
+                        {id:3, title:'お問合せ'},
+                    ]
+                }
+            },
+            methods: {
+                activate(id){
+                    this.active = id;
+                }
+            }
+        })
+    </script>
+</body>
+</html>

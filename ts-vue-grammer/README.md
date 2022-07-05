@@ -3,7 +3,9 @@
 UDemy教材をベースに基礎的な文法を習得
 
 
-# Vue 2 学習関連
+# Vue 2 学習 ~index~
+
+# Nuxt 学習 ~index~
 
 
 # Vue 3 + TypeScript + Vite

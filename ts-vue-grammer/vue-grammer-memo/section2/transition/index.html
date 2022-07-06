@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <link rel="stylesheet" type="text/css" href="app.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .target {
+        transition: opacity 1s;
+      }
+      .target.is-hidden {
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <button @click="isShow = !isShow">Vue表示/非表示</button>
+      <transition name="fade">
+        <div v-show="isShow">Vueが表示されています</div>
+      </transition>
+    </div>
+    <script>
+      let app = new Vue({
+        el: "#app",
+        data() {
+          return {
+            isShow: false,
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -2,7 +2,7 @@
 コミットログにて学習/実装内容を振り返れるようにしております。
 
 # Vue 2 学習 ~index~
-
+- transition
 
 # Nuxt 学習 ~index~
 

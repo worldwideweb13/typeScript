@@ -2,7 +2,8 @@
 コミットログにて学習/実装内容を振り返れるようにしております。
 
 # Vue 2 学習 ~index~
-- transition
+- v-modelを使ったフォーム作成
+- 
 
 # Nuxt 学習 ~index~
 

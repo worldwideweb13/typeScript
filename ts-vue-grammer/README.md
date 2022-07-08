@@ -4,6 +4,7 @@
 # Vue 2 学習 ~index~
 - v-modelを使ったフォーム作成
 - Array.splice
+- computed(get/set)
 
 
 # Nuxt 学習 ~index~

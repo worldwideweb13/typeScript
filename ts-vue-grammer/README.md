@@ -3,7 +3,8 @@
 
 # Vue 2 学習 ~index~
 - v-modelを使ったフォーム作成
-- 
+- Array.splice
+
 
 # Nuxt 学習 ~index~
 

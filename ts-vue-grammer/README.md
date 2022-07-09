@@ -5,7 +5,9 @@
 - v-modelを使ったフォーム作成
 - Array.splice
 - computed(get/set)
-
+- フォームバリデーションの補足
+- サンプル4: Todoリスト(フィルターつき)
+- 
 
 # Nuxt 学習 ~index~
 

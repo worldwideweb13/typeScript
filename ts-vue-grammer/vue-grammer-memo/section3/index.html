@@ -7,13 +7,16 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <title>Document</title>
     <style>
-      .error {
-        color: red;
-      }
+        [v-cloak]{
+            display: none;   
+        }        
+        .error {
+            color: red;
+        }
     </style>
   </head>
   <body>
-    <div id="app">
+    <div id="app" v-cloak>
       <p v-if="errors.length">
           <ul>
               <li class="error" v-for="error in errors">{{ error }}</li>
@@ -21,8 +24,10 @@
       </p>
       <form @submit.prevent="validate">
         氏名
-        <input type="text" v-model="contact.yourname" />
+        <input type="text" v-model="yourName" /> 
         <br />
+        <p :class="{error: hasError.yourName}"> {{ contact.yourName.length }} / 20</p>
+        <p v-show="hasError.yourName" class="error">氏名は20文字以内に入力して下さい</p>
         電話番号
         <input type="tel" v-model="contact.tel" />
         <br />
@@ -73,7 +78,7 @@
         data() {
           return {
             contact: {
-              yourname: "",
+              yourName: "",
               tel: "",
               email: "",
               gender: "",
@@ -83,15 +88,18 @@
               caution: false,
             },
             errors: [],
+            hasError: {
+                yourName: false
+            }
           };
         },
         methods: {
           validate() {
               // errors配列を初期化
               this.errors = []
-              if(!this.contact.yourname){
+              if(!this.contact.yourName){
                   this.errors.push("氏名は必須です")
-              }else if(this.contact.yourname.length > 20){
+              }else if(this.contact.yourName.length > 20){
                   this.errors.push("氏名は20文字以内で入力して下さい")
               }
               if(!this.contact.gender){
@@ -105,6 +113,21 @@
               }
           },
         },
+        computed: {
+            yourName: {
+                  get(){
+                      return this.contact.yourName
+                  },
+                  set(val){
+                      if(val.length <= 20){
+                          this.hasError.yourName = false
+                      } else {
+                          this.hasError.yourName = true
+                      }
+                      return this.contact.yourName = val
+                  }
+              }
+          }
       });
     </script>
   </body>

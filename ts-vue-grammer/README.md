@@ -4,8 +4,7 @@
 # Vue 2 学習 ~index~
 - [v-modelを使ったフォーム作成](https://github.com/worldwideweb13/typeScript/commit/5ef7edfc933a74354d97fd497b43a3e1a9a783b8)
 - [method使用事例(フォームバリデーション)](https://github.com/worldwideweb13/typeScript/commit/bca6efc877afd7c16596ddf47e928d38f5109c5e)
-- Array.splice
-- computed(get/set)
+- [computed(get/set)](https://github.com/worldwideweb13/typeScript/commit/01627acc8c258e8f3edded441fab75065846bb54)
 - フォームバリデーションの補足
 - サンプル4: Todoリスト(フィルターつき)
 - web通信のおさらい

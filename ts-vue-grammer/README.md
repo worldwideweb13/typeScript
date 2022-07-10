@@ -5,8 +5,7 @@
 - [v-modelを使ったフォーム作成](https://github.com/worldwideweb13/typeScript/commit/5ef7edfc933a74354d97fd497b43a3e1a9a783b8)
 - [method使用事例(フォームバリデーション)](https://github.com/worldwideweb13/typeScript/commit/bca6efc877afd7c16596ddf47e928d38f5109c5e)
 - [computed(get/set)](https://github.com/worldwideweb13/typeScript/commit/01627acc8c258e8f3edded441fab75065846bb54)
-- フォームバリデーションの補足
-- サンプル4: Todoリスト(フィルターつき)
+- [](https://github.com/worldwideweb13/typeScript/commit/a7275889de2d9417ebe7447ecbd7e59caa9acaaa)
 - web通信のおさらい
 - 簡易サーバーとNetwork
 - Promise/async/await/fetch

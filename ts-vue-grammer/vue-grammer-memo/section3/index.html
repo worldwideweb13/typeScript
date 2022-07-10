@@ -6,10 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <title>Document</title>
+    <style>
+      .error {
+        color: red;
+      }
+    </style>
   </head>
   <body>
     <div id="app">
-      <form>
+      <p v-if="errors.length">
+          <ul>
+              <li class="error" v-for="error in errors">{{ error }}</li>
+          </ul>
+      </p>
+      <form @submit.prevent="validate">
         氏名
         <input type="text" v-model="contact.yourname" />
         <br />
@@ -72,7 +82,28 @@
               attracts: [],
               caution: false,
             },
+            errors: [],
           };
+        },
+        methods: {
+          validate() {
+              // errors配列を初期化
+              this.errors = []
+              if(!this.contact.yourname){
+                  this.errors.push("氏名は必須です")
+              }else if(this.contact.yourname.length > 20){
+                  this.errors.push("氏名は20文字以内で入力して下さい")
+              }
+              if(!this.contact.gender){
+                this.errors.push('性別を選択して下さい')
+              }
+              if(!this.contact.caution){
+                  this.errors.push('注意事項にチェックを入れてください')
+              }
+              if(!this.errors.length){
+                  console.log("送信可能です")
+              }
+          },
         },
       });
     </script>

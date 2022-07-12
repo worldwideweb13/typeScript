@@ -11,6 +11,7 @@
 - Promise/async/await/fetch
 - 表示時・クリック時のAjax
 - lodashのdebounce/throttle
+-  watch + Ajax
 
 
 # Nuxt 学習 ~index~

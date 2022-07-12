@@ -9,6 +9,7 @@
 - web通信のおさらい
 - 簡易サーバーとNetwork
 - Promise/async/await/fetch
+- 表示時・クリック時のAjax
 
 # Nuxt 学習 ~index~
 

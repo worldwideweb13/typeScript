@@ -1,5 +1,6 @@
 # Vue.js学習用リポジトリ
 コミットログにて学習/実装内容を振り返れるようにしております。
+NuxtJsまでカバー
 
 # Vue 2 学習 ~index~
 - [v-modelを使ったフォーム作成](https://github.com/worldwideweb13/typeScript/commit/5ef7edfc933a74354d97fd497b43a3e1a9a783b8)

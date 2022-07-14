@@ -55,7 +55,7 @@ NuxtJsまでカバー
 -  [カスタムディレクティブ](https://github.com/worldwideweb13/typeScript/commit/7632ff3b38ddb91e213302816643165253d09c1a)
 -  [modifiers (修飾子)](https://github.com/worldwideweb13/typeScript/commit/8bbc4c1aad7d219ddcd0eccf2e6f8a5819bc48ca)
 -  [v-modelとdropdown, checkbox, radiobutton](https://github.com/worldwideweb13/typeScript/commit/5ec26231703e348e502d44bbf64fc1051d9bbea3)
--  [v-modelとカスタムコンポーネント](https://github.com/worldwideweb13/typeScript/commits/main)
+-  [v-modelとカスタムコンポーネント](https://github.com/worldwideweb13/typeScript/commit/9f986ef4c687e248603e6902c6b19f78947b9a9d)
 -  [CSSによるアニメーション](https://github.com/worldwideweb13/typeScript/commit/3770fac29b527f9180ddcae2e912555291bedf3f)
 -  [Transitionによるアニメーション](https://github.com/worldwideweb13/typeScript/commit/e43824b7d330658ad5de3dfc047d2ac9a7d3d05b)
 -  [Modalのアニメーション](https://github.com/worldwideweb13/typeScript/commit/9679a6797b3667687761f61523cdccccefbb845e)

@@ -13,7 +13,7 @@ NuxtJsまでカバー
 - 表示時・クリック時のAjax
 - lodashのdebounce/throttle
 -  watch + Ajax
-
+- グローバルコンポーネント
 
 # Nuxt 学習 ~index~
 

@@ -12,8 +12,9 @@ NuxtJsまでカバー
 - Promise/async/await/fetch
 - 表示時・クリック時のAjax
 - lodashのdebounce/throttle
--  watch + Ajax
+- watch + Ajax
 - グローバルコンポーネント
+- ローカルコンポーネント
 
 # Nuxt 学習 ~index~
 

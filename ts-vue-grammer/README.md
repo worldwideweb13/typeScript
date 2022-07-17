@@ -15,6 +15,7 @@ NuxtJsまでカバー
 - watch + Ajax
 - グローバルコンポーネント
 - ローカルコンポーネント
+- props サンプル UIフレームワーク
 
 # Nuxt 学習 ~index~
 

@@ -19,7 +19,7 @@ NuxtJsまでカバー
 - $emit カスタムイベン
 - コンポーネント間のフォーム
 - 子側でv-modelを使うパターン
-- 
+- Atomic Design
 
 # Nuxt 学習 ~index~
 

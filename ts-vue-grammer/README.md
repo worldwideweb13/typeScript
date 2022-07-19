@@ -21,6 +21,7 @@ NuxtJsまでカバー
 - 子側でv-modelを使うパターン
 - Atomic Design
 - slot
+- 名前付きslot
 
 # Nuxt 学習 ~index~
 

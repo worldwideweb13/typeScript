@@ -20,6 +20,7 @@ NuxtJsまでカバー
 - コンポーネント間のフォーム
 - 子側でv-modelを使うパターン
 - Atomic Design
+- slot
 
 # Nuxt 学習 ~index~
 

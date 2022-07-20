@@ -22,6 +22,8 @@ NuxtJsまでカバー
 - Atomic Design
 - slot
 - 名前付きslot
+- Vue Routerインストール (npm)
+- 
 
 # Nuxt 学習 ~index~
 

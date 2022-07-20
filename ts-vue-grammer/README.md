@@ -23,7 +23,7 @@ NuxtJsまでカバー
 - slot
 - 名前付きslot
 - Vue Routerインストール (npm)
-- 
+- レイアウト周り Grid/Flex
 
 # Nuxt 学習 ~index~
 

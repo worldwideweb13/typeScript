@@ -24,6 +24,7 @@ NuxtJsまでカバー
 - 名前付きslot
 - Vue Routerインストール (npm)
 - レイアウト周り Grid/Flex
+- props サンプル UIフレームワーク
 
 # Nuxt 学習 ~index~
 

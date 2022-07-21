@@ -26,6 +26,7 @@ NuxtJsまでカバー
 - レイアウト周り Grid/Flex
 - props サンプル UIフレームワーク
 - イベントバス
+- Atomic Design
 
 # Nuxt 学習 ~index~
 

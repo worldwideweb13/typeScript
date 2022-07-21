@@ -25,6 +25,7 @@ NuxtJsまでカバー
 - Vue Routerインストール (npm)
 - レイアウト周り Grid/Flex
 - props サンプル UIフレームワーク
+- イベントバス
 
 # Nuxt 学習 ~index~
 

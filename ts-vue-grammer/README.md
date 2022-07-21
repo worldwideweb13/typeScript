@@ -27,6 +27,7 @@ NuxtJsまでカバー
 - props サンプル UIフレームワーク
 - イベントバス
 - Atomic Design
+- render と $mount
 
 # Nuxt 学習 ~index~
 

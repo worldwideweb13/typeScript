@@ -8,7 +8,7 @@ NuxtJsまでカバー
 - [computed(get/set)](https://github.com/worldwideweb13/typeScript/commit/01627acc8c258e8f3edded441fab75065846bb54)
 - [v-model,v-for,filter,computedを使ったタスク管理アプリ...検索機能付き](https://github.com/worldwideweb13/typeScript/commit/a7275889de2d9417ebe7447ecbd7e59caa9acaaa)
 - [表示時・クリック時のAjax](https://github.com/worldwideweb13/typeScript/commit/15d61ec13879ced679fdbd990e8eba3a7957482e)
-- lodashのdebounce/throttle
+- [lodashのdebounce/throttle](https://github.com/worldwideweb13/typeScript/commit/ed8681e489e6bfa53970b261943fbe23250fb792)
 - watch + Ajax
 - グローバルコンポーネント
 - ローカルコンポーネント

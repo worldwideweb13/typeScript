@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      [v-cloak] {
+        display: none;
+      }
+      ul {
+        list-style: none;
+      }
+      .done {
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <my-component></my-component>
+      <my-component></my-component>
+      <my-component></my-component>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+    <script>
+      let myComponent = {
+        template: `<div>
+          templateから出力
+          <div v-show="isShow">表示</div>
+          </div>`,
+        data() {
+          return {
+            isShow: false,
+          };
+        },
+      };
+      let app = new Vue({
+        el: "#app",
+        components: {
+          // "my-component": myComponent,
+          // キャメルケースで書いたものはケバブケースに自動的に置き換わる。↑と↓は同じ意味
+          myComponent,
+        },
+        data() {
+          return {};
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -13,8 +13,8 @@ NuxtJsまでカバー
 - [ローカルコンポーネント](https://github.com/worldwideweb13/typeScript/commit/8063c113de2f6cde24b5aeab1c6a27485b4df4f4)
 - [propsとv-bind](https://github.com/worldwideweb13/typeScript/commit/72975e7daea22e2aa4e41e1d115c4b4bd2cb0c44)
 - [propsで配列を渡す](https://github.com/worldwideweb13/typeScript/commit/2d4b80701e2138282b7ce6907fb6203dae45352e)
-- [$emit カスタムイベント](https://github.com/worldwideweb13/typeScript/commit/4b500d6ea55eabd6bc9fbee07f6883ea0ca619d9)
-- コンポーネント間のフォーム
+- [$emit...カスタムイベント](https://github.com/worldwideweb13/typeScript/commit/4b500d6ea55eabd6bc9fbee07f6883ea0ca619d9)
+- [$emit...コンポーネント間のフォーム](https://github.com/worldwideweb13/typeScript/commit/3f99657a07a18ab6901cdf42feb9e105f96f18ba)
 - 子側でv-modelを使うパターン
 - Atomic Design
 - slot

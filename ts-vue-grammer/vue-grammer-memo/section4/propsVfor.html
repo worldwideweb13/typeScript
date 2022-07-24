@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent {
+        width: 800px;
+        margin: 0 auto;
+        border: 1px red solid;
+      }
+      .child {
+        width: 30%;
+        margin: 0 auto;
+        border: 1px blue solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" class="parent">
+      <name-arr
+        v-for="member in members"
+        :key="member.id"
+        :item="member"
+        class="child"
+      ></name-arr>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+      let nameArr = {
+        props: {
+          item: {
+            type: Object,
+          },
+        },
+        template: `<div>
+          <p>{{ item.name }}</p>
+          </div>`,
+      };
+      let app = new Vue({
+        el: "#app",
+        components: {
+          nameArr,
+        },
+        data() {
+          return {
+            members: [
+              { id: 0, name: "Mike" },
+              { id: 1, name: "Tom" },
+              { id: 2, name: "Ken" },
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -2,7 +2,7 @@
 コミットログにて学習/実装内容を振り返れるようにしております。
 NuxtJsまでカバー
 
-# Vue 2 学習 ~index~
+# Vue 2 学習 
 - [v-modelを使ったフォーム作成](https://github.com/worldwideweb13/typeScript/commit/5ef7edfc933a74354d97fd497b43a3e1a9a783b8)
 - [method使用事例(フォームバリデーション)](https://github.com/worldwideweb13/typeScript/commit/bca6efc877afd7c16596ddf47e928d38f5109c5e)
 - [computed(get/set)](https://github.com/worldwideweb13/typeScript/commit/01627acc8c258e8f3edded441fab75065846bb54)
@@ -13,8 +13,7 @@ NuxtJsまでカバー
 - [ローカルコンポーネント](https://github.com/worldwideweb13/typeScript/commit/8063c113de2f6cde24b5aeab1c6a27485b4df4f4)
 - [propsとv-bind](https://github.com/worldwideweb13/typeScript/commit/72975e7daea22e2aa4e41e1d115c4b4bd2cb0c44)
 - [propsで配列を渡す](https://github.com/worldwideweb13/typeScript/commit/2d4b80701e2138282b7ce6907fb6203dae45352e)
-- props サンプル UIフレームワーク
-- $emit カスタムイベン
+- [$emit カスタムイベント](https://github.com/worldwideweb13/typeScript/commit/4b500d6ea55eabd6bc9fbee07f6883ea0ca619d9)
 - コンポーネント間のフォーム
 - 子側でv-modelを使うパターン
 - Atomic Design

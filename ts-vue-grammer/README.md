@@ -10,8 +10,7 @@ NuxtJsまでカバー
 - [表示時・クリック時のAjax](https://github.com/worldwideweb13/typeScript/commit/15d61ec13879ced679fdbd990e8eba3a7957482e)
 - [lodashのdebounce/throttle](https://github.com/worldwideweb13/typeScript/commit/ed8681e489e6bfa53970b261943fbe23250fb792)
 - [watch + Ajax](https://github.com/worldwideweb13/typeScript/commit/350d903ffa18821f222e17435bf98ee5ff77041b)
-- グローバルコンポーネント
-- ローカルコンポーネント
+- [ローカルコンポーネント](https://github.com/worldwideweb13/typeScript/commit/8063c113de2f6cde24b5aeab1c6a27485b4df4f4)
 - props サンプル UIフレームワーク
 - $emit カスタムイベン
 - コンポーネント間のフォーム

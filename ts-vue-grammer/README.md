@@ -11,6 +11,7 @@ NuxtJsまでカバー
 - [lodashのdebounce/throttle](https://github.com/worldwideweb13/typeScript/commit/ed8681e489e6bfa53970b261943fbe23250fb792)
 - [watch + Ajax](https://github.com/worldwideweb13/typeScript/commit/350d903ffa18821f222e17435bf98ee5ff77041b)
 - [ローカルコンポーネント](https://github.com/worldwideweb13/typeScript/commit/8063c113de2f6cde24b5aeab1c6a27485b4df4f4)
+- [propsとv-bind](https://github.com/worldwideweb13/typeScript/commit/72975e7daea22e2aa4e41e1d115c4b4bd2cb0c44)
 - props サンプル UIフレームワーク
 - $emit カスタムイベン
 - コンポーネント間のフォーム

@@ -16,7 +16,6 @@ NuxtJsまでカバー
 - [$emit...カスタムイベント](https://github.com/worldwideweb13/typeScript/commit/4b500d6ea55eabd6bc9fbee07f6883ea0ca619d9)
 - [$emit...コンポーネント間のフォーム](https://github.com/worldwideweb13/typeScript/commit/3f99657a07a18ab6901cdf42feb9e105f96f18ba)
 - [子側でv-modelを使うパターン]()
-- Atomic Design
 - slot
 - 名前付きslot
 - Vue Routerインストール (npm)

@@ -25,6 +25,8 @@ NuxtJsまでカバー
 - Atomic Design
 - render と $mount
 
+# Vuertify
+
 # Nuxt 学習 ~index~
 
 # Vue 3 + TypeScript + Vite

@@ -26,6 +26,8 @@ NuxtJsまでカバー
 - render と $mount
 
 # Vuertify
+- Grid/Flex
+- 
 
 # Nuxt 学習 ~index~
 

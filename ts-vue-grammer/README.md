@@ -28,7 +28,7 @@ NuxtJsまでカバー
 # Vuertify
 - Grid/Flex
 - スタイル Spacing
-- 
+- UIコンポーネント
 
 # Nuxt 学習 ~index~
 

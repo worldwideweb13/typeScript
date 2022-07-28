@@ -30,6 +30,7 @@ NuxtJsまでカバー
 - スタイル Spacing
 - UIコンポーネント
 - スロット(activator, item)
+- サンプルを読む テーブルCRUD
 
 # Nuxt 学習 ~index~
 

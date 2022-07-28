@@ -29,6 +29,7 @@ NuxtJsまでカバー
 - Grid/Flex
 - スタイル Spacing
 - UIコンポーネント
+- スロット(activator, item)
 
 # Nuxt 学習 ~index~
 

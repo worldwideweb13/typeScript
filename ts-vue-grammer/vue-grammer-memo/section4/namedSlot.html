@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent {
+        width: 800px;
+        margin: 0 auto;
+        border: 1px red solid;
+      }
+      .child {
+        width: 30%;
+        margin: 0 auto;
+        border: 1px blue solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" class="parent">
+      <my-com class="child">
+        <template v-slot:header>変更後のヘッダー</template>
+        "my-com"内で書かれたmainに入るコンテンツです。
+        <template #footer>変更後のフッター</template>
+        これもmainに入るコンテンツです。
+      </my-com>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+      let myCom = {
+        template: `<div>
+            <slot name="header">変更前のヘッダー</slot>
+            <slot>変更前のmain contents</slot>
+            <slot name="footer">変更前のフッター</slot>
+            </div>
+            `,
+      };
+      let app = new Vue({
+        el: "#app",
+        data() {
+          return {};
+        },
+        components: {
+          myCom,
+        },
+      });
+    </script>
+  </body>
+</html>

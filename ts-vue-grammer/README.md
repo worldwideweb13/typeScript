@@ -17,8 +17,7 @@ NuxtJsまでカバー
 - [$emit...コンポーネント間のフォーム](https://github.com/worldwideweb13/typeScript/commit/3f99657a07a18ab6901cdf42feb9e105f96f18ba)
 - [子側でv-modelを使うパターン](https://github.com/worldwideweb13/typeScript/commit/28a6416939906f8c378777f9f20f67868c67bef3)
 - [イベントバス](https://github.com/worldwideweb13/typeScript/commit/8ca15524628928ba2af715c28a5bb1a3deec4048)
-- [slot]
-- [名前付きslot]
+- [slot, 名前付きslot](https://github.com/worldwideweb13/typeScript/commit/a7de2403b193e309e7597cb3249c497c386d37fb)
 - Vue Routerインストール (npm)
 - レイアウト周り Grid/Flex
 - props サンプル UIフレームワーク

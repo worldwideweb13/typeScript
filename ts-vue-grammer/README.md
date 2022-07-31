@@ -19,6 +19,7 @@ NuxtJsまでカバー
 - [イベントバス](https://github.com/worldwideweb13/typeScript/commit/8ca15524628928ba2af715c28a5bb1a3deec4048)
 - [slot, 名前付きslot](https://github.com/worldwideweb13/typeScript/commit/a7de2403b193e309e7597cb3249c497c386d37fb)
 - [slotプロパティ](https://github.com/worldwideweb13/typeScript/commit/bcabccaa1338a97d02163b4ff6537ec24f3539dc)
+- [vuertify 基本レイアウト]()
 - Vue Routerインストール (npm)
 - レイアウト周り Grid/Flex
 - props サンプル UIフレームワーク

@@ -21,6 +21,7 @@ NuxtJsまでカバー
 - [slotプロパティ](https://github.com/worldwideweb13/typeScript/commit/bcabccaa1338a97d02163b4ff6537ec24f3539dc)
 - [vuertify 基本レイアウト](https://github.com/worldwideweb13/typeScript/commit/bb4f37067120a1de85ff57937a2cbb790421f2d1)
 - [vuertify grid](https://github.com/worldwideweb13/typeScript/commit/506f2c2d9c4dd69416758ec54a1617d071fe39dd)
+- [vuertify spacing](https://github.com/worldwideweb13/typeScript/commit/506f2c2d9c4dd69416758ec54a1617d071fe39dd)
 - Vue Routerインストール (npm)
 - レイアウト周り Grid/Flex
 - props サンプル UIフレームワーク

@@ -24,7 +24,7 @@ NuxtJsまでカバー
 - [vuertify spacing](https://github.com/worldwideweb13/typeScript/commit/506f2c2d9c4dd69416758ec54a1617d071fe39dd)
 - [UIコンポーネント](https://github.com/worldwideweb13/typeScript/commit/53bdd75c885f85fd13b628b69dc12e7132d46514)
 - [vuerity tableのCRUD](https://github.com/worldwideweb13/typeScript/commit/8d053c874074788c2b78925ddbf95acc5a422838)
-- [vuertify dogApiを使ったサンプルアプリ]()
+- [vuertify dogApiを使ったサンプルアプリ](https://github.com/worldwideweb13/typeScript/commit/ee03b9f717696c79a87c9521c11309f7c2253be0)
 - Vue Routerインストール (npm)
 - レイアウト周り Grid/Flex
 - props サンプル UIフレームワーク

@@ -28,6 +28,7 @@ NuxtJsまでカバー
 - [vuertify カスタムディレクティブ]()
 - [VueCLI]()
 - [import/export]()
+- [render と $mount]()
 - Vue Routerインストール (npm)
 - レイアウト周り Grid/Flex
 - props サンプル UIフレームワーク

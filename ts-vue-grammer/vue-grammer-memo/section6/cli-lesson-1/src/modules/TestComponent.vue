@@ -1,5 +1,5 @@
 <template>
-  <div class="">TestComponentの本文です。{{ testData }}</div>
+  <div class="red-box">TestComponentの本文です。{{ testData }}</div>
 </template>
 
 <script>
@@ -12,4 +12,8 @@ export default {
   },
 };
 </script>
-<style></style>
+<style scoped>
+.red-box {
+  border: 1px red solid;
+}
+</style>

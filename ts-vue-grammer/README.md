@@ -27,7 +27,7 @@ NuxtJsまでカバー
 - [vuertify dogApiを使ったサンプルアプリ](https://github.com/worldwideweb13/typeScript/commit/ee03b9f717696c79a87c9521c11309f7c2253be0)
 ## Vue CLI
 - [ファイル構成に関して](https://github.com/worldwideweb13/typeScript/commit/ab395556b2811aa2a9692d7a119ff2bb64e9131d)
-- [制作工程の基本]()
+- [制作工程の基本](https://github.com/worldwideweb13/typeScript/commit/472c2ab827921bd47621cda39e90c4c2ed5d7a38)
 - [VueCLI]()
 - [import/export]()
 - [render と $mount]()

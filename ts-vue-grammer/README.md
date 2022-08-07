@@ -28,6 +28,8 @@ NuxtJsまでカバー
 ## Vue CLI
 - [ファイル構成に関して](https://github.com/worldwideweb13/typeScript/commit/ab395556b2811aa2a9692d7a119ff2bb64e9131d)
 - [制作工程の基本](https://github.com/worldwideweb13/typeScript/commit/472c2ab827921bd47621cda39e90c4c2ed5d7a38)
+- [css scoped](https://github.com/worldwideweb13/typeScript/commit/0ba46b48d4c96585c8cc63327bc1a7a6f71aa73e)
+- [ビルドしたファイルの表示設定 `dist`](https://github.com/worldwideweb13/typeScript/commit/0ba46b48d4c96585c8cc63327bc1a7a6f71aa73e)
 - [VueCLI]()
 - [import/export]()
 - [render と $mount]()

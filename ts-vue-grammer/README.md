@@ -31,17 +31,8 @@ NuxtJsまでカバー
 - [css scoped](https://github.com/worldwideweb13/typeScript/commit/0ba46b48d4c96585c8cc63327bc1a7a6f71aa73e)
 - [ビルドしたファイルの表示設定 `dist`](https://github.com/worldwideweb13/typeScript/commit/0ba46b48d4c96585c8cc63327bc1a7a6f71aa73e)
 - [SCSS(グローバルを含む)](https://github.com/worldwideweb13/typeScript/commit/23ff3228fc9c83725d03d40db72d49f7c219420b)
-- [import/export]()
-- [render と $mount]()
-- [ SFC (SingleFileComponent)]()
-- Vue Routerインストール (npm)
-- レイアウト周り Grid/Flex
-- props サンプル UIフレームワーク
-- イベントバス
-- Atomic Design
-- render と $mount
 
-# Vuertify
+## Vuertify
 - Grid/Flex
 - スタイル Spacing
 - UIコンポーネント

@@ -19,12 +19,7 @@ NuxtJsまでカバー
 - [イベントバス](https://github.com/worldwideweb13/typeScript/commit/8ca15524628928ba2af715c28a5bb1a3deec4048)
 - [slot, 名前付きslot](https://github.com/worldwideweb13/typeScript/commit/a7de2403b193e309e7597cb3249c497c386d37fb)
 - [slotプロパティ](https://github.com/worldwideweb13/typeScript/commit/bcabccaa1338a97d02163b4ff6537ec24f3539dc)
-- [vuertify 基本レイアウト](https://github.com/worldwideweb13/typeScript/commit/bb4f37067120a1de85ff57937a2cbb790421f2d1)
-- [vuertify grid](https://github.com/worldwideweb13/typeScript/commit/506f2c2d9c4dd69416758ec54a1617d071fe39dd)
-- [vuertify spacing](https://github.com/worldwideweb13/typeScript/commit/506f2c2d9c4dd69416758ec54a1617d071fe39dd)
-- [UIコンポーネント](https://github.com/worldwideweb13/typeScript/commit/53bdd75c885f85fd13b628b69dc12e7132d46514)
-- [vuerity tableのCRUD](https://github.com/worldwideweb13/typeScript/commit/8d053c874074788c2b78925ddbf95acc5a422838)
-- [vuertify dogApiを使ったサンプルアプリ](https://github.com/worldwideweb13/typeScript/commit/ee03b9f717696c79a87c9521c11309f7c2253be0)
+
 ## Vue CLI
 - [ファイル構成に関して](https://github.com/worldwideweb13/typeScript/commit/ab395556b2811aa2a9692d7a119ff2bb64e9131d)
 - [制作工程の基本](https://github.com/worldwideweb13/typeScript/commit/472c2ab827921bd47621cda39e90c4c2ed5d7a38)
@@ -33,11 +28,12 @@ NuxtJsまでカバー
 - [SCSS(グローバルを含む)](https://github.com/worldwideweb13/typeScript/commit/23ff3228fc9c83725d03d40db72d49f7c219420b)
 
 ## Vuertify
-- Grid/Flex
-- スタイル Spacing
-- UIコンポーネント
-- スロット(activator, item)
-- サンプルを読む テーブルCRUD
+- [vuertify 基本レイアウト](https://github.com/worldwideweb13/typeScript/commit/bb4f37067120a1de85ff57937a2cbb790421f2d1)
+- [vuertify grid](https://github.com/worldwideweb13/typeScript/commit/506f2c2d9c4dd69416758ec54a1617d071fe39dd)
+- [vuertify spacing](https://github.com/worldwideweb13/typeScript/commit/506f2c2d9c4dd69416758ec54a1617d071fe39dd)
+- [UIコンポーネント](https://github.com/worldwideweb13/typeScript/commit/53bdd75c885f85fd13b628b69dc12e7132d46514)
+- [vuerity tableのCRUD](https://github.com/worldwideweb13/typeScript/commit/8d053c874074788c2b78925ddbf95acc5a422838)
+- [vuertify dogApiを使ったサンプルアプリ](https://github.com/worldwideweb13/typeScript/commit/ee03b9f717696c79a87c9521c11309f7c2253be0)
 
 # Nuxt 学習 ~index~
 

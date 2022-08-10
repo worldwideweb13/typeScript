@@ -37,7 +37,7 @@ NuxtJsまでカバー
 
 ## Vue Router SPA
 - [router-linkのprops]()
-
+- [router-linkのprops]()
 
 # Nuxt 学習 ~index~
 

@@ -40,6 +40,7 @@ NuxtJsまでカバー
 - [router-linkのprops]()
 - [$router と $route]()
 - [動的パラメータ+props その1]()
+- [動的パラメータ+props その2]()
 
 # Nuxt 学習 ~index~
 

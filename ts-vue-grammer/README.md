@@ -41,6 +41,7 @@ NuxtJsまでカバー
 - [$router と $route]()
 - [動的パラメータ+props その1]()
 - [動的パラメータ+props その2]()
+- [動的パラメータの補足 watch]()
 
 # Nuxt 学習 ~index~
 

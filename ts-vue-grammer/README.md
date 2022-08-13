@@ -46,8 +46,6 @@ NuxtJsまでカバー
 
 # Nuxt 学習 ~index~
 
-# Vue 3 + TypeScript + Vite
-
 ## Recommended IDE Setup
 
 - [v-bind](https://github.com/worldwideweb13/typeScript/commit/e50bd3e0b77205f8fd8fb546713e383a4cb99a1d)

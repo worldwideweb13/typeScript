@@ -36,6 +36,7 @@ NuxtJsまでカバー
 - [vuertify dogApiを使ったサンプルアプリ](https://github.com/worldwideweb13/typeScript/commit/ee03b9f717696c79a87c9521c11309f7c2253be0)
 
 ## Vue Router SPA
+- [vue routert プロジェクトファイルの説明図](https://github.com/worldwideweb13/typeScript/commit/b9213f5c4e8e0b995f8a4dee7c0b596014ca38e6)
 - [router-linkのprops]()
 - [router-linkのprops]()
 - [$router と $route]()

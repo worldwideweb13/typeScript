@@ -37,10 +37,7 @@ NuxtJsまでカバー
 
 ## Vue Router SPA
 - [vue routert プロジェクトファイルの説明図](https://github.com/worldwideweb13/typeScript/commit/b9213f5c4e8e0b995f8a4dee7c0b596014ca38e6)
-- [router-linkのprops]()
-- [router-linkのprops]()
-- [$router と $route]()
-- [動的パラメータ+props その1]()
+- [本アプリの作成 ~動的パラメータ+props その1~](https://github.com/worldwideweb13/typeScript/commit/9431f562c5a5ca0583b3d0f7ba5d112e59df3853)
 - [動的パラメータ+props その2]()
 - [動的パラメータの補足 watch]()
 - [リダイレクトと404ページ]()

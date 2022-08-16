@@ -29,7 +29,12 @@ const routes = [
   {
     path: "/book/:id",
     name: "Book",
-    component: BookDetail
+    component: BookDetail,
+    props: (route) => ({
+      id: route.params.id,
+      author: route.params.author,
+      title: route.params.title,
+    }),
   },
 ];
 

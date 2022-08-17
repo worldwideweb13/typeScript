@@ -41,7 +41,7 @@ NuxtJsまでカバー
 - [本アプリの作成(本の詳細画面表示)　~動的パラメータ+props その2~](https://github.com/worldwideweb13/typeScript/commit/d56f061455a108007e97f9591cad42b601114cc8)
 - [本アプリの作成(リファクタリング)　~動的パラメータの補足 watch~](https://github.com/worldwideweb13/typeScript/commit/14dbc15c59ba65fdbb3338edc522404ccc70d59a)
 - [watch　ページの変更の監視](https://github.com/worldwideweb13/typeScript/commit/8bf4628d17ab714cee1eedfa59be4ed5e83b520d)
-- [リダイレクトと404ページ]()
+- [リダイレクトと404ページ](https://github.com/worldwideweb13/typeScript/commit/fb295cd428f3c152bf11b589a48622876b904a65)
 - [ネストされたルート]()
 - [名前付きrouter-view]()
 

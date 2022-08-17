@@ -42,7 +42,7 @@ NuxtJsまでカバー
 - [本アプリの作成(リファクタリング)　~動的パラメータの補足 watch~](https://github.com/worldwideweb13/typeScript/commit/14dbc15c59ba65fdbb3338edc522404ccc70d59a)
 - [watch　ページの変更の監視](https://github.com/worldwideweb13/typeScript/commit/8bf4628d17ab714cee1eedfa59be4ed5e83b520d)
 - [リダイレクトと404ページ](https://github.com/worldwideweb13/typeScript/commit/fb295cd428f3c152bf11b589a48622876b904a65)
-- [ネストされたルート]()
+- [ネストされたルート](https://github.com/worldwideweb13/typeScript/commit/f9fda8f55975860625dedc3c3f8ab078f89730f4)
 - [名前付きrouter-view]()
 
 # Nuxt 学習 ~index~

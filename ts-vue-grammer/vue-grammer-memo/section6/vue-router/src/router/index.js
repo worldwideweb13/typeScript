@@ -4,6 +4,7 @@ import HomeView from "../views/HomeView.vue";
 import BookList from "../views/BookList.vue";
 import BookDetail from "@/components/BookDetail.vue";
 import Item from "@/components/Item.vue";
+import NotFound from "@/components/NotFound.vue";
 
 Vue.use(VueRouter);
 
@@ -41,6 +42,11 @@ const routes = [
     path: "/item/:id",
     name: "Item",
     component: Item,
+  },
+  {
+    path: "*",
+    // redirect: "/",
+    component: NotFound,
   },
 ];
 

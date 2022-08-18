@@ -43,7 +43,7 @@ NuxtJsまでカバー
 - [watch　ページの変更の監視](https://github.com/worldwideweb13/typeScript/commit/8bf4628d17ab714cee1eedfa59be4ed5e83b520d)
 - [リダイレクトと404ページ](https://github.com/worldwideweb13/typeScript/commit/fb295cd428f3c152bf11b589a48622876b904a65)
 - [ネストされたルート](https://github.com/worldwideweb13/typeScript/commit/f9fda8f55975860625dedc3c3f8ab078f89730f4)
-- [名前付きrouter-view]()
+- [名前付きrouter-view](https://github.com/worldwideweb13/typeScript/commit/e81c652a44023c2fbe328adde3fd9032a3628584)
 
 # Nuxt 学習 ~index~
 

@@ -10,6 +10,7 @@
     <div class="blue-b">
       <router-view />
     </div>
+    <router-view name="sub" />
   </div>
 </template>
 

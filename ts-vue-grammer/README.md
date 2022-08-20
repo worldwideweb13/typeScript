@@ -45,6 +45,10 @@ NuxtJsまでカバー
 - [ネストされたルート](https://github.com/worldwideweb13/typeScript/commit/f9fda8f55975860625dedc3c3f8ab078f89730f4)
 - [名前付きrouter-view](https://github.com/worldwideweb13/typeScript/commit/e81c652a44023c2fbe328adde3fd9032a3628584)
 
+
+## サンプルアプリ作成
+- [Google Books API]()
+
 # Nuxt 学習 ~index~
 
 ## Recommended IDE Setup

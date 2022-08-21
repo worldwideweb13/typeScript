@@ -48,6 +48,7 @@ NuxtJsまでカバー
 
 ## サンプルアプリ作成
 - [Google Books API]()
+- [検索画面 fetch, v-card]()
 
 # Nuxt 学習 ~index~
 

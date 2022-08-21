@@ -49,6 +49,7 @@ NuxtJsまでカバー
 ## サンプルアプリ作成
 - [Google Books API]()
 - [検索画面 fetch, v-card]()
+- [ App.vueからlocalStorageへ保存]()
 
 # Nuxt 学習 ~index~
 

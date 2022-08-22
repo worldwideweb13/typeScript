@@ -51,6 +51,8 @@ NuxtJsまでカバー
 - [検索画面 fetch, v-card]()
 - [App.vueからlocalStorageへ保存]()
 - [search->editへの移動と表示]()
+- [beforeRouteEnter + $nextTick]()
+
 # Nuxt 学習 ~index~
 
 ## Recommended IDE Setup

@@ -52,6 +52,7 @@ NuxtJsまでカバー
 - [App.vueからlocalStorageへ保存]()
 - [search->editへの移動と表示]()
 - [beforeRouteEnter + $nextTick]()
+- [BookEdit カレンダーなど]()
 
 # Nuxt 学習 〜index〜
 

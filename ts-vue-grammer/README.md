@@ -53,7 +53,7 @@ NuxtJsまでカバー
 - [search->editへの移動と表示]()
 - [beforeRouteEnter + $nextTick]()
 
-# Nuxt 学習 ~index~
+# Nuxt 学習 〜index〜
 
 ## Recommended IDE Setup
 

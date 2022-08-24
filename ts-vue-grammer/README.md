@@ -53,6 +53,7 @@ NuxtJsまでカバー
 - [search->editへの移動と表示]()
 - [beforeRouteEnter + $nextTick]()
 - [BookEdit カレンダーなど]()
+- [一覧画面(BookIndex)]()
 
 # Nuxt 学習 〜index〜
 

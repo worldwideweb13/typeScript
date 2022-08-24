@@ -54,6 +54,7 @@ NuxtJsまでカバー
 - [beforeRouteEnter + $nextTick]()
 - [BookEdit カレンダーなど]()
 - [一覧画面(BookIndex)]()
+- [BookEdit dateの修正]()
 
 # Nuxt 学習 〜index〜
 

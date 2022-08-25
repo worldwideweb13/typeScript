@@ -47,7 +47,7 @@ NuxtJsまでカバー
 
 
 ## サンプルアプリ作成
-- [Google Books API]()
+- [Google Books API](https://github.com/worldwideweb13/typeScript/commit/5c6cd61e2fcf8d0e2c0c312e54fc9bf64ffc38d6)
 - [検索画面 fetch, v-card]()
 - [Vuetifyのインストール(vue add)]()
 - [App.vueからlocalStorageへ保存]()

@@ -49,6 +49,7 @@ NuxtJsまでカバー
 ## サンプルアプリ作成
 - [Google Books API]()
 - [検索画面 fetch, v-card]()
+- [Vuetifyのインストール(vue add)]()
 - [App.vueからlocalStorageへ保存]()
 - [search->editへの移動と表示]()
 - [beforeRouteEnter + $nextTick]()
@@ -56,6 +57,7 @@ NuxtJsまでカバー
 - [一覧画面(BookIndex)]()
 - [BookEdit dateの修正]()
 - [LocalStorage一括削除]()
+
 
 # Nuxt 学習 〜index〜
 

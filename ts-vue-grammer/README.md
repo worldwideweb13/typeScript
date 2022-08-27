@@ -57,6 +57,7 @@ NuxtJsまでカバー
 - [一覧画面(BookIndex)]()
 - [BookEdit dateの修正]()
 - [LocalStorage一括削除]()
+- [BookEdit->BookIndex]()
 
 
 # Nuxt 学習 〜index〜

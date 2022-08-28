@@ -56,8 +56,8 @@ NuxtJsまでカバー
 - [BookEdit カレンダーなど]()
 - [一覧画面(BookIndex)]()
 - [BookEdit dateの修正]()
-- [一覧画面(BookIndex)]()
 - [LocalStorage一括削除]()
+- [一覧画面(BookIndex)]()
 - [BookEdit->BookIndex]()
 - [サンプルアプリの補足]()
 

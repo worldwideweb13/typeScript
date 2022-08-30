@@ -59,6 +59,7 @@ NuxtJsまでカバー
 - [LocalStorage一括削除]()
 - [一覧画面(BookIndex)]()
 - [BookEdit->BookIndex]()
+- [LocalStorage一括削除]()
 - [サンプルアプリの補足]()
 
 

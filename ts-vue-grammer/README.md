@@ -50,7 +50,7 @@ Nuxt.js学習も本リポジトリに記載予定。
 ## サンプルアプリ作成
 - [Google Books API](https://github.com/worldwideweb13/typeScript/commit/5c6cd61e2fcf8d0e2c0c312e54fc9bf64ffc38d6)
 - [Local Storage](https://github.com/worldwideweb13/typeScript/commit/24fa218ac0c4c8a40319dc3b6bff3b9565800b33)
-- [検索画面 fetch, v-card]()
+- [検索画面 fetch, v-card](https://github.com/worldwideweb13/typeScript/commit/f435bd61a7a541017c8f8e4305969d048dd56858)
 - [Vuetifyのインストール(vue add)]()
 - [App.vueからlocalStorageへ保存]()
 - [search->editへの移動と表示]()

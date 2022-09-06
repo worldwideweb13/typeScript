@@ -48,7 +48,7 @@ Nuxt.js学習も本リポジトリに記載予定。
 
 
 ## サンプルアプリ作成
-### 使用技術: vertify,vue router, Google Book API 
+### 使用技術: [vertify](https://vuetifyjs.com/ja/),[vue router](https://router.vuejs.org/), [Google Books API](https://developers.google.com/books) 
 - [Google Books API](https://github.com/worldwideweb13/typeScript/commit/5c6cd61e2fcf8d0e2c0c312e54fc9bf64ffc38d6)
 - [Local Storage](https://github.com/worldwideweb13/typeScript/commit/24fa218ac0c4c8a40319dc3b6bff3b9565800b33)
 - [Vuetifyのインストール(vue add)]()

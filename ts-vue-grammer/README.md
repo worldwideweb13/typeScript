@@ -51,7 +51,7 @@ Nuxt.js学習も本リポジトリに記載予定。
 ### 使用技術: [vertify](https://vuetifyjs.com/ja/),[vue router](https://router.vuejs.org/), [Google Books API](https://developers.google.com/books) 
 - [Google Books API](https://github.com/worldwideweb13/typeScript/commit/5c6cd61e2fcf8d0e2c0c312e54fc9bf64ffc38d6)
 - [Local Storage](https://github.com/worldwideweb13/typeScript/commit/24fa218ac0c4c8a40319dc3b6bff3b9565800b33)
-- [Vuetifyのインストール(vue add)]()
+- [Vuetifyのインストール(vue add)](https://github.com/worldwideweb13/typeScript/commit/b9213f5c4e8e0b995f8a4dee7c0b596014ca38e6)
 - [検索画面 fetch, v-card](https://github.com/worldwideweb13/typeScript/commit/f435bd61a7a541017c8f8e4305969d048dd56858)
 - [App.vueからlocalStorageへ保存](https://github.com/worldwideweb13/typeScript/commit/a3cce7df1aa48d8d96bdfcb13b7b85671d1d91d4)
 - [search->editへの移動と表示]()

@@ -54,7 +54,7 @@ Nuxt.js学習も本リポジトリに記載予定。
 - [Vuetifyのインストール(vue add)](https://github.com/worldwideweb13/typeScript/commit/b9213f5c4e8e0b995f8a4dee7c0b596014ca38e6)
 - [検索画面 fetch, v-card](https://github.com/worldwideweb13/typeScript/commit/f435bd61a7a541017c8f8e4305969d048dd56858)
 - [App.vueからlocalStorageへ保存](https://github.com/worldwideweb13/typeScript/commit/a3cce7df1aa48d8d96bdfcb13b7b85671d1d91d4)
-- [search->editへの移動と表示]()
+- [search->editへの移動と表示](https://github.com/worldwideweb13/typeScript/commit/32e73d0dd2b78b18bfe1607b5edcfca8e781a719)
 - [beforeRouteEnter + $nextTick]()
 - [BookEdit カレンダーなど]()
 - [一覧画面(BookIndex)]()

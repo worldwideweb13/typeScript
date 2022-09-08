@@ -56,7 +56,7 @@ Nuxt.js学習も本リポジトリに記載予定。
 - [App.vueからlocalStorageへ保存](https://github.com/worldwideweb13/typeScript/commit/a3cce7df1aa48d8d96bdfcb13b7b85671d1d91d4)
 - [search->editへの移動と表示](https://github.com/worldwideweb13/typeScript/commit/32e73d0dd2b78b18bfe1607b5edcfca8e781a719)
 - [beforeRouteEnter + $nextTick](https://github.com/worldwideweb13/typeScript/commit/aafcf7e40bd9bf2204b0be35a489c4a7d2a8fab6)
-- [BookEdit カレンダーなど]()
+- [BookEdit カレンダーなど](https://github.com/worldwideweb13/typeScript/commit/66a3cd487b17511ce77c91ffdbebc90d77bba59d)
 - [一覧画面(BookIndex)]()
 - [BookEdit dateの修正]()
 - [LocalStorage一括削除]()

@@ -64,8 +64,8 @@ Nuxt.js学習も本リポジトリに記載予定。
 - [BookEdit->BookIndex]()
 - [LocalStorage一括削除]()
 - [サンプルアプリの補足]()
-- []()
 
+## vuex
 
 # Nuxt 学習 〜index〜
 

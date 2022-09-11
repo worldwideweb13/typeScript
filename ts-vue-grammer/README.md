@@ -61,7 +61,7 @@ Nuxt.js学習も本リポジトリに記載予定。
 - [BookEdit dateの修正]()
 - [LocalStorage一括削除]()
 - [一覧画面(BookIndex)]()
-- [BookEdit->BookIndex]()
+- [BookEdit->BookIndex](https://github.com/worldwideweb13/typeScript/commit/a5cf406028ed29ec51de47bc25814a5c8129b07b)
 - [LocalStorage一括削除]()
 - [サンプルアプリの補足]()
 

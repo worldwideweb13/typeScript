@@ -58,11 +58,9 @@ Nuxt.js学習も本リポジトリに記載予定。
 - [beforeRouteEnter + $nextTick](https://github.com/worldwideweb13/typeScript/commit/aafcf7e40bd9bf2204b0be35a489c4a7d2a8fab6)
 - [BookEdit カレンダーなど](https://github.com/worldwideweb13/typeScript/commit/66a3cd487b17511ce77c91ffdbebc90d77bba59d)
 - [BookEdit dateの修正](https://github.com/worldwideweb13/typeScript/commit/706dda7fab477cde4f6e17a1884883b944724bbd)
-- [LocalStorage一括削除]()
+- [LocalStorage一括削除](https://github.com/worldwideweb13/typeScript/commit/2c88427921105bd5615e498a86cbf80468169c5d)
 - [BookEdit->BookIndex](https://github.com/worldwideweb13/typeScript/commit/a5cf406028ed29ec51de47bc25814a5c8129b07b)
 - [一覧画面(BookIndex)](https://github.com/worldwideweb13/typeScript/commit/f1c42019398f74caa2a04d2583fa382bbd1a39c6)
-- [LocalStorage一括削除]()
-- [サンプルアプリの補足]()
 
 ## vuex
 - Vuexのインストール

@@ -63,7 +63,7 @@ Nuxt.js学習も本リポジトリに記載予定。
 - [一覧画面(BookIndex)](https://github.com/worldwideweb13/typeScript/commit/f1c42019398f74caa2a04d2583fa382bbd1a39c6)
 
 ## vuex
-- Vuexのインストール
+- [Vuexのインストール](https://github.com/worldwideweb13/typeScript/commit/a9b9f4de0486197cbeb733d39c740e5579395b02)
 
 # Nuxt 学習 〜index〜
 

@@ -65,6 +65,8 @@ CRUDを持つ、SPAの本の検索アプリを実装。
 
 ## vuex
 - [Vuexのインストール](https://github.com/worldwideweb13/typeScript/commit/a9b9f4de0486197cbeb733d39c740e5579395b02)
+- [Vuex stateとmutations & mutations補足 payload
+](https://github.com/worldwideweb13/typeScript/commit/c88ddc403512fc0b893809e3e504cb4a56200446)
 
 # Nuxt 学習 〜index〜
 

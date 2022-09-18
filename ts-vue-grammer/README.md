@@ -49,10 +49,10 @@ Nuxt.js学習も本リポジトリに記載予定。
 
 ## サンプルアプリ作成...GooogleBookAPIを使った本の検索アプリ
 SPAの本の検索アプリを実装。以下の機能を実装。機能単位でコミット。
-  - 本の検索機能
-  - 本のお気に入り登録
-  - メモ機能
-  - お気に入り登録解除
+    - 本の検索機能
+    - 本のお気に入り登録
+    - メモ機能
+    - お気に入り登録解除
 使用技術: [vertify](https://vuetifyjs.com/ja/),[vue router](https://router.vuejs.org/), [Google Books API](https://developers.google.com/books)
 - [Google Books API](https://github.com/worldwideweb13/typeScript/commit/5c6cd61e2fcf8d0e2c0c312e54fc9bf64ffc38d6)
 - [Local Storage](https://github.com/worldwideweb13/typeScript/commit/24fa218ac0c4c8a40319dc3b6bff3b9565800b33)

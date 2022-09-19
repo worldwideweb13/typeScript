@@ -11,12 +11,23 @@ export default new Vuex.Store({
   mutations: {
     increment(state) {
       state.count++;
-    },    
+    },
     // 第2引数はオブジェクト
     addCount(state, payload) {
       state.count += payload.value;
     },
   },
-  actions: {},
+  actions: {
+    // contextからcommit,state,dispatch...等,vuexが使える
+    // incrementAction(context) {
+    //   context.commit("increment");
+    // },
+    incrementAction({ commit }) {
+      commit("increment");
+    },
+    addCountAction({ commit }, payload) {
+      commit("addCount", payload);
+    },
+  },
   modules: {},
 });

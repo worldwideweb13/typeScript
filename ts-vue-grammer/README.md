@@ -74,6 +74,7 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
 - [actions->mutations->state](https://github.com/worldwideweb13/typeScript/commit/bc08ac3d8ee14e5f296306b5c09a12fbeb191b74)
 - [getters](https://github.com/worldwideweb13/typeScript/commit/14340198d4bc8172601fd6656e1b51de1157bd14)
 - [mapヘルパー(mapActions)](https://github.com/worldwideweb13/typeScript/commit/30157e7b341ab4ff836dce2ce6e6c302e6d2d36e)
+- [モジュール分割と名前空間(namespace)](https://github.com/worldwideweb13/typeScript/commit/acc3b2ff305ab656bf8522b5941734d030b474ee)
 
 # Nuxt 学習 〜index〜
 

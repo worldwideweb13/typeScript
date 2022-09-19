@@ -12,11 +12,19 @@ export default {
     msg: String,
   },
   methods: {
+    // increment() {
+    //   this.$store.commit("increment");
+    // },
+    // addCount() {
+    //   this.$store.commit("addCount", {
+    //     value: 10,
+    //   });
+    // },
     increment() {
-      this.$store.commit("increment");
+      this.$store.dispatch("incrementAction");
     },
     addCount() {
-      this.$store.commit("addCount", {
+      this.$store.dispatch("addCountAction", {
         value: 10,
       });
     },

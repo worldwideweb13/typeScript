@@ -71,6 +71,7 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
 - [Vuexのインストール](https://github.com/worldwideweb13/typeScript/commit/a9b9f4de0486197cbeb733d39c740e5579395b02)
 - [Vuex stateとmutations & mutations補足 payload
 ](https://github.com/worldwideweb13/typeScript/commit/c88ddc403512fc0b893809e3e504cb4a56200446)
+- [actions->mutations->state](https://github.com/worldwideweb13/typeScript/commit/bc08ac3d8ee14e5f296306b5c09a12fbeb191b74)
 
 # Nuxt 学習 〜index〜
 

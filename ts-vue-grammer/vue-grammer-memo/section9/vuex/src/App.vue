@@ -7,6 +7,10 @@
     <router-view />
     <!-- storeから値を取得して表示 -->
     {{ $store.state.count }}
+    <br />
+    <button @click="setLogin">ログイン表示</button>
+    {{ $store.state.auth.loginUserName }}
+
     <ul>
       <li v-for="user in visibleUsers" :key="user.id">
         {{ user.id }} : {{ user.name }} : {{ user.isVisible }}
@@ -18,7 +22,15 @@
 </template>
 
 <script>
+import { mapActions } from "vuex";
+
 export default {
+  methods: {
+    ...mapActions("auth", ["setLoginUser"]),
+    setLogin() {
+      this.setLoginUser({ name: "大谷" });
+    },
+  },
   computed: {
     visibleUsers() {
       return this.$store.getters.visibleUsers;

@@ -78,6 +78,7 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
 
 # Nuxt 学習 〜index〜
 - [ルーティング Vue.jsとの違い]()
+- [ルーティング Nuxtの場合]()
 
 
 ## Recommended IDE Setup

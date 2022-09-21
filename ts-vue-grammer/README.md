@@ -77,6 +77,8 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
 - [モジュール分割と名前空間(namespace)](https://github.com/worldwideweb13/typeScript/commit/acc3b2ff305ab656bf8522b5941734d030b474ee)
 
 # Nuxt 学習 〜index〜
+- [ルーティング Vue.jsとの違い]()
+
 
 ## Recommended IDE Setup
 

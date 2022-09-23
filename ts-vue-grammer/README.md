@@ -81,6 +81,7 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
 - [ルーティング Nuxtの場合]()
 - [RestAPIを参考にルーティングをつくる]()
 - [テーブルをつくりリンクを張ってみる]()
+- [Vue.js devtools (GoogleChrome拡張機能)]()
 
 
 ## Recommended IDE Setup

@@ -82,6 +82,7 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
 - [RestAPIを参考にルーティングをつくる]()
 - [テーブルをつくりリンクを張ってみる]()
 - [Vue.js devtools (GoogleChrome拡張機能)]()
+- [テーブルをつくりリンクを張ってみる]()
 
 
 ## Recommended IDE Setup

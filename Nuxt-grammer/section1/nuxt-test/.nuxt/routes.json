@@ -1,5 +1,12 @@
 [
   {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/ogasawarasatoru/Learning/typeScript/Nuxt-grammer/section1/nuxt-test/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_9be11424"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/ogasawarasatoru/Learning/typeScript/Nuxt-grammer/section1/nuxt-test/pages/index.vue",

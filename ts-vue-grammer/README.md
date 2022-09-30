@@ -76,14 +76,6 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
 - [mapヘルパー(mapActions)](https://github.com/worldwideweb13/typeScript/commit/30157e7b341ab4ff836dce2ce6e6c302e6d2d36e)
 - [モジュール分割と名前空間(namespace)](https://github.com/worldwideweb13/typeScript/commit/acc3b2ff305ab656bf8522b5941734d030b474ee)
 
-# Nuxt 学習 〜index〜
-- [RestAPIを参考にルーティングをつくる](https://github.com/worldwideweb13/typeScript/commit/ec0110205af6197c57d7a0d3d7c2db760c22bb7c)
-- [テーブルをつくりリンクを張ってみる]()
-- [Vue.js devtools (GoogleChrome拡張機能)]()
-- [テーブルをつくりリンクを張ってみる]()
-- [オートインポート機能]()
-- [フォルダ名なしでオートインポートする方法]()
-- [ルーティング Nuxtの場合]()
 
 
 ## Recommended IDE Setup

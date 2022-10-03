@@ -1,8 +1,8 @@
 # nuxt-test
 
-[Vue.js 3.0のComposition APIを使ってみた](https://re-engines.com/2020/06/15/vue-composition-api/)
-[Vue3のComposition APIをつかって既存のVueコンポーネントを書き換えてみた](https://note.com/mizutory/n/n59ecb2aeb0a3)
-[【Vue.js】タブ切り替え](https://into-the-program.com/vue-tab/)
+- [Vue.js 3.0のComposition APIを使ってみた](https://re-engines.com/2020/06/15/vue-composition-api/)
+- [Vue3のComposition APIをつかって既存のVueコンポーネントを書き換えてみた](https://note.com/mizutory/n/n59ecb2aeb0a3)
+- [【Vue.js】タブ切り替え](https://into-the-program.com/vue-tab/)
 
 
 # Nuxt 学習 〜index〜

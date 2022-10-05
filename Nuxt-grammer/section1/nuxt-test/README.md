@@ -2,7 +2,15 @@
 
 - [Vue.js 3.0のComposition APIを使ってみた](https://re-engines.com/2020/06/15/vue-composition-api/)
 - [Vue3のComposition APIをつかって既存のVueコンポーネントを書き換えてみた](https://note.com/mizutory/n/n59ecb2aeb0a3)
+
 setup関数内でのrefとreactiveの使い分け、リアクティブな要素に値を入れ直す時の方法.
+
+``` Vue.js
+const currentLatLng = ref(null);   
+
+currentLatLng.value = {name: 'new object'}
+
+```
 
 - [【Vue.js】タブ切り替え](https://into-the-program.com/vue-tab/)
 

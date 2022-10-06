@@ -17,6 +17,7 @@ currentLatLng.value = {name: 'new object'}
 
 - [【Vue.js】タブ切り替え](https://into-the-program.com/vue-tab/)
 
+...結論、タブ毎に違うコンテンツ(表や、テキストなどタブ毎に表示形式が変わる場合は、slotを使う。)
 
 
 

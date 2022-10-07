@@ -12,8 +12,9 @@ setup関数内でのrefとreactiveの使い分け、リアクティブな要素�
 const currentLatLng = ref(null);   
 
 currentLatLng.value = {name: 'new object'}
-
 ```
+
+[RSCSSの概要](https://rfs.jp/sb/html-css/html-css-guide/rscss.html)
 
 - [【Vue.js】タブ切り替え](https://into-the-program.com/vue-tab/)
 

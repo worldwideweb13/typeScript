@@ -15,7 +15,7 @@ currentLatLng.value = {name: 'new object'}
 ```
 
 [RSCSSの概要](https://rfs.jp/sb/html-css/html-css-guide/rscss.html)
-- component / layout / css を配送。
+- Components、Elements、Variants の３つのレイヤー毎に命名規則がある。
 
 - [【Vue.js】タブ切り替え](https://into-the-program.com/vue-tab/)
 

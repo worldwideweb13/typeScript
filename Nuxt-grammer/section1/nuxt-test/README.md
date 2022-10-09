@@ -16,10 +16,13 @@ currentLatLng.value = {name: 'new object'}
 
 [RSCSSの概要](https://rfs.jp/sb/html-css/html-css-guide/rscss.html)
 - Components、Elements、Variants の３つのレイヤー毎に命名規則がある。
+  - component..."-" を使って単語を繋ぐ。cf(tab-component)
+  
 
 - [【Vue.js】タブ切り替え](https://into-the-program.com/vue-tab/)
 
 ...結論、タブ毎に違うコンテンツ(表や、テキストなどタブ毎に表示形式が変わる場合は、slotを使う。)
+
 
 
 

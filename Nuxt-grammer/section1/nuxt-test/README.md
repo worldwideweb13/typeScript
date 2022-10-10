@@ -20,7 +20,12 @@ currentLatLng.value = {name: 'new object'}
   - Elements...コンポーネントレイヤー内で使われる単語のため、シンプルな記述で良い。基本は単語１つ。cf (body,text)
   - Variants...既存のコンポーネントやエレメントと構成が同じで、見た目や機能が違うものを作りたい場合は、新規に作り直すのではなく、バリアントを使う。
 
-- [【Vue.js】タブ切り替え](https://into-the-program.com/vue-tab/#:~:text=DEMO-,%E9%81%B8%E6%8A%9E%E3%81%95%E3%82%8C%E3%81%9F%E3%82%BF%E3%83%96%E3%81%ABactive%E3%81%AEclass%E3%82%92%E4%BB%98%E3%81%91%E3%82%8B,-%E3%81%93%E3%81%A1%E3%82%89%E3%81%AF%E9%81%B8%E6%8A%9E)
+- [【Vue.js】タブ切り替え](https://into-the-program.com/vue-tab/)
+以下の記述を参考に作成
+
+```
+        <li @click="isSelect('1')" v-bind:class="{'active': isActive === '1'}">All</li>
+```
 
 
 ...結論、タブ毎に違うコンテンツ(表や、テキストなどタブ毎に表示形式が変わる場合は、slotを使う。)

@@ -1,11 +1,11 @@
 # Nuxt学習で参考にしたサイト/メモ
 - [Vue.js 3.0のComposition APIを使ってみた](https://re-engines.com/2020/06/15/vue-composition-api/)
 
-compositionAPI利用時とVue2利用時の書き方の比較。主にVueのライフサイクルフック(ref,reactive)の使い方を主眼に解説。
+  compositionAPI利用時とVue2利用時の書き方の比較。主にVueのライフサイクルフック(ref,reactive)の使い方を主眼に解説。
 
 [Vue3のComposition APIをつかって既存のVueコンポーネントを書き換えてみた](https://note.com/mizutory/n/n59ecb2aeb0a3)
 
-- setup関数内でのrefとreactiveの使い分け、リアクティブな要素に値を入れ直す時の方法.以下を参照。
+  - setup関数内でのrefとreactiveの使い分け、リアクティブな要素に値を入れ直す時の方法.以下を参照。
 
 ``` Vue.js
 const currentLatLng = ref(null);   

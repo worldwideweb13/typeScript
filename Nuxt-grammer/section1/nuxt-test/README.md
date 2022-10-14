@@ -36,7 +36,9 @@ currentLatLng.value = {name: 'new object'}
 `v-for`ディレクティブで「配列の最後のみ」特定の条件のDOMをレンダリングする。
 
 ```Vue.js
-<span v-for="(val,key,index) of person">key: {{key}}, val: {{val}}<span v-if="index != Object.keys(person).length - 1">, </span></span>
+<span v-for="(val,key,index) of person">
+  key: {{key}}, val: {{val}}
+<span v-if="index != Object.keys(person).length - 1">
 
 ```
 

@@ -2,6 +2,10 @@
 - [Vue.js 3.0のComposition APIを使ってみた](https://re-engines.com/2020/06/15/vue-composition-api/)
 
   compositionAPI利用時とVue2利用時の書き方の比較。主にVueのライフサイクルフック(ref,reactive)の使い方を主眼に解説。
+  
+```vue.js
+ const countRef = ref(0) // 追加
+```
 
 - [Vue3のComposition APIをつかって既存のVueコンポーネントを書き換えてみた](https://note.com/mizutory/n/n59ecb2aeb0a3)
 

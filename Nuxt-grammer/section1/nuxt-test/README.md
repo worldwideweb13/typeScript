@@ -48,7 +48,7 @@ currentLatLng.value = {name: 'new object'}
 [VeeValidateでVue.js用の超便利なバリデーションを実装する](https://www.kabanoki.net/4955/)
 
   - `validation-observer`でform全体を囲み `validation-provider`で各入力フォームを囲むことでvalidationルールを設定可能。
-  - `<validation-provider></validation-provider>`内の`slot-scope`に入力フィールドの状態が入っている。
+  - `<validation-provider></validation-provider>`内の`slot-scope`に入力フィールドの状態が入っていおり、この状態を基に、validation error を表示する。
 　　 - validationルールを記述することで、様々なvalidatyionを設定することができる。
 
 

@@ -44,7 +44,8 @@ currentLatLng.value = {name: 'new object'}
 
 ```
 
-Nuxt　layer...
+
+[VeeValidateでVue.js用の超便利なバリデーションを実装する](https://www.kabanoki.net/4955/)
 
 # Nuxt 学習 〜index〜
 - [RestAPIを参考にルーティングをつくる](https://github.com/worldwideweb13/typeScript/commit/ec0110205af6197c57d7a0d3d7c2db760c22bb7c)

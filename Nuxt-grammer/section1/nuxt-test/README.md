@@ -54,11 +54,12 @@ currentLatLng.value = {name: 'new object'}
 ## [nuxtで画面遷移時のパラメータ受け渡し(params, query)](https://codelikes.com/nuxt-query-or-params/)
   - フォルダ構成をURLディレクトリに合わせる。パラメータをディレクトリに組み込みたい場合は、以下のような構成
  ```
- ├── form-params-result-test
-│   └── _name
-│       └── _email
-│           └── _password
-│               └── index.vue
+└── users
+    └── _id.vue
+ ```
+  -  画面遷移は　`method:{ function-name(){...} }`で...内に以下のように記述
+ ```Vue.js
+ this.$router.push({ path: `users/999` });
  ```
 
 

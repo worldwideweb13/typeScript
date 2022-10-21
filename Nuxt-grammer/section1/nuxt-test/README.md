@@ -61,7 +61,11 @@ currentLatLng.value = {name: 'new object'}
  ```Vue.js
  this.$router.push({ path: `users/999` });
  ```
-
+ 
+ ## SPA-Buttonコンポーネントのリンク先の記述の仕方
+```Vue.js
+  <Button label="ページ２へ" @click="() => $router.push('/page02')" />
+```
 
 # Nuxt 学習 〜index〜
 - [RestAPIを参考にルーティングをつくる](https://github.com/worldwideweb13/typeScript/commit/ec0110205af6197c57d7a0d3d7c2db760c22bb7c)

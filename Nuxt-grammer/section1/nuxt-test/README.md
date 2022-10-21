@@ -62,7 +62,7 @@ currentLatLng.value = {name: 'new object'}
  this.$router.push({ path: `users/999` });
  ```
  
- ## SPA-Buttonコンポーネントのリンク先の記述の仕方
+ ## VueRouterを使ったButtonコンポーネントのリンク先の記述の仕方...`$router.push`を使う
 ```Vue.js
   <Button label="ページ２へ" @click="() => $router.push('/page02')" />
 ```

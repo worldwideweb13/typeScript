@@ -82,6 +82,8 @@ currentLatLng.value = {name: 'new object'}
   <img src="https://user-images.githubusercontent.com/75665390/197398714-975e5f91-85a4-4328-8bde-f89c37de2796.png" />
 </p>
 
+- ②...ユーザーにソーシャルログインを初めてする際に、個人情報の認証許可を求める。
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75665390/197398739-9a55973b-034b-470d-ac59-3cbd7fb2b795.png" />
 </p>

@@ -62,11 +62,23 @@ currentLatLng.value = {name: 'new object'}
  this.$router.push({ path: `users/999` });
  ```
  
- ## VueRouterを使ったButtonコンポーネントのリンク先の記述の仕方...`$router.push`を使う
+ ### VueRouterを使ったButtonコンポーネントのリンク先の記述の仕方...`$router.push`を使う
  - 関数`() => {}`の`{}`を省略して、リンク先のみを直接`button`タグ内に記述
 ```Vue.js
   <Button label="ページ２へ" @click="() => $router.push('/page02')" />
 ```
+
+
+### OA AUTHに関しての考察
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/75665390/197398645-783e9932-3620-4dfb-b837-60c3ac61640e.png" />
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/75665390/197398585-c652aea3-15ad-4ba8-93a3-34c4d090536b.png" />
+</p>
+
+
 
 # Nuxt 学習 〜index〜
 - [RestAPIを参考にルーティングをつくる](https://github.com/worldwideweb13/typeScript/commit/ec0110205af6197c57d7a0d3d7c2db760c22bb7c)

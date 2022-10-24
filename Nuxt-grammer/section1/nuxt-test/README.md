@@ -88,6 +88,8 @@ currentLatLng.value = {name: 'new object'}
   <img src="https://user-images.githubusercontent.com/75665390/197398739-9a55973b-034b-470d-ac59-3cbd7fb2b795.png" />
 </p>
 
+### [Vue.js $emit 使わないで props で method 渡したほうが良くない？](https://techblog.roxx.co.jp/entry/2020/07/09/092955)
+
 # Nuxt 学習 〜index〜
 - [RestAPIを参考にルーティングをつくる](https://github.com/worldwideweb13/typeScript/commit/ec0110205af6197c57d7a0d3d7c2db760c22bb7c)
 - [テーブルをつくりリンクを張ってみる]()

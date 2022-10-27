@@ -1,8 +1,17 @@
 # Nuxt学習で参考にしたサイト/メモ
+
+`v-if`と`v-show`の使い分け
+- レンダリングをコントロールしていて、タグ自体の有無を操作している
+- cssをコントロールしていて、display:noneのオンオフを行う
+→ エラー文言のような、１画面内で頻繁に表示非表示が切り替わる可能性のある箇所は v-show を使うべきで、１度画面が表示されたら切り替わることのないところ（ラベルの有無など）を操作するような場合は v-ifを使う
+
+# Nuxt学習で参考にしたサイト/メモ。
+# Nuxt学習で参考にしたサイト/メモ
+
 - [Vue.js 3.0のComposition APIを使ってみた](https://re-engines.com/2020/06/15/vue-composition-api/)
 
   compositionAPI利用時とVue2利用時の書き方の比較。主にVueのライフサイクルフック(ref,reactive)の使い方を主眼に解説。
-  
+
 ```vue.js
  const countRef = ref(0) // 追加
 ```

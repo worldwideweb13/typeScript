@@ -78,7 +78,10 @@ currentLatLng.value = {name: 'new object'}
 
 ### gitHub branchの変更を他のbranchにpullする手順
 - 想定される手順...Aさんの作業ブランチを自分が作業しているbranchBに取り込みたい。
- 
+
+```shell
+git check
+```
 
 ### OA AUTHに関しての考察
 <p align="center">

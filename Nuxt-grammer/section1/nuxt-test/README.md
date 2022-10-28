@@ -76,7 +76,9 @@ currentLatLng.value = {name: 'new object'}
   <Button label="ページ２へ" @click="() => $router.push('/page02')" />
 ```
 
-### gitHub branchの変更差分を他のbranchにpullする手順
+### gitHub branchの変更を他のbranchにpullする手順
+- 想定される手順...Aさんの作業ブランチを自分が作業しているbranchBに取り込みたい。
+ 
 
 ### OA AUTHに関しての考察
 <p align="center">

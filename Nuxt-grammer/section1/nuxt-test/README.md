@@ -78,6 +78,10 @@ currentLatLng.value = {name: 'new object'}
 
 ### gitHub branchの変更を他のbranchにpullする手順
 - 想定される手順...Aさんの作業ブランチを自分が作業しているbranchBに取り込みたい。
+1. Gitのリモートを取り込み、Aさんの作業ブランチを取得
+```
+git fetch
+```
 
 ```shell
 git check

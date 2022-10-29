@@ -87,9 +87,15 @@ git fetch
 git checkout A-branch
 ```
 3. A-branchを取り込みたい自分の作業ブランチにcheckout
-```shell
+```
 git checkout my-branch
 ```
+4. 自分の作業ブランチにA-branchを取り込む
+```
+git merge A-branch
+```
+
+
 
 ### OA AUTHに関しての考察
 <p align="center">

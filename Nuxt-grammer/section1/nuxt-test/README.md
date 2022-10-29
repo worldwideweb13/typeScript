@@ -82,6 +82,10 @@ currentLatLng.value = {name: 'new object'}
 ```
 git fetch
 ```
+2. Aさんの作業ブランチ(A-branch)をローカルブランチにcheckout 
+```
+git checkout A-branch
+```
 
 ```shell
 git check

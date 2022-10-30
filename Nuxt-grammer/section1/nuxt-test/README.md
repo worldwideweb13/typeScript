@@ -95,8 +95,6 @@ git checkout my-branch
 git merge A-branch
 ```
 
-
-
 ### OA AUTHに関しての考察
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75665390/197398645-783e9932-3620-4dfb-b837-60c3ac61640e.png" />
@@ -121,6 +119,8 @@ git merge A-branch
 </p>
 
 ### [Vue.js $emit 使わないで props で method 渡したほうが良くない？](https://techblog.roxx.co.jp/entry/2020/07/09/092955)
+
+### [GULP 学習コンテンツ](https://note.com/ichikun_/n/n3aa2c5f59725)
 
 # Nuxt 学習 〜index〜
 - [RestAPIを参考にルーティングをつくる](https://github.com/worldwideweb13/typeScript/commit/ec0110205af6197c57d7a0d3d7c2db760c22bb7c)

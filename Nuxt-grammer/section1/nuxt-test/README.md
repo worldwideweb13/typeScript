@@ -122,6 +122,7 @@ git merge A-branch
 
 ### [GULP 学習コンテンツ](https://note.com/ichikun_/n/n3aa2c5f59725)
 - アイコン(img)をアイコンフォントに変更するツール。
+- 画像、Saasなどの圧縮を行い、サイトの軽量化を図る。
 
 # Nuxt 学習 〜index〜
 - [RestAPIを参考にルーティングをつくる](https://github.com/worldwideweb13/typeScript/commit/ec0110205af6197c57d7a0d3d7c2db760c22bb7c)

@@ -17,6 +17,7 @@
   - vue.jsで変数の変更などが会った時に、画面表示も変更するようにしたい場合、リアクティブな値として扱う必要がある。
   - リアクティブな値 = `ref(),reactive()` で囲われた変数、配列。
   - setup関数内でのrefとreactiveの使い分け、リアクティブな要素に値を入れ直す時の方法.以下を参照。
+  - setup関数内で関数も記述する。returnする。
 
 ``` Vue.js
 const currentLatLng = ref(null);   

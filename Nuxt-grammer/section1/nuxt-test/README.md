@@ -96,6 +96,11 @@ git checkout my-branch
 git merge A-branch
 ```
 
+現在チェックアウトしているブランチにマージされているローカルブランチを削除する
+```
+git branch --merged
+```
+
 ### OA AUTHに関しての考察
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75665390/197398645-783e9932-3620-4dfb-b837-60c3ac61640e.png" />

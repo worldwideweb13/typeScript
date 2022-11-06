@@ -125,6 +125,10 @@ git branch --merged
   <img src="https://user-images.githubusercontent.com/75665390/197398739-9a55973b-034b-470d-ac59-3cbd7fb2b795.png" />
 </p>
 
+### vue.jsのfluxフロー
+
+![スクリーンショット 2022-07-07 21 30 12](https://user-images.githubusercontent.com/75665390/200177768-0a27422a-379f-449b-bba5-7479b841bdf0.png)
+
 ### [Vue.js $emit 使わないで props で method 渡したほうが良くない？](https://techblog.roxx.co.jp/entry/2020/07/09/092955)
 
 ### [GULP 学習コンテンツ](https://note.com/ichikun_/n/n3aa2c5f59725)

@@ -138,6 +138,9 @@ git branch --merged
 - 画像、Saasなどの圧縮を行い、サイトの軽量化を図る。
 ### [【DartSass対応】どこよりも詳しいGulp 4環境構築【Mac編】](https://tips-web.net/gulp4-mac/)
 
+### [Visual Studio Codeに定型文（スニペット）を登録する方法](https://slash-mochi.net/blog/2019/07/13/post-1978/)
+
+
 # Nuxt 学習 〜index〜
 - [RestAPIを参考にルーティングをつくる](https://github.com/worldwideweb13/typeScript/commit/ec0110205af6197c57d7a0d3d7c2db760c22bb7c)
 - [テーブルをつくりリンクを張ってみる]()

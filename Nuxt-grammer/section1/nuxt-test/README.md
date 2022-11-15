@@ -51,7 +51,7 @@ currentLatLng.value = {name: 'new object'}
 
 ```
 
-### VeeValidate...Vueで使えるvalidationライブラリー
+#### VeeValidate...Vueで使えるvalidationライブラリー
 [VeeValidateでVue.js用の超便利なバリデーションを実装する](https://www.kabanoki.net/4955/)
 [validation-observer,validation-providerの使い方基礎](https://sakitadaiki.hatenablog.com/entry/2021/04/07/112440)
   - `validation-observer`は検証エラーが出ている時にフォームの送信の実行ができないようにする。
@@ -60,7 +60,7 @@ currentLatLng.value = {name: 'new object'}
   - validationルールを記述することで、様々なvalidatyionを設定することができる。
 
 
-### [nuxtで画面遷移時のパラメータ受け渡し(params, query)](https://codelikes.com/nuxt-query-or-params/)
+#### [nuxtで画面遷移時のパラメータ受け渡し(params, query)](https://codelikes.com/nuxt-query-or-params/)
   - フォルダ構成をURLディレクトリに合わせる。パラメータをディレクトリに組み込みたい場合は、以下のような構成
  ```
 └── users
@@ -71,13 +71,13 @@ currentLatLng.value = {name: 'new object'}
  this.$router.push({ path: `users/999` });
  ```
  
-### VueRouterを使ったButtonコンポーネントのリンク先の記述の仕方...`$router.push`を使う
+#### VueRouterを使ったButtonコンポーネントのリンク先の記述の仕方...`$router.push`を使う
  - 関数`() => {}`の`{}`を省略して、リンク先のみを直接`button`タグ内に記述
 ```Vue.js
   <Button label="ページ２へ" @click="() => $router.push('/page02')" />
 ```
 
-### gitHub branchの変更を他のbranchにpullする手順
+#### gitHub branchの変更を他のbranchにpullする手順
 - 想定される手順...Aさんの作業ブランチを自分が作業しているbranchBに取り込みたい。
 1. Gitのリモートを取り込み、Aさんの作業ブランチを取得
 ```
@@ -101,7 +101,7 @@ git merge A-branch
 git branch --merged
 ```
 
-### OA AUTHに関しての考察
+#### OA AUTHに関しての考察
 
 1. クライアント(ユーザー端末)から認可サーバーにリクエストが飛ぶ。
 2. 認可サーバーからユーザーにソーシャルログインを初めてする際に、個人情報の認証許可を求める。

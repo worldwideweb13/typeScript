@@ -188,3 +188,4 @@ Docker開発環構築時のトラブルシューティング。
 その後は少し5～10分くらい時間をおいてみてから、
 `make db_upgrade` でDBを最新化
 
+[redisサーバー](https://www.fenet.jp/infla/column/technology/redis%E3%81%A8%E3%81%AF%E3%81%A9%E3%81[…]3%81%A4%E3%81%AE%E7%89%B9%E5%BE%B4%E3%82%84%E4%BD%BF%E3%81%84/)

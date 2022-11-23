@@ -193,5 +193,5 @@ Docker開発環構築時のトラブルシューティング。
 - [複数のGitHubアカウントを使い分けたい時の設定方法とTips](https://zenn.dev/taichifukumoto/articles/how-to-use-multiple-github-accounts)
 - vuertify...vuetifyをプロジェクトにインストール後、
 `<v-card> </v-card> ` を宣言して、必要なpropsを渡すことで利用可能。
-- Git で 誤って master ブランチを編集してしまったとき
+- [Git で 誤って master ブランチを編集してしまったとき](https://qiita.com/Salinger/items/839a6f467e27235cabc3)
 

@@ -195,4 +195,4 @@ Docker開発環構築時のトラブルシューティング。
 `<v-card> </v-card> ` を宣言して、必要なpropsを渡すことで利用可能。
 - [Git で 誤って master ブランチを編集してしまったとき](https://qiita.com/Salinger/items/839a6f467e27235cabc3)
 
-### [nuxt-link](https://webrandum.net/nuxt-link/#:~:text=%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82-,nuxt%2Dlink%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88,-%E5%85%B7%E4%BD%93%E7%9A%84%E3%81%AA)
+### [nuxt-linkを使うメリット](https://webrandum.net/nuxt-link/#:~:text=%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82-,nuxt%2Dlink%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88,-%E5%85%B7%E4%BD%93%E7%9A%84%E3%81%AA)

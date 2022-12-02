@@ -2,7 +2,7 @@
 
 ### 概要
 * 学習期間: 2022年4月~9月 
-* 使用技術: TypeScript, Express, React, Vue,
+* 使用技術: TypeScript, Express, React, Vue, Nuxt,
 * 使用API: GoogleMapAPI
 
 typeScriptの自学習用リポジトリ。"TS-プロジェクト名"でリポジトリを分けて、分野毎の学習しました。

@@ -9,6 +9,10 @@ typeScriptの自学習用リポジトリ。"TS-プロジェクト名"でリポ�
 * Vue.js + typeScript, Nuxt.js 学習状況に関しては[こちら](https://github.com/worldwideweb13/typeScript/blob/main/ts-vue-grammer/README.md)を参照
 
 [アプリを設計する上で必要な仕様書・ドキュメント10選【PM必須】}(https://www.youtube.com/watch?v=rtyg-khmVp0)
+01:20 1.画面設計書
+01:43 2.サイトマップ
+02:29 3.スタイルガイド
+→ この3点はPM/非エンジニアで作成される要件
 
 
 ---

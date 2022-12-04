@@ -8,13 +8,6 @@
 typeScriptの自学習用リポジトリ。"TS-プロジェクト名"でリポジトリを分けて、分野毎の学習しました。
 * Vue.js + typeScript, Nuxt.js 学習状況に関しては[こちら](https://github.com/worldwideweb13/typeScript/blob/main/ts-vue-grammer/README.md)を参照
 
-[アプリを設計する上で必要な仕様書・ドキュメント10選【PM必須】}(https://www.youtube.com/watch?v=rtyg-khmVp0)
-01:20 1.画面設計書
-01:43 2.サイトマップ
-02:29 3.スタイルガイド
-→ この3点はPM/非エンジニアで作成される要件
-
-
 ---
 
 ### typeScript核学習ファイルの確認事項
@@ -77,3 +70,5 @@ $ npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-l
 
 ### [テスト仕様書の注意事項](https://qiita.com/nacho0707/items/296471d649d5baf825b7)
  - 操作方法を明確にすること
+
+### 非同期処理(Promise all)の使い方 [https://www.youtube.com/watch?v=nCJYXNtiCGw]

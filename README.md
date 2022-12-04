@@ -72,3 +72,4 @@ $ npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-l
  - 操作方法を明確にすること
 
 ### [非同期処理(Promise all)の使い方](https://www.youtube.com/watch?v=nCJYXNtiCGw)
+- `Promise all`: `async await` の非同期処理を複数実行したい時に利用する

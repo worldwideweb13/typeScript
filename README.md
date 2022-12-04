@@ -71,4 +71,4 @@ $ npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-l
 ### [テスト仕様書の注意事項](https://qiita.com/nacho0707/items/296471d649d5baf825b7)
  - 操作方法を明確にすること
 
-### [非同期処理(Promise all)の使い方] (https://www.youtube.com/watch?v=nCJYXNtiCGw)
+### [非同期処理(Promise all)の使い方](https://www.youtube.com/watch?v=nCJYXNtiCGw)

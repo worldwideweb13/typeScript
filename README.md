@@ -79,3 +79,4 @@ $ npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-l
 - `Promise all`: `async await` の非同期処理を複数実行したい時に利用する
 
 ### [Array.prototype.includes()　](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+- 却り値: boolean(true or false)

@@ -81,5 +81,5 @@ $ npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-l
 ### [Array.prototype.includes(string)　](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 - 却り値: boolean(true or false)
 - Array(配列)に　文字列(string)の値が入っているかを検索。
- - 存在する: true
- - しない: false
+  - 存在する: true
+  - しない: false

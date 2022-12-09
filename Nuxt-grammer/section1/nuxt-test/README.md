@@ -199,4 +199,4 @@ Docker開発環構築時のトラブルシューティング。
 
 #### [Promise all](https://www.youtube.com/watch?v=nCJYXNtiCGw)
 - 非同期処理を同時に走らせる。
-- 
+- Promise.all([①,②,③])

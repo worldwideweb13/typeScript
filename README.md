@@ -74,10 +74,7 @@ $ npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-l
 
 ### [テスト仕様書の注意事項](https://qiita.com/nacho0707/items/296471d649d5baf825b7)
  - 操作方法を明確にすること
-
-### [非同期処理(Promise all)の使い方](https://www.youtube.com/watch?v=nCJYXNtiCGw)
-- `Promise all`: `async await` の非同期処理を複数実行したい時に利用する
-
+ 
 ### [Array.prototype.includes(string)　](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 - 却り値: boolean(true or false)
 - Array(配列)に　文字列(string)の値が入っているかを検索。

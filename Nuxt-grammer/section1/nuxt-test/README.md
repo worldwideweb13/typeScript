@@ -200,3 +200,9 @@ Docker開発環構築時のトラブルシューティング。
 #### [Promise all](https://www.youtube.com/watch?v=nCJYXNtiCGw)
 - 非同期処理を同時に走らせる。
 - Promise.all([①,②,③])
+
+### [Array.prototype.includes(string)　](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+- 却り値: boolean(true or false)
+- Array(配列)に　文字列(string)の値が入っているかを検索。
+  - 存在する: true
+  - しない: false

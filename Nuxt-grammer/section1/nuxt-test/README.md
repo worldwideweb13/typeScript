@@ -206,3 +206,6 @@ Docker開発環構築時のトラブルシューティング。
 - Array(配列)に　文字列(string)の値が入っているかを検索。
   - 存在する: true
   - しない: false
+
+### [【Vue】エラー対処法：[Vue warn]: Property or method “〇〇” is not defined on the instance but referenced during render.](https://prograshi.com/language/vue-js/property-or-method-not-defined/)
+

@@ -212,4 +212,4 @@ Docker開発環構築時のトラブルシューティング。
 #### [【display: gridとfrとgap】要素を横並びにする方法](https://goheymochikun.com/display-grid-fr-gap/)
 #### [CSS Gridを使ったレスポンシブ対応の基本レイアウト](https://www.webcreatorbox.com/tech/css-grid-basic-layout)
 - aタグに英文字のリンクを貼るとvueのレイアウト崩れが発生する（文字列が折り返しされない）
-
+- ferret

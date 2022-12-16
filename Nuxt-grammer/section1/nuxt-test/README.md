@@ -210,6 +210,6 @@ Docker開発環構築時のトラブルシューティング。
 #### [【Vue】エラー対処法：[Vue warn]: Property or method “〇〇” is not defined on the instance but referenced during render.](https://prograshi.com/language/vue-js/property-or-method-not-defined/)
 
 #### [【display: gridとfrとgap】要素を横並びにする方法](https://goheymochikun.com/display-grid-fr-gap/)
-#### [CSS Gridを使ったレスポンシブ対応の基本レイアウト] (https://www.webcreatorbox.com/tech/css-grid-basic-layout)
+#### [CSS Gridを使ったレスポンシブ対応の基本レイアウト](https://www.webcreatorbox.com/tech/css-grid-basic-layout)
 - aタグに英文字のリンクを貼るとvueのレイアウト崩れが発生する（文字列が折り返しされない）
 

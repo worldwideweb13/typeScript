@@ -212,3 +212,6 @@ Docker開発環構築時のトラブルシューティング。
 ### CSS Grid まとめ
 - [「CSSグリッド」とは？基礎と使い方を解説](https://ferret-plus.com/8351)
 - [とうとうやってきた！CSSの新しいレイアウトモジュール「CSS Grid」って？](https://ferret-plus.com/6971?under_ct)
+
+### [テスト仕様書の注意事項](https://qiita.com/nacho0707/items/296471d649d5baf825b7)
+ - 操作方法を明確にすること

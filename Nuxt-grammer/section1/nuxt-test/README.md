@@ -209,7 +209,7 @@ Docker開発環構築時のトラブルシューティング。
 
 #### [【Vue】エラー対処法：[Vue warn]: Property or method “〇〇” is not defined on the instance but referenced during render.](https://prograshi.com/language/vue-js/property-or-method-not-defined/)
 
-### [テスト仕様書の注意事項](https://qiita.com/nacho0707/items/296471d649d5baf825b7)
+#### [テスト仕様書の注意事項](https://qiita.com/nacho0707/items/296471d649d5baf825b7)
  - 操作方法を明確にすること
 
 ### CSS Grid まとめ

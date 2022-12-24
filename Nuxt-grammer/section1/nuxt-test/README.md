@@ -216,5 +216,6 @@ Docker開発環構築時のトラブルシューティング。
 #### [「CSSグリッド」とは？基礎と使い方を解説](https://ferret-plus.com/8351)
 - grid　layout　の基本的な使い方
 #### [とうとうやってきた！CSSの新しいレイアウトモジュール「CSS Grid」って？](https://ferret-plus.com/6971?under_ct)
+- grid　layout　のが作成された背景
 
 

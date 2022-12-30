@@ -101,6 +101,7 @@ git merge A-branch
 ```
 git branch --merged
 ```
+---
 
 #### OA AUTHに関しての考察
 

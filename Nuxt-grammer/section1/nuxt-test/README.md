@@ -169,8 +169,6 @@ composition API　のスニペット
 
 ```
 
-#### [名前、電話番号、メールアドレス、郵便番号等の最適なmaxlengthはいくつか調べてみた](https://kyogom.com/tech/design/maxlength/)
-- maxlengthの設定値の参考までに。
 
 ## Nuxt 学習 〜index〜
 - [RestAPIを参考にルーティングをつくる](https://github.com/worldwideweb13/typeScript/commit/ec0110205af6197c57d7a0d3d7c2db760c22bb7c)
@@ -225,3 +223,6 @@ Docker開発環構築時のトラブルシューティング。
 - grid　layout　のが作成された背景
 
 #### [フロントエンドエンジニアが知るべきキャッシュを理解する](https://zenn.dev/kaa_a_zu/articles/f1430cf681b185)
+
+#### [名前、電話番号、メールアドレス、郵便番号等の最適なmaxlengthはいくつか調べてみた](https://kyogom.com/tech/design/maxlength/)
+- maxlengthの設定値の参考までに。

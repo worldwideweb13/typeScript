@@ -104,30 +104,6 @@ git branch --merged
 ```
 ---
 
-#### OA AUTHに関しての考察
-
-1. クライアント(ユーザー端末)から認可サーバーにリクエストが飛ぶ。
-2. 認可サーバーからユーザーにソーシャルログインを初めてする際に、個人情報の認証許可を求める。
-3. ユーザーは認証許可に同意をして画面を進める
-4. 認可サーバーはクライアント（ユーザー端末）に許可証を受け渡す。
-5. クライアント（ユーザー端末）は許可証をもとにリソースサーバー（使いたいサービスを持っているサーバー）にアクセスする。
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/75665390/197398645-783e9932-3620-4dfb-b837-60c3ac61640e.png" />
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/75665390/197398585-c652aea3-15ad-4ba8-93a3-34c4d090536b.png" />
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/75665390/197398714-975e5f91-85a4-4328-8bde-f89c37de2796.png" />
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/75665390/197398739-9a55973b-034b-470d-ac59-3cbd7fb2b795.png" />
-</p>
-
 ### vue.jsのfluxフロー
 
 <p align="center">
@@ -226,3 +202,27 @@ Docker開発環構築時のトラブルシューティング。
 
 #### [名前、電話番号、メールアドレス、郵便番号等の最適なmaxlengthはいくつか調べてみた](https://kyogom.com/tech/design/maxlength/)
 - maxlengthの設定値の参考までに。
+
+#### OA AUTHに関しての考察
+
+1. クライアント(ユーザー端末)から認可サーバーにリクエストが飛ぶ。
+2. 認可サーバーからユーザーにソーシャルログインを初めてする際に、個人情報の認証許可を求める。
+3. ユーザーは認証許可に同意をして画面を進める
+4. 認可サーバーはクライアント（ユーザー端末）に許可証を受け渡す。
+5. クライアント（ユーザー端末）は許可証をもとにリソースサーバー（使いたいサービスを持っているサーバー）にアクセスする。
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/75665390/197398645-783e9932-3620-4dfb-b837-60c3ac61640e.png" />
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/75665390/197398585-c652aea3-15ad-4ba8-93a3-34c4d090536b.png" />
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/75665390/197398714-975e5f91-85a4-4328-8bde-f89c37de2796.png" />
+</p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/75665390/197398739-9a55973b-034b-470d-ac59-3cbd7fb2b795.png" />
+</p>

@@ -1,4 +1,4 @@
-# typeScript
+# typeScript学習ガイドライン
 
 ### 概要
 * 学習期間: 2022年4月~9月 

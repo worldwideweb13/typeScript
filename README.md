@@ -57,7 +57,6 @@ $ npm install --save express body-parser
 ```
 $ npm install --save-dev nodemon
 ```
- --
 
 * Node.js　express関数、型定義の読み込み　のため@typesをインストール　
 ```

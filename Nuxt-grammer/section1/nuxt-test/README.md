@@ -111,7 +111,6 @@ git branch --merged
   <img src="https://user-images.githubusercontent.com/75665390/200177768-0a27422a-379f-449b-bba5-7479b841bdf0.png" />
 </p>
 
----
 #### [Vue.js $emit 使わないで props で method 渡したほうが良くない？](https://techblog.roxx.co.jp/entry/2020/07/09/092955)
 
 #### [GULP 学習コンテンツ](https://note.com/ichikun_/n/n3aa2c5f59725)

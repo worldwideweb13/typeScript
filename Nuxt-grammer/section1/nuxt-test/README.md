@@ -199,7 +199,7 @@ yarn
 #### バージョン管理ファイル
 - `package.json` ... プロジェクトファイルを動かす上で必要となるライブラリーや言語のバージョン情報
 - `yarn.lock` `package-lock.json`...package.jsonに記載されているバージョン情報をもとにローカルPCの開発環境のバージョン情報を更新した記録ファイル。
-参考
+- 参考
 https://zenn.dev/luvmini511/articles/56bf98f0d398a5
 
 ### CSS Grid まとめ

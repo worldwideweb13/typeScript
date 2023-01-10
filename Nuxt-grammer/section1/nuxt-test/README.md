@@ -196,6 +196,12 @@ yarn
 #### [テスト仕様書の注意事項](https://qiita.com/nacho0707/items/296471d649d5baf825b7)
  - 操作方法を明確にすること
 
+
+package.json ... プロジェクトファイルを動かす上で必要となるライブラリーや言語のバージョン情報
+yarn.lock  package-lock.json ...package.jsonに記載されているバージョン情報をもとにローカルPCの開発環境のバージョン情報を更新した記録ファイル。
+参考
+https://zenn.dev/luvmini511/articles/56bf98f0d398a5
+
 ### CSS Grid まとめ
 
 #### [「CSSグリッド」とは？基礎と使い方を解説](https://ferret-plus.com/8351)

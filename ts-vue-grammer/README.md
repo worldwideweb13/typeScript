@@ -123,3 +123,4 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
 
 ## その他の学び
 - [Vue-good-table](https://www.kabanoki.net/3230/)
+- vue-good-table...vueで使えるテーブルのソート機能などを付属したライブラリー

@@ -119,3 +119,6 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
 -  [Transitionによるアニメーション](https://github.com/worldwideweb13/typeScript/commit/e43824b7d330658ad5de3dfc047d2ac9a7d3d05b)
 -  [Modalのアニメーション](https://github.com/worldwideweb13/typeScript/commit/9679a6797b3667687761f61523cdccccefbb845e)
 -  [Listのアニメーション](https://github.com/worldwideweb13/typeScript/commit/884f42b232e2f800ea12eaa0fb865899d82c63b7)
+
+
+## その他の学び

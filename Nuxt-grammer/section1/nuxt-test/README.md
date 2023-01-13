@@ -83,11 +83,11 @@ currentLatLng.value = {name: 'new object'}
 [it stash apply でエラーが出た時の対処法](https://honobonolab.com/git-stash-apply-error/)
 - `git stash` → `pop` する際に、untrackedのファイルと同名ファイルが存在する時などに戻せなくなる事象の対応方法。
 - stash したファイルもmergeすることが可能。以下の手順で対応
-
-```terminal
+- stashしたファイルのmerge
+```
 git merge "stash@{0}"
 ```
-
+- マージコミットが生成されるので、マージコミットを取り消し
 ```
 git reset --soft head^
 ```

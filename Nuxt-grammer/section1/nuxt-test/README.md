@@ -80,6 +80,8 @@ currentLatLng.value = {name: 'new object'}
 ---
 
 ### GitHub
+[it stash apply でエラーが出た時の対処法](https://honobonolab.com/git-stash-apply-error/)
+
 
 
 - [Git で 誤って master ブランチを編集してしまったとき](https://qiita.com/Salinger/items/839a6f467e27235cabc3)

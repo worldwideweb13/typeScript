@@ -81,7 +81,8 @@ currentLatLng.value = {name: 'new object'}
 
 ### GitHub
 [it stash apply でエラーが出た時の対処法](https://honobonolab.com/git-stash-apply-error/)
-
+- `git stash` → `pop` する際に、untrackedのファイルと同名ファイルが存在する時などに戻せなくなる事象の対応方法。
+一番簡単だった方法がstash したファイルをmerge するだった。
 
 
 - [Git で 誤って master ブランチを編集してしまったとき](https://qiita.com/Salinger/items/839a6f467e27235cabc3)

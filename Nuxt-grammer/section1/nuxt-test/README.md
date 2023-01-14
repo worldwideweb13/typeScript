@@ -92,8 +92,6 @@ git merge "stash@{0}"
 git reset --soft head^
 ```
 
-
-
 - [Git で 誤って master ブランチを編集してしまったとき](https://qiita.com/Salinger/items/839a6f467e27235cabc3)
 #### gitHub branchの変更を他のbranchにpullする手順
 - 想定される手順...Aさんの作業ブランチを自分が作業しているbranchBに取り込みたい。
@@ -120,14 +118,13 @@ git branch --merged
 ```
 ---
 
-
+### 学びになった記事まとめ
 
 #### vue.jsのfluxフロー
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75665390/200177768-0a27422a-379f-449b-bba5-7479b841bdf0.png" />
 </p>
-
 
 #### [Vue.js $emit 使わないで props で method 渡したほうが良くない？](https://techblog.roxx.co.jp/entry/2020/07/09/092955)
 
@@ -184,7 +181,6 @@ Docker開発環構築時のトラブルシューティング。
 `make db_upgrade` でDBを最新化
 
 ## その他の学び
-
 
 #### [redisサーバー](https://www.fenet.jp/infla/column/technology/redis%E3%81%A8%E3%81%AF%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%EF%BC%9F3%E3%81%A4%E3%81%AE%E7%89%B9%E5%BE%B4%E3%82%84%E4%BD%BF%E3%81%84/#:~:text=Redis%E3%81%A8%E3%81%AF%E3%80%81Key%2DValue%E3%82%B9%E3%83%88%E3%82%A2%E3%81%A8%E3%81%84%E3%81%86%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AA%E3%81%AE,%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%80%82)
 

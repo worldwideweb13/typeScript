@@ -223,6 +223,9 @@ https://zenn.dev/luvmini511/articles/56bf98f0d398a5
 
 ### [背景（background）を2色にする](https://125naroom.com/web/3028)
 
+```css
+linear-gradient
+```
 
 ---
 ### OA AUTHに関しての考察

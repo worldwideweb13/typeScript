@@ -3,6 +3,9 @@
 基本的な文法、ミニマムのアプリケーション制作を行いました。
 Nuxt.js学習も本リポジトリに記載。Nuxt.jsの学習は[こちら](https://github.com/worldwideweb13/typeScript/tree/main/Nuxt-grammer/section1/nuxt-test)
 
+
+https://zenn.dev/azukiazusa/articles/676d88675e4e74
+
 # Vue 2 学習 
 - [v-modelを使ったフォーム作成](https://github.com/worldwideweb13/typeScript/commit/5ef7edfc933a74354d97fd497b43a3e1a9a783b8)
 - [method使用事例(フォームバリデーション)](https://github.com/worldwideweb13/typeScript/commit/bca6efc877afd7c16596ddf47e928d38f5109c5e)
@@ -75,7 +78,6 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
 - [getters](https://github.com/worldwideweb13/typeScript/commit/14340198d4bc8172601fd6656e1b51de1157bd14)
 - [mapヘルパー(mapActions)](https://github.com/worldwideweb13/typeScript/commit/30157e7b341ab4ff836dce2ce6e6c302e6d2d36e)
 - [モジュール分割と名前空間(namespace)](https://github.com/worldwideweb13/typeScript/commit/acc3b2ff305ab656bf8522b5941734d030b474ee)
-
 
 
 ## Recommended IDE Setup

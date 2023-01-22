@@ -1,6 +1,6 @@
 ## Nuxt学習で参考にしたサイト/メモ
 
-## Nuxt 学習 〜index〜
+### Nuxt 学習 〜index〜
 - [RestAPIを参考にルーティングをつくる](https://github.com/worldwideweb13/typeScript/commit/ec0110205af6197c57d7a0d3d7c2db760c22bb7c)
 - [テーブルをつくりリンクを張ってみる]()
 - [Vue.js devtools (GoogleChrome拡張機能)]()

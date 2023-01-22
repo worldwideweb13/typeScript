@@ -1,5 +1,14 @@
 ## Nuxt学習で参考にしたサイト/メモ
 
+## Nuxt 学習 〜index〜
+- [RestAPIを参考にルーティングをつくる](https://github.com/worldwideweb13/typeScript/commit/ec0110205af6197c57d7a0d3d7c2db760c22bb7c)
+- [テーブルをつくりリンクを張ってみる]()
+- [Vue.js devtools (GoogleChrome拡張機能)]()
+- [テーブルをつくりリンクを張ってみる]()
+- [オートインポート機能]()
+- [フォルダ名なしでオートインポートする方法]()
+- [ルーティング Nuxtの場合]()
+
 #### `v-if`と`v-show`の使い分け
 - レンダリングをコントロールしていて、タグ自体の有無を操作している
 - cssをコントロールしていて、display:noneのオンオフを行う
@@ -163,15 +172,6 @@ composition API　のスニペット
 }
 
 ```
-
-## Nuxt 学習 〜index〜
-- [RestAPIを参考にルーティングをつくる](https://github.com/worldwideweb13/typeScript/commit/ec0110205af6197c57d7a0d3d7c2db760c22bb7c)
-- [テーブルをつくりリンクを張ってみる]()
-- [Vue.js devtools (GoogleChrome拡張機能)]()
-- [テーブルをつくりリンクを張ってみる]()
-- [オートインポート機能]()
-- [フォルダ名なしでオートインポートする方法]()
-- [ルーティング Nuxtの場合]()
 
 Docker開発環構築時のトラブルシューティング。
 - コンテナ作成直後は、初期化スクリプトが色々走っている

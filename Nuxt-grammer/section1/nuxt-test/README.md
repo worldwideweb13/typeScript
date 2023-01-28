@@ -65,7 +65,9 @@ currentLatLng.value = {name: 'new object'}
 <span v-if="index != Object.keys(person).length - 1">
 
 ```
+
 ---
+### 
 
 #### VeeValidate...Vueで使えるvalidationライブラリー
 [VeeValidateでVue.js用の超便利なバリデーションを実装する](https://www.kabanoki.net/4955/)

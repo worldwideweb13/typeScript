@@ -25,6 +25,7 @@
 ```
 
 #### [Vue.jsで孫 → 親コンポーネントへの値の受け渡しを楽に行う方法](https://zenn.dev/k_kudo/articles/5e60caba140ad7)
+#### [Vue.jsで、親コンポーネントからもらった変数を子コンポーネントで更新したいときの対処法]https://qiita.com/masatomix/items/ab4f0488083554f5fceb
 
 #### [Vue.jsで、親コンポーネントからもらった変数を子コンポーネントで更新したいときの対処法](https://qiita.com/masatomix/items/ab4f0488083554f5fceb)
 

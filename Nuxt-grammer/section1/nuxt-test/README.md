@@ -66,9 +66,6 @@ currentLatLng.value = {name: 'new object'}
 
 ```
 
----
-### 
-
 #### VeeValidate...Vueで使えるvalidationライブラリー
 [VeeValidateでVue.js用の超便利なバリデーションを実装する](https://www.kabanoki.net/4955/)
 [validation-observer,validation-providerの使い方基礎](https://sakitadaiki.hatenablog.com/entry/2021/04/07/112440)

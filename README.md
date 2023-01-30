@@ -67,3 +67,5 @@ $ npm install --save-dev @types/express
 ```
 $ npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-loader
 ```
+
+### tsc のtips

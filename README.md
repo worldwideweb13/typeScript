@@ -69,4 +69,10 @@ $ npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-l
 ```
 
 ### tsc のtips
-- Data Typeに
+- Data Typeに必須ではないオブジェクトを設定したい時
+
+```tsc
+type Data = {
+ label? : string,
+}
+```

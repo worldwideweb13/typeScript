@@ -70,8 +70,7 @@ $ npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-l
 
 ### tsc のtips
 - Data Typeに必須ではないオブジェクトを設定したい時
-- `key?:`にすることで、必須ではない型（必ず必要ではない変数）になる。
-- `key?:`にすることで、必須ではない型になる。
+- `key?:`にすることで、必須ではない型（必ず必要ではないプロパティ）になる。
 
 ```vue
 type Data = {

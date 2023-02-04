@@ -24,10 +24,10 @@
  const countRef = ref(0) // 追加
 ```
 
-#### [Vue.jsで孫 → 親コンポーネントへの値の受け渡しを楽に行う方法](https://zenn.dev/k_kudo/articles/5e60caba140ad7)
-#### [Vue.jsで、親コンポーネントからもらった変数を子コンポーネントで更新したいときの対処法](https://qiita.com/masatomix/items/ab4f0488083554f5fceb)
-#### [Vue.jsで、親コンポーネントからもらった変数を子コンポーネントで更新したいときの対処法](https://qiita.com/masatomix/items/ab4f0488083554f5fceb)
-#### [Vue3のComposition APIをつかって既存のVueコンポーネントを書き換えてみた](https://note.com/mizutory/n/n59ecb2aeb0a3)
+- [Vue.jsで孫 → 親コンポーネントへの値の受け渡しを楽に行う方法](https://zenn.dev/k_kudo/articles/5e60caba140ad7)
+- [Vue.jsで、親コンポーネントからもらった変数を子コンポーネントで更新したいときの対処法](https://qiita.com/masatomix/items/ab4f0488083554f5fceb)
+- [Vue.jsで、親コンポーネントからもらった変数を子コンポーネントで更新したいときの対処法](https://qiita.com/masatomix/items/ab4f0488083554f5fceb)
+- [Vue3のComposition APIをつかって既存のVueコンポーネントを書き換えてみた](https://note.com/mizutory/n/n59ecb2aeb0a3)
   - vue.jsで変数の変更などが会った時に、画面表示も変更するようにしたい場合、リアクティブな値として扱う必要がある。
   - リアクティブな値 = `ref(),reactive()` で囲われた変数、配列。
   - setup関数内でのrefとreactiveの使い分け、リアクティブな要素に値を入れ直す時の方法.以下を参照。

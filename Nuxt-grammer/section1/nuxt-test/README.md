@@ -136,8 +136,8 @@ git branch --merged
 ### 学びになった記事まとめ
 ---
 
-#### vue.jsのfluxフロー
 
+- vue.jsのfluxフロー
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75665390/200177768-0a27422a-379f-449b-bba5-7479b841bdf0.png" />
 </p>

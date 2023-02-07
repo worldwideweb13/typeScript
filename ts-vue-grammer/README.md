@@ -125,5 +125,6 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
 - [Vue-good-table](https://www.kabanoki.net/3230/)
   - vue-good-table...vueで使えるテーブルのソート機能などを付属したライブラリー
 - [`<script setup>` 構文がすごくすごい](https://zenn.dev/azukiazusa/articles/676d88675e4e74)
+  - vue2, vue2＋compositionAPIとVue3-setup構文の書き方比較 
 - [Vue.jsでウィンドウサイズ(デバイス幅)変更を検知する方法](https://devsakaso.com/vue-js-watch-window-resize/)
  - 画面サイズ幅を検知して、表示するhtml要素を変える。以下でできそう。

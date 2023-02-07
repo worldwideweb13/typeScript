@@ -3,7 +3,6 @@
 基本的な文法、ミニマムのアプリケーション制作を行いました。
 Nuxt.js学習も本リポジトリに記載。Nuxt.jsの学習は[こちら](https://github.com/worldwideweb13/typeScript/tree/main/Nuxt-grammer/section1/nuxt-test)
 
-[`<script setup>` 構文がすごくすごい](https://zenn.dev/azukiazusa/articles/676d88675e4e74)
 
 # Vue 2 学習 
 - [v-modelを使ったフォーム作成](https://github.com/worldwideweb13/typeScript/commit/5ef7edfc933a74354d97fd497b43a3e1a9a783b8)
@@ -125,6 +124,6 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
 ## その他の学び
 - [Vue-good-table](https://www.kabanoki.net/3230/)
   - vue-good-table...vueで使えるテーブルのソート機能などを付属したライブラリー
-  
-- [](https://devsakaso.com/vue-js-watch-window-resize/)
+- [`<script setup>` 構文がすごくすごい](https://zenn.dev/azukiazusa/articles/676d88675e4e74)
+- [Vue.jsでウィンドウサイズ(デバイス幅)変更を検知する方法](https://devsakaso.com/vue-js-watch-window-resize/)
  - 画面サイズ幅を検知して、表示するhtml要素を変える。以下でできそう。

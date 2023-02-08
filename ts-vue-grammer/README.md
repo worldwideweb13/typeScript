@@ -127,6 +127,6 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
 - [`<script setup>` 構文がすごくすごい](https://zenn.dev/azukiazusa/articles/676d88675e4e74)
   - vue2, vue2＋compositionAPIとVue3-setup構文の書き方比較 
 - [Vue.jsでウィンドウサイズ(デバイス幅)変更を検知する方法](https://devsakaso.com/vue-js-watch-window-resize/)
- - 画面サイズ幅を検知して、表示するhtml要素を変える。以下でできそう。
+  - 画面サイズ幅を検知して、表示するhtml要素を変える。以下でできそう。
 - [Vuetify.js 2.2のMenu, Tooltipコンポーネントについて](https://qiita.com/rubytomato@github/items/9bd8dc197f9ab406bead)
- - vuetify の`<v-menu>`の使い方がGIF画像付きなので、直感的に参考になった。
+  - vuetify の`<v-menu>`の使い方がGIF画像付きなので、直感的に参考になった。

@@ -233,8 +233,8 @@ https://zenn.dev/luvmini511/articles/56bf98f0d398a5
 - [とうとうやってきた！CSSの新しいレイアウトモジュール「CSS Grid」って？](https://ferret-plus.com/6971?under_ct)
   - grid　layout　のが作成された背景
 - [フロントエンドエンジニアが知るべきキャッシュを理解する](https://zenn.dev/kaa_a_zu/articles/f1430cf681b185)
-#### [名前、電話番号、メールアドレス、郵便番号等の最適なmaxlengthはいくつか調べてみた](https://kyogom.com/tech/design/maxlength/)
-- maxlengthの設定値の参考までに。
+- [名前、電話番号、メールアドレス、郵便番号等の最適なmaxlengthはいくつか調べてみた](https://kyogom.com/tech/design/maxlength/)
+  - maxlengthの設定値の参考までに。
 
 #### [背景（background）を2色にする](https://125naroom.com/web/3028)
 - `linear-gradient` を使う。

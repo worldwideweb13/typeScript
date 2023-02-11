@@ -189,8 +189,7 @@ Docker開発環構築時のトラブルシューティング。
 
 ## その他の学び
 
-#### 
-[Container/Presentationalパターン再入門](https://zenn.dev/kazu777/articles/9460c75b7cd8d1)
+- [Container/Presentationalパターン再入門](https://zenn.dev/kazu777/articles/9460c75b7cd8d1)
  - Conteiner : 内部ロジック(API,)
  - Presentational : 外見に関して関心を持つ
 

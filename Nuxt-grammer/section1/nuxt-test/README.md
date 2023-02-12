@@ -83,8 +83,8 @@ currentLatLng.value = {name: 'new object'}
  this.$router.push({ path: `users/999` });
  ```
  
-#### VueRouterを使ったButtonコンポーネントのリンク先の記述の仕方...`$router.push`を使う
- - 関数`() => {}`の`{}`を省略して、リンク先のみを直接`button`タグ内に記述
+- VueRouterを使ったButtonコンポーネントのリンク先の記述の仕方...`$router.push`を使う
+  - 関数`() => {}`の`{}`を省略して、リンク先のみを直接`button`タグ内に記述
 ```Vue.js
   <Button label="ページ２へ" @click="() => $router.push('/page02')" />
 ```

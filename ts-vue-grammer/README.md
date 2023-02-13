@@ -133,6 +133,6 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
 - [スクロール中だけスタイルを適用する方法](https://lab.syncer.jp/Web/JavaScript/Snippet/56/)
   - ヘッダーメニューでスクロール中だけ、ヘッダーを透過させる時などに使う。
   - JS全般でスクロールの検知は可能だが、スクロールが終了の検知は不可
+  - そのため、スクロールイベント検知時に実行する関数内で、`setcleartimeout`関数を実行する
 
 -  [ダイアログとテレポート](https://github.com/worldwideweb13/typeScript/commit/5aa9b472add0a12bb5bc7017cfaa0c913f238597)。
--  [ダイアログとテレポート](https://github.com/worldwideweb13/typeScript/commit/5aa9b472add0a12bb5bc7017cfaa0c913f238597)

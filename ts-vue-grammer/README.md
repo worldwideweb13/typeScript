@@ -130,3 +130,4 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
   - 画面サイズ幅を検知して、表示するhtml要素を変える。以下でできそう。
 - [Vuetify.js 2.2のMenu, Tooltipコンポーネントについて](https://qiita.com/rubytomato@github/items/9bd8dc197f9ab406bead)
   - vuetify の`<v-menu>`の使い方がGIF画像付きなので、直感的に参考になった。
+- [スクロール中だけスタイルを適用する方法](https://lab.syncer.jp/Web/JavaScript/Snippet/56/)

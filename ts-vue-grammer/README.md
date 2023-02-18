@@ -140,4 +140,4 @@ Named slot...複数のslotを使用
 scoped slot...親から子の持っているプロパティを扱う(親で子の表示するものを絞りたいetc)
 
 - [プルリクエストの内容をローカル環境で稼働確認する(github)](https://qiita.com/great084/items/ad74dd064a2c2bc47cff)
--  [ダイアログとテレポート](https://github.com/worldwideweb13/typeScript/commit/5aa9b472add0a12bb5bc7017cfaa0c913f238597)。
+-  [ダイアログとテレポート](https://github.com/worldwideweb13/typeScript/commit/5aa9b472add0a12bb5bc7017cfaa0c913f238597)

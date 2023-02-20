@@ -135,10 +135,10 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
   - JS全般でスクロールの検知は可能だが、スクロールが終了の検知は不可
   - そのため、スクロールイベント検知時に実行する関数内で、`setcleartimeout`関数を実行する
 
-### slot
+## slot
 - [slot ...親から子にコンテンツを渡して表示](https://www.youtube.com/watch?v=oT3uIVKhoGQ)
 - [Named slot...複数のslotを使用](https://www.youtube.com/watch?v=2ZlqA60WOJA)
 - [scoped slot...親から子の持っているプロパティを扱う(親で子の表示するものを絞りたいetc)](https://www.youtube.com/watch?v=lX4h6i-xSHk)
 
 - [プルリクエストの内容をローカル環境で稼働確認する(github)](https://qiita.com/great084/items/ad74dd064a2c2bc47cff)
--  [ダイアログとテレポート](https://github.com/worldwideweb13/typeScript/commit/5aa9b472add0a12bb5bc7017cfaa0c913f238597)
+- [ダイアログとテレポート](https://github.com/worldwideweb13/typeScript/commit/5aa9b472add0a12bb5bc7017cfaa0c913f238597)

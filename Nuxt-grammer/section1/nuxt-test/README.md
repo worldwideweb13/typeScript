@@ -228,8 +228,7 @@ vuetify の<v-menu>の使い方がGIF画像付きなので、直感的に参考�
 - 参考
 https://zenn.dev/luvmini511/articles/56bf98f0d398a5
 
-### CSS Grid まとめ
-
+#### CSS Grid まとめ
 - [「CSSグリッド」とは？基礎と使い方を解説](https://ferret-plus.com/8351)
   - grid　layout　の基本的な使い方
 - [とうとうやってきた！CSSの新しいレイアウトモジュール「CSS Grid」って？](https://ferret-plus.com/6971?under_ct)
@@ -240,6 +239,11 @@ https://zenn.dev/luvmini511/articles/56bf98f0d398a5
 
 #### [背景（background）を2色にする](https://125naroom.com/web/3028)
 - `linear-gradient` を使う。
+
+
+#### Open API Generator
+- PHP Conference Japan 2022: OpenAPIで楽に始めるスキーマ駆動開発実… / Taki Komiyama
+
 
 ---
 ### OA AUTHに関しての考察

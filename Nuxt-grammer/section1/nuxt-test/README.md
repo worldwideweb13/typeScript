@@ -129,8 +129,8 @@ git branch --merged
 ```
 ---
 
-[Git用語：上流ブランチとは？](https://www-creators.com/archives/4931)
-- リモート追跡ブランチが存在するからといって、同名のローカルブランチの上流ブランチが設定済みとは限らない
+- [Git用語：上流ブランチとは？](https://www-creators.com/archives/4931)
+  - リモート追跡ブランチが存在するからといって、同名のローカルブランチの上流ブランチが設定済みとは限らない
 
 [プルリクエストの内容をローカル環境で稼働確認する(github)](https://qiita.com/great084/items/ad74dd064a2c2bc47cff])
 - 同じチーム内メンバーのプルリクに対しての操作

@@ -243,7 +243,7 @@ https://zenn.dev/luvmini511/articles/56bf98f0d398a5
 
 #### Open API Generator
 - [PHP Conference Japan 2022: OpenAPIで楽に始めるスキーマ駆動開発実… / Taki Komiyama](https://www.youtube.com/watch?v=JBHeKc17KbM)
-
+  - open APIの概要。何を目的としたサービスで何ができるかを説明してくれている。
 
 ---
 ### OA AUTHに関しての考察

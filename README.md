@@ -76,3 +76,15 @@ type Data = {
  label? : string,
 }
 ```
+
+### 型の宣言
+
+#### 配列
+- stringかnumberが入る配列の宣言
+```tsc
+export type Data = {
+  numOrStringArray: Array<number | string>
+}
+```
+
+

@@ -89,7 +89,7 @@ export type Data = {
 - stringが入る配列 or numberが入る配列　の宣言方法
 ```vue
 export type Data = {
-  numOrStringArray: string | number[]
+  numArrayOrStringArray: string | number[]
 }
 ```
 

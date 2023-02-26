@@ -81,9 +81,15 @@ type Data = {
 
 #### 配列
 - stringかnumberが入る配列の宣言
-```tsc
+```vue
 export type Data = {
   numOrStringArray: Array<number | string>
+}
+```
+- stringが入る配列 or numberが入る配列　の宣言方法
+```vue
+export type Data = {
+  numOrStringArray: string | number[]
 }
 ```
 

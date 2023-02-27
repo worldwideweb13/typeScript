@@ -146,9 +146,9 @@ git branch --merged
 
 - [Vue.js $emit 使わないで props で method 渡したほうが良くない？](https://techblog.roxx.co.jp/entry/2020/07/09/092955)
 
-#### [GULP 学習コンテンツ](https://note.com/ichikun_/n/n3aa2c5f59725)
-- アイコン(img)をアイコンフォントに変更するツール。
-- 画像、Saasなどの圧縮を行い、サイトの軽量化を図る。
+- [GULP 学習コンテンツ](https://note.com/ichikun_/n/n3aa2c5f59725)
+  - アイコン(img)をアイコンフォントに変更するツール。
+  - 画像、Saasなどの圧縮を行い、サイトの軽量化を図る。
 #### [【DartSass対応】どこよりも詳しいGulp 4環境構築【Mac編】](https://tips-web.net/gulp4-mac/)
 
 -  [Visual Studio Codeに定型文（スニペット）を登録する方法](https://slash-mochi.net/blog/2019/07/13/post-1978/)

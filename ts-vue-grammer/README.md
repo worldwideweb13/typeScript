@@ -135,6 +135,7 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
   - JS全般でスクロールの検知は可能だが、スクロールが終了の検知は不可
   - そのため、スクロールイベント検知時に実行する関数内で、`setcleartimeout`関数を実行する
 - [【Nuxt.js v2】ボタン押下で入力フォームを追加する](https://zenn.dev/kokota/articles/d6a31d25ad5c10)
+  - Vue.jsで＋ボタンを押下した時に入力フォームが追加される挙動
 
 ## slot
 - [slot ...親から子にコンテンツを渡して表示](https://www.youtube.com/watch?v=oT3uIVKhoGQ)

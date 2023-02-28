@@ -134,6 +134,7 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
   - ヘッダーメニューでスクロール中だけ、ヘッダーを透過させる時などに使う。
   - JS全般でスクロールの検知は可能だが、スクロールが終了の検知は不可
   - そのため、スクロールイベント検知時に実行する関数内で、`setcleartimeout`関数を実行する
+- https://zenn.dev/kokota/articles/d6a31d25ad5c10
 
 ## slot
 - [slot ...親から子にコンテンツを渡して表示](https://www.youtube.com/watch?v=oT3uIVKhoGQ)

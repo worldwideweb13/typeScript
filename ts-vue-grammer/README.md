@@ -136,6 +136,10 @@ SPAの本の検索アプリを実装。以下の機能を実装。機能単位�
   - そのため、スクロールイベント検知時に実行する関数内で、`setcleartimeout`関数を実行する
 - [【Nuxt.js v2】ボタン押下で入力フォームを追加する](https://zenn.dev/kokota/articles/d6a31d25ad5c10)
   - Vue.jsで＋ボタンを押下した時に入力フォームが追加される挙動
+OPEN API GENERATORのコマンド
+```
+curl https://techful-plus-staging.an.r.appspot.com/openapi.json > build/openapi.json && yarn generate-typescript-axios
+```
 
 ## slot
 - [slot ...親から子にコンテンツを渡して表示](https://www.youtube.com/watch?v=oT3uIVKhoGQ)

@@ -131,7 +131,6 @@ git branch --merged
 
 - [Git用語：上流ブランチとは？](https://www-creators.com/archives/4931)
   - リモート追跡ブランチが存在するからといって、同名のローカルブランチの上流ブランチが設定済みとは限らない
-
 - [プルリクエストの内容をローカル環境で稼働確認する(github)](https://qiita.com/great084/items/ad74dd064a2c2bc47cff])
   - 同じチーム内メンバーのプルリクに対しての操作
   - チームメンバーが作成したブランチのプルリク状態のソースを自分のローカルブランチに持ってくる方法
@@ -226,6 +225,8 @@ vuetify の<v-menu>の使い方がGIF画像付きなので、直感的に参考�
 - `yarn.lock` `package-lock.json`...package.jsonに記載されているバージョン情報をもとにローカルPCの開発環境のバージョン情報を更新した記録ファイル。
 - 参考
 https://zenn.dev/luvmini511/articles/56bf98f0d398a5
+
+- Vue3 Composition APIにおいて、Providerパターン(provide/inject)の使い方と、なぜ重要なのか、理解する。
 
 #### CSS Grid まとめ
 - [「CSSグリッド」とは？基礎と使い方を解説](https://ferret-plus.com/8351)

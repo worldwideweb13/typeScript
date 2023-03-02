@@ -226,7 +226,7 @@ vuetify の<v-menu>の使い方がGIF画像付きなので、直感的に参考�
 - 参考
 https://zenn.dev/luvmini511/articles/56bf98f0d398a5
 
-- Vue3 Composition APIにおいて、Providerパターン(provide/inject)の使い方と、なぜ重要なのか、理解する。
+- [Vue3 Composition APIにおいて、Providerパターン(provide/inject)の使い方と、なぜ重要なのか、理解する。](https://qiita.com/karamage/items/4bc90f637487d3fcecf0)
 
 #### CSS Grid まとめ
 - [「CSSグリッド」とは？基礎と使い方を解説](https://ferret-plus.com/8351)

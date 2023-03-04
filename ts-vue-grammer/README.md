@@ -54,7 +54,7 @@ Nuxt.js学習も本リポジトリに記載。Nuxt.jsの学習は[こちら](htt
     - 本のお気に入り登録
     - メモ機能
     - お気に入り登録解除
-使用技術: [vertify](https://vuetifyjs.com/ja/),[vue router](https://router.vuejs.org/), [Google Books API](https://developers.google.com/books)
+    - 使用技術: [vertify](https://vuetifyjs.com/ja/),[vue router](https://router.vuejs.org/), [Google Books API](https://developers.google.com/books)
 - [Google Books API](https://github.com/worldwideweb13/typeScript/commit/5c6cd61e2fcf8d0e2c0c312e54fc9bf64ffc38d6)
 - [Local Storage](https://github.com/worldwideweb13/typeScript/commit/24fa218ac0c4c8a40319dc3b6bff3b9565800b33)
 - [Vuetifyのインストール(vue add)](https://github.com/worldwideweb13/typeScript/commit/b9213f5c4e8e0b995f8a4dee7c0b596014ca38e6)

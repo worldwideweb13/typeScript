@@ -42,10 +42,12 @@ $ tsc -w
 [本アプリケーション](ts-node)は、ExpressにてCRUD処理を実装したアプリケーションになります。[Postman](https://www.postman.com/)にて動作確認を行いました。
 
 * プロジェクトファイルに package.json の作成 / typeScriptpプロジェクトとして初期化　※ [tsconfig.json](typeScript/ts-node/tsconfig.json) の設定はソース参照。
+
 ```
 $ npm init
 $ tsc --init
 ```
+
 * expressフレームワーク/ body-parser のインストール　。　　body-parserはexpressサーバーで受け取ったリクエストパラメーターをパースするためのパッケージ
 ```
 $ npm install --save express body-parser

@@ -95,3 +95,10 @@ export type Data = {
 ```
 
 
+```tsc
+  const array = _objArr
+    .filter((obj) => obj.startsAt !== undefined && obj.endsAt !== undefined)
+    .map((obj) => ({ startsAt: obj.startsAt!, endsAt: obj.endsAt! }));
+```
+
+

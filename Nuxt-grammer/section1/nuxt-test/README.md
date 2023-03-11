@@ -3,7 +3,6 @@
 
 
  - [RestAPIを参考にルーティングをつくる](https://github.com/worldwideweb13/typeScript/commit/ec0110205af6197c57d7a0d3d7c2db760c22bb7c)
- - [テーブルをつくりリンクを張ってみる]()
 - [テーブルをつくりリンクを張ってみる]()
 - [オートインポート機能]()
 - [フォルダ名なしでオートインポートする方法]()

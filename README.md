@@ -101,4 +101,4 @@ export type Data = {
     .map((obj) => ({ startsAt: obj.startsAt!, endsAt: obj.endsAt! }));
 ```
 
-https://qiita.com/00__/items/5259bda7c6b2462b4beb
+[[Vue.js] propsでnullが入ることも想定した書き方](https://qiita.com/00__/items/5259bda7c6b2462b4beb)

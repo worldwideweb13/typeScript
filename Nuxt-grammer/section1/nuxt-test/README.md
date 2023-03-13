@@ -206,7 +206,10 @@ vuetify の<v-menu>の使い方がGIF画像付きなので、直感的に参考�
 - Promise.all([①,②,③])
 
 
-[Vue3 Composition APIにおいて、Providerパターン(provide/inject)の使い方と、なぜ重要なのか、理解する。](https://qiita.com/karamage/items/4bc90f637487d3fcecf0)
+- [Vue3 Composition APIにおいて、Providerパターン(provide/inject)の使い方と、なぜ重要なのか、理解する。](https://qiita.com/karamage/items/4bc90f637487d3fcecf0)
+https://www.webdesignleaves.com/pr/plugins/vue-basic-02.html
+
+
 
 #### [Array.prototype.includes(string)　](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 - 却り値: boolean(true or false)

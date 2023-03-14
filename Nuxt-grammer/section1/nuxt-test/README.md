@@ -211,6 +211,11 @@ vuetify の<v-menu>の使い方がGIF画像付きなので、直感的に参考�
 https://www.webdesignleaves.com/pr/plugins/vue-basic-02.html
 
 ```ts
+ 
+import { useRouter } from '@nuxtjs/composition-api';
+  
+const router = useRouter();
+  
             router.push({
               path: PAGE_URL.company.job.url,
             });

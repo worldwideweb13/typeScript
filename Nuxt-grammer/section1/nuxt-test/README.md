@@ -225,6 +225,14 @@ const router = useRouter();
 - `$auth`の使い方
 ```ts
 import { useContext } from '@vue/composition-api';
+
+export default {
+  setup() {
+    const { Auth } = useContext();
+    // Authを使用して認証情報を取得する処理を記述する
+  }
+}
+  
 ```
 
 

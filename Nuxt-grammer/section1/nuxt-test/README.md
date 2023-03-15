@@ -222,8 +222,10 @@ const router = useRouter();
 
 ```
 
+- `$auth`の使い方
+```ts
 import { useContext } from '@vue/composition-api';
-
+```
 
 
 #### [Array.prototype.includes(string)　](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)

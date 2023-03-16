@@ -236,6 +236,22 @@ export default {
   
 ```
 
+- `watch`関数についての注意事項
+
+```
+
+  setup(props) {
+    const { jobFormValues } = inject(JobCreatePageKey) as JobCreatePageStore;
+    watch(
+      () => props.organizationInfo,
+      (newValue, _) => {
+        jobFormValues.organizationId = newValue.organizationId;
+        jobFormValues.organizationName = newValue.organizationName;
+      },
+      { deep: true }
+    );
+
+```
 
 #### [Array.prototype.includes(string)　](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 - 却り値: boolean(true or false)

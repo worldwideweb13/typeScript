@@ -238,18 +238,23 @@ export default {
 
 - `watch`関数についての注意事項
 
-```
+```ts
+setup(props) {
 
-  setup(props) {
-    const { jobFormValues } = inject(JobCreatePageKey) as JobCreatePageStore;
-    watch(
-      () => props.organizationInfo,
-      (newValue, _) => {
-        jobFormValues.organizationId = newValue.organizationId;
-        jobFormValues.organizationName = newValue.organizationName;
-      },
-      { deep: true }
-    );
+  const objectValue = reactive({
+    propertyA : string
+    propertyB : string  
+  })
+  
+  
+  watch(
+    () => props.objectName,
+    (newValue, _) => {
+      objectValue.propertyA = newValue.organizationId;
+      objectValue.propertyB = newValue.organizationName;
+    },
+    { deep: true }
+  );
 
 ```
 

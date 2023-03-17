@@ -258,6 +258,9 @@ setup(props) {
 
 ```
 
+- オブジェクト型の値の変更を監視するには、第３引数の`deep`を使う必要がある。
+
+
 #### [Array.prototype.includes(string)　](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 - 却り値: boolean(true or false)
 - Array(配列)に　文字列(string)の値が入っているかを検索。

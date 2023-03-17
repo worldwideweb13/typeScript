@@ -221,7 +221,8 @@ const router = useRouter();
 
 
 ```
-
+  
+  
 - `$auth`の使い方
 ```ts
 import { useContext } from '@vue/composition-api';

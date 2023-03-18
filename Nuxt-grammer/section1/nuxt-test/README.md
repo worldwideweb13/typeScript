@@ -46,7 +46,7 @@ currentLatLng.value = {name: 'new object'}
         <li @click="isSelect('1')" v-bind:class="{'active': isActive === '1'}">All</li>
 ```
 
-...結論、タブ毎に違うコンテンツ(表や、テキストなど表示する内容を変えたい時に、slotを使う。)
+ - ...結論、タブ毎に違うコンテンツ(表や、テキストなど表示する内容を変えたい時に、slotを使う。)
 
 - [Vue-v-forループの最後の小道具にいるかどうかを確認する](https://www.web-dev-qa-db-ja.com/ja/vue.js/vuevfor%E3%83%AB%E3%83%BC%E3%83%97%E3%81%AE%E6%9C%80%E5%BE%8C%E3%81%AE%E5%B0%8F%E9%81%93%E5%85%B7%E3%81%AB%E3%81%84%E3%82%8B%E3%81%8B%E3%81%A9%E3%81%86%E3%81%8B%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B/831576229/)
 

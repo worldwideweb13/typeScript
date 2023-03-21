@@ -7,11 +7,6 @@
 - [オートインポート機能]()
 - [フォルダ名なしでオートインポートする方法]()
 - [ルーティング Nuxtの場合]()
--  `v-if`と`v-show`の使い分け
-    - レンダリングをコントロールしていて、タグ自体の有無を操作している
-    - cssをコントロールしていて、display:noneのオンオフを行う
-      → エラー文言のような１画面内で頻繁に表示非表示が切り替わる可能性のある箇所は, v-show を使うべきで、１度画面が表示されたら切り替わることのないところ（ラベルの有無など）を操作するような場合は v-ifを使う
-
 - [Vue.js 3.0のComposition APIを使ってみた](https://re-engines.com/2020/06/15/vue-composition-api/)
   - Vueのライフサイクルフック(ref,reactive)の使い方を主眼に解説。
   - 　reactiveな値にすることによって、値が変わった時に、自動で画面の表示内容を変えることができるようになる。
@@ -57,6 +52,10 @@ currentLatLng.value = {name: 'new object'}
 <span v-if="index != Object.keys(person).length - 1">
 
 ```
+-  `v-if`と`v-show`の使い分け
+    - レンダリングをコントロールしていて、タグ自体の有無を操作している
+    - cssをコントロールしていて、display:noneのオンオフを行う
+      → エラー文言のような１画面内で頻繁に表示非表示が切り替わる可能性のある箇所は, v-show を使うべきで、１度画面が表示されたら切り替わることのないところ（ラベルの有無など）を操作するような場合は v-ifを使う
 
 #### VeeValidate...Vueで使えるvalidationライブラリー
 - [VeeValidateでVue.js用の超便利なバリデーションを実装する](https://www.kabanoki.net/4955/)

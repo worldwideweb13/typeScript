@@ -236,6 +236,8 @@ export default {
 ```
 
 - `watch`関数についての注意事項
+  - 通常、watch関数を使う場合、変数の変更は監視できるが、オブジェクト型プロパティの中身の値の変更は検知することができない。
+  - オブジェクト型の値の変更を監視するには、第３引数の`deep`を使う必要がある。
 
 ```ts
 setup(props) {
@@ -256,8 +258,7 @@ setup(props) {
   );
 
 ```
-- 通常、watch関数を使う場合、変数の変更は監視できるが、オブジェクト型プロパティの中身の値の変更は検知することができない。
-- オブジェクト型の値の変更を監視するには、第３引数の`deep`を使う必要がある。
+
 
 #### [Array.prototype.includes(string)　](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 - 却り値: boolean(true or false)

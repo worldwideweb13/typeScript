@@ -29,9 +29,9 @@ currentLatLng.value = {name: 'new object'}
 
 - [RSCSSの概要](https://rfs.jp/sb/html-css/html-css-guide/rscss.html)
 　　- Components、Elements、Variants の３つのレイヤー毎に命名規則がある。
-   　　- component..."-" を使って単語を繋ぐ。cf(tab-component)
-   　　- Elements...コンポーネントレイヤー内で使われる単語のため、シンプルな記述で良い。基本は単語１つ。cf (body,text)
-   　　- Variants...既存のコンポーネントやエレメントと構成が同じで、見た目や機能が違うものを作りたい場合は、新規に作り直すのではなく、バリアントを使う。
+   - component..."-" を使って単語を繋ぐ。cf(tab-component)
+   - Elements...コンポーネントレイヤー内で使われる単語のため、シンプルな記述で良い。基本は単語１つ。cf (body,text)
+   - Variants...既存のコンポーネントやエレメントと構成が同じで、見た目や機能が違うものを作りたい場合は、新規に作り直すのではなく、バリアントを使う。
 
 - [【Vue.js】タブ切り替え](https://into-the-program.com/vue-tab/)
 以下の記述を参考に作成

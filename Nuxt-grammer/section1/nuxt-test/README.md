@@ -128,7 +128,6 @@ git branch --merged
   - チームメンバーが作成したブランチのプルリク状態のソースを自分のローカルブランチに持ってくる方法
 
 ## 学びになった記事まとめ
---
 
 - vue.jsのfluxフロー
 <p align="center">
@@ -217,7 +216,6 @@ const router = useRouter();
 
 
 ```
-  
   
 - `$auth`の使い方
 ```ts

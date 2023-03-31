@@ -266,8 +266,8 @@ setup(props) {
 
 #### [【Vue】エラー対処法：[Vue warn]: Property or method “〇〇” is not defined on the instance but referenced during render.](https://prograshi.com/language/vue-js/property-or-method-not-defined/)
 
-#### [テスト仕様書の注意事項](https://qiita.com/nacho0707/items/296471d649d5baf825b7)
- - 操作方法を明確にすること
+- [テスト仕様書の注意事項](https://qiita.com/nacho0707/items/296471d649d5baf825b7)
+  - 操作方法を明確にすること
 
 #### バージョン管理ファイル
 - `package.json` ... プロジェクトファイルを動かす上で必要となるライブラリーや言語のバージョン情報
@@ -276,7 +276,6 @@ setup(props) {
 - [Vue3 Composition APIにおいて、Providerパターン(provide/inject)の使い方と、なぜ重要なのか、理解する。](https://qiita.com/karamage/items/4bc90f637487d3fcecf0)
   - componentとしての独立性はなくなる。
   
-
 #### CSS Grid まとめ
 - [「CSSグリッド」とは？基礎と使い方を解説](https://ferret-plus.com/8351)
   - grid　layout　の基本的な使い方

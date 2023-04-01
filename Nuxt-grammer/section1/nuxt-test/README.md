@@ -214,7 +214,6 @@ const router = useRouter();
     path: PAGE_URL.company.job.url,
   });
 
-
 ```
   
 - `$auth`の使い方

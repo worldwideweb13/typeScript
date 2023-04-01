@@ -29,7 +29,6 @@ $ tsc -w
     * `npm install class-transformer --save`
     * `npm install reflect-metadata --save`
   * [class-validator](https://www.npmjs.com/package/class-validator) のインストール `npm install class-validator --save`
-
 * [TS-mapApp](typeScript/TS-mapApp)...キーワード検索でGoogleMapを表示します。GoogleMapAPI,typeScriptで作成しました。
   * 動作をさせる際は、axiosをインストールします。　`npm install --save axios`
   * 型定義`type GoogleGeocrdingResponse = {...}`は、[GoogleMapAPI公式のレスポンス定義](https://developers.google.com/maps/documentation/geocoding/requests-geocoding)を参考に作成

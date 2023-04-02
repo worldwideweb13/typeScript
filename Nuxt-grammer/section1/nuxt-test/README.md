@@ -190,9 +190,11 @@ vuetify の<v-menu>の使い方がGIF画像付きなので、直感的に参考�
 
 #### [redisサーバー](https://www.fenet.jp/infla/column/technology/redis%E3%81%A8%E3%81%AF%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%EF%BC%9F3%E3%81%A4%E3%81%AE%E7%89%B9%E5%BE%B4%E3%82%84%E4%BD%BF%E3%81%84/#:~:text=Redis%E3%81%A8%E3%81%AF%E3%80%81Key%2DValue%E3%82%B9%E3%83%88%E3%82%A2%E3%81%A8%E3%81%84%E3%81%86%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AA%E3%81%AE,%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%80%82)
 
-####  [複数のGitHubアカウントを使い分けたい時の設定方法とTips](https://zenn.dev/taichifukumoto/articles/how-to-use-multiple-github-accounts)
+#### [複数のGitHubアカウントを使い分けたい時の設定方法とTips](https://zenn.dev/taichifukumoto/articles/how-to-use-multiple-github-accounts)
 - vuertify...vuetifyをプロジェクトにインストール後、
 `<v-card> </v-card> ` を宣言して、必要なpropsを渡すことで利用可能。
+
+- MacにHomebrew経由でnodenvを導入する（＋PHPStorm対策）
 
 #### [nuxt-linkを使うメリット](https://webrandum.net/nuxt-link/#:~:text=%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82-,nuxt%2Dlink%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88,-%E5%85%B7%E4%BD%93%E7%9A%84%E3%81%AA)
 

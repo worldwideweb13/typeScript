@@ -79,7 +79,7 @@ type Data = {
 * [三項演算子の適切な使い方（条件演算子）](https://qiita.com/smicle/items/7d3b9881834dc0142fb7)
 
 ### 型の宣言
-
+---
 #### 配列
 - stringかnumberが入る配列の宣言
 ```vue

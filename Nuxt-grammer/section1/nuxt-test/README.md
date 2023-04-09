@@ -96,6 +96,7 @@ git merge "stash@{0}"
 git reset --soft head^
 ```
 
+
 - [Git で 誤って master ブランチを編集してしまったとき](https://qiita.com/Salinger/items/839a6f467e27235cabc3)
 
 #### gitHub branchの変更を他のbranchにpullする手順

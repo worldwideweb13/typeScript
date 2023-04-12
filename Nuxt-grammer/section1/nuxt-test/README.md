@@ -191,7 +191,7 @@ Docker開発環構築時のトラブルシューティング。
   - Conteiner : 内部ロジック(API,)
   - Presentational : 外見に関して関心を持つ
 
-[Vuetify.js 2.2のMenu, Tooltipコンポーネントについて](https://qiita.com/rubytomato@github/items/9bd8dc197f9ab406bead)
+- [Vuetify.js 2.2のMenu, Tooltipコンポーネントについて](https://qiita.com/rubytomato@github/items/9bd8dc197f9ab406bead)
 vuetify の<v-menu>の使い方がGIF画像付きなので、直感的に参考になった。
 
 #### [redisサーバー](https://www.fenet.jp/infla/column/technology/redis%E3%81%A8%E3%81%AF%E3%81%A9%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%EF%BC%9F3%E3%81%A4%E3%81%AE%E7%89%B9%E5%BE%B4%E3%82%84%E4%BD%BF%E3%81%84/#:~:text=Redis%E3%81%A8%E3%81%AF%E3%80%81Key%2DValue%E3%82%B9%E3%83%88%E3%82%A2%E3%81%A8%E3%81%84%E3%81%86%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%AA%E3%81%AE,%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%80%82)

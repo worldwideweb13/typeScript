@@ -98,9 +98,9 @@ export type Data = {
     .filter((obj) => obj.startsAt !== undefined && obj.endsAt !== undefined)
     .map((obj) => ({ startsAt: obj.startsAt!, endsAt: obj.endsAt! }));
 ```
-- A `||` B
-  - 使うとor
-
+- `propertyName : A || B `
+  - 使うとpropertyNameが判定式になる
+  - A がfalseの場合はBをpropertyNameに適用する、という意味合い
 
 - [[Vue.js] propsでnullが入ることも想定した書き方](https://qiita.com/00__/items/5259bda7c6b2462b4beb)
 - [daisyui](https://daisyui.com/)

@@ -37,7 +37,6 @@ currentLatLng.value = {name: 'new object'}
 
 以下の記述を参考に作成
 
-
 ```
         <li @click="isSelect('1')" v-bind:class="{'active': isActive === '1'}">All</li>
 ```
@@ -322,4 +321,3 @@ setup(props) {
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75665390/197398739-9a55973b-034b-470d-ac59-3cbd7fb2b795.png" />
 </p>
-

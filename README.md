@@ -104,6 +104,8 @@ export type Data = {
 
 - [[Vue.js] propsでnullが入ることも想定した書き方](https://qiita.com/00__/items/5259bda7c6b2462b4beb)
 
-###### [daisyui](https://daisyui.com/)
+- [daisyui](https://daisyui.com/)
   - laravelで使えるcssフレームワーク
   - tailwindCssをベースとしたフレームワーク
+- [JSDocs](https://www.typescriptlang.org/ja/docs/handbook/jsdoc-supported-types.html)
+  - コメントアウトの書き方のガイドライン

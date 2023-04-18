@@ -109,3 +109,5 @@ export type Data = {
   - tailwindCssをベースとしたフレームワーク
 - [JSDocs](https://www.typescriptlang.org/ja/docs/handbook/jsdoc-supported-types.html)
   - コメントアウトの書き方のガイドライン
+  - ガイドラインに沿ってコードを書くことで、開発者コメントに自動でコメントアウトの説明がアノテーションとして表示されるようになる。
+

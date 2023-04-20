@@ -104,7 +104,7 @@ export type Data = {
 
 - `propertyName : A ??B `
   - 使うとpropertyNameが判定式になる
-  - A がnullの場合はBをpropertyNameに適用する、という意味合い
+  - A がnull, undefinedの場合は、BをpropertyNameに適用する、という意味合い
 
 
 

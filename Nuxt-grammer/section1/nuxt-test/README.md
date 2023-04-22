@@ -289,8 +289,8 @@ setup(props) {
 - [名前、電話番号、メールアドレス、郵便番号等の最適なmaxlengthはいくつか調べてみた](https://kyogom.com/tech/design/maxlength/)
   - maxlengthの設定値の参考までに。
 
-#### [背景（background）を2色にする](https://125naroom.com/web/3028)
-- `linear-gradient` を使う。
+-  [背景（background）を2色にする](https://125naroom.com/web/3028)
+  - `linear-gradient` を使う。
 
 #### Open API Generator
 - [PHP Conference Japan 2022: OpenAPIで楽に始めるスキーマ駆動開発実… / Taki Komiyama](https://www.youtube.com/watch?v=JBHeKc17KbM)

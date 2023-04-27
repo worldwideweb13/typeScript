@@ -131,6 +131,7 @@ git branch --merged
 
 ## 学びになった記事まとめ
 
+- [[Vue.js] propsでnullが入ることも想定した書き方](https://qiita.com/00__/items/5259bda7c6b2462b4beb)
 - vue.jsのfluxフロー
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75665390/200177768-0a27422a-379f-449b-bba5-7479b841bdf0.png" />

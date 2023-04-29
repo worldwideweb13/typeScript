@@ -8,10 +8,6 @@
 * Vue.js + typeScript, Nuxt.js 学習状況に関しては[こちら](https://github.com/worldwideweb13/typeScript/blob/main/ts-vue-grammer/README.md)を参照
 * 現場で学んだことを記載
 
-### typeScript各学習ファイルの確認事項
-* TSを動かす上で必要なnode-moduleは重いので、各プロジェクトファイルから抜いてあります。
-対象ファイル直下でnode-moduleをインストールすることで動作確認が取れます。
-
 ### node-module　のインストール
 ```
 $ npm install

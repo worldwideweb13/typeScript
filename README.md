@@ -98,6 +98,7 @@ export type Data = {
     .filter((obj) => obj.startsAt !== undefined && obj.endsAt !== undefined)
     .map((obj) => ({ startsAt: obj.startsAt!, endsAt: obj.endsAt! }));
 ```
+
 - `propertyName : A || B `
   - 使うとpropertyNameが判定式になる
   - A がfalseの場合はBをpropertyNameに適用する、という意味合い

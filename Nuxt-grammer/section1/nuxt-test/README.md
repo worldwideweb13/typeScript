@@ -249,7 +249,6 @@ setup(props) {
     propertyB : string  
   })
   
-  
   watch(
     () => props.objectName,
     (newValue, _) => {

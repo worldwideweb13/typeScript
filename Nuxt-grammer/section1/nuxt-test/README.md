@@ -261,11 +261,11 @@ setup(props) {
 
 ```
 
-#### [Array.prototype.includes(string)　](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
-- 却り値: boolean(true or false)
-- Array(配列)に　文字列(string)の値が入っているかを検索。
-  - 存在する: true
-  - しない: false
+- [Array.prototype.includes(string)　](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+  - 却り値: boolean(true or false)
+  - Array(配列)に　文字列(string)の値が入っているかを検索。
+    - 存在する: true
+    - しない: false
 
 - [【Vue】エラー対処法：[Vue warn]: Property or method “〇〇” is not defined on the instance but referenced during render.](https://prograshi.com/language/vue-js/property-or-method-not-defined/)
 

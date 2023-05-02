@@ -72,6 +72,8 @@ type Data = {
 }
 ```
 
+- https://jam25.jp/html/how-to-sectioningtag/
+
 * [三項演算子の適切な使い方（条件演算子）](https://qiita.com/smicle/items/7d3b9881834dc0142fb7)
 
 #### 配列

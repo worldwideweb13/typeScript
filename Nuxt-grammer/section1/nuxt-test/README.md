@@ -142,7 +142,7 @@ git branch --merged
 - [GULP 学習コンテンツ](https://note.com/ichikun_/n/n3aa2c5f59725)
   - アイコン(img)をアイコンフォントに変更するツール。
   - 画像、Saasなどの圧縮を行い、サイトの軽量化を図る。
-#### [【DartSass対応】どこよりも詳しいGulp 4環境構築【Mac編】](https://tips-web.net/gulp4-mac/)
+ [【DartSass対応】どこよりも詳しいGulp 4環境構築【Mac編】](https://tips-web.net/gulp4-mac/)
 
 - [SSRとは](https://www.ragate.co.jp/blog/articles/10524)
 　　- サーバーサイドレンダリング

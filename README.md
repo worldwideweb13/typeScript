@@ -105,6 +105,6 @@ export type Data = {
   - 使うとpropertyNameが判定式になる
   - A がnull, undefinedの場合は、BをpropertyNameに適用する、という意味合い
 
-*  [JSDocs](https://www.typescriptlang.org/ja/docs/handbook/jsdoc-supported-types.html)
-  - コメントアウトの書き方のガイドライン
-  - ガイドラインに沿ってコードを書くことで、開発者コメントに自動でコメントアウトの説明がアノテーションとして表示されるようになる。
+* [JSDocs](https://www.typescriptlang.org/ja/docs/handbook/jsdoc-supported-types.html)
+  * コメントアウトの書き方のガイドライン
+  * ガイドラインに沿ってコードを書くことで、開発者コメントに自動でコメントアウトの説明がアノテーションとして表示されるようになる。

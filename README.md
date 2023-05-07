@@ -108,3 +108,5 @@ export type Data = {
 * [JSDocs](https://www.typescriptlang.org/ja/docs/handbook/jsdoc-supported-types.html)
   * コメントアウトの書き方のガイドライン
   * ガイドラインに沿ってコードを書くことで、開発者コメントに自動でコメントアウトの説明がアノテーションとして表示されるようになる。
+
+* [CSSのwhite-spaceの使い方：pre、wrap、nowrapなどの違いは？](https://saruwakakun.com/html-css/basic/white-space)

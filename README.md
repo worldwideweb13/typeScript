@@ -110,3 +110,4 @@ export type Data = {
   * ガイドラインに沿ってコードを書くことで、開発者コメントに自動でコメントアウトの説明がアノテーションとして表示されるようになる。
 
 * [CSSのwhite-spaceの使い方：pre、wrap、nowrapなどの違いは？](https://saruwakakun.com/html-css/basic/white-space)
+[http://weboook.blog22.fc2.com/blog-entry-411.html]

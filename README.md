@@ -96,9 +96,9 @@ export type Data = {
     .map((obj) => ({ startsAt: obj.startsAt!, endsAt: obj.endsAt! }));
 ```
 
-*  `propertyName : A || B `
-  - 使うとpropertyNameが判定式になる
-  - A がfalseの場合はBをpropertyNameに適用する、という意味合い
+* `propertyName : A || B `
+  * 使うとpropertyNameが判定式になる
+  * A がfalseの場合はBをpropertyNameに適用する、という意味合い
 
 *  `propertyName : A ??B `
   - 使うとpropertyNameが判定式になる

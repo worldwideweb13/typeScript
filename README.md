@@ -100,9 +100,9 @@ export type Data = {
   * 使うとpropertyNameが判定式になる
   * A がfalseの場合はBをpropertyNameに適用する、という意味合い
 
-*  `propertyName : A ??B `
-  *  使うとpropertyNameが判定式になる
-  *  A がnull, undefinedの場合は、BをpropertyNameに適用する、という意味合い
+* `propertyName : A ??B `
+    * 使うとpropertyNameが判定式になる
+    *  A がnull, undefinedの場合は、BをpropertyNameに適用する、という意味合い
 
 * [JSDocs](https://www.typescriptlang.org/ja/docs/handbook/jsdoc-supported-types.html)
   * コメントアウトの書き方のガイドライン

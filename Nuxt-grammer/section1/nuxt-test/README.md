@@ -148,6 +148,7 @@ git branch --merged
 　　- サーバーサイドレンダリング
 
 -  [Visual Studio Codeに定型文（スニペット）を登録する方法](https://slash-mochi.net/blog/2019/07/13/post-1978/)
+
 composition API　のスニペット
 ```Vue.js
 {

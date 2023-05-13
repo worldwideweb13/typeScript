@@ -195,10 +195,8 @@ composition API　のスニペット
 
 * [複数のGitHubアカウントを使い分けたい時の設定方法とTips](https://zenn.dev/taichifukumoto/articles/how-to-use-multiple-github-accounts)
   * vuertify...vuetifyをプロジェクトにインストール後、`<v-card> </v-card> ` を宣言して、必要なpropsを渡すことで利用可能。
-
-- [MacにHomebrew経由でnodenvを導入する]（＋PHPStorm対策）](https://qiita.com/alice37th/items/989af6749264de50bb85)
-
-#### [nuxt-linkを使うメリット](https://webrandum.net/nuxt-link/#:~:text=%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82-,nuxt%2Dlink%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88,-%E5%85%B7%E4%BD%93%E7%9A%84%E3%81%AA)
+* [MacにHomebrew経由でnodenvを導入する]（＋PHPStorm対策）](https://qiita.com/alice37th/items/989af6749264de50bb85)
+* [nuxt-linkを使うメリット](https://webrandum.net/nuxt-link/#:~:text=%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82-,nuxt%2Dlink%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88,-%E5%85%B7%E4%BD%93%E7%9A%84%E3%81%AA)
 
 - [Promise all](https://www.youtube.com/watch?v=nCJYXNtiCGw)
   - 非同期処理を同時に走らせる。

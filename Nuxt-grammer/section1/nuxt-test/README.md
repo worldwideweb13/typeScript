@@ -95,7 +95,6 @@ git merge "stash@{0}"
 git reset --soft head^
 ```
 
-
 - [Git で 誤って master ブランチを編集してしまったとき](https://qiita.com/Salinger/items/839a6f467e27235cabc3)
 
 #### gitHub branchの変更を他のbranchにpullする手順
@@ -286,7 +285,7 @@ setup(props) {
 - [フロントエンドエンジニアが知るべきキャッシュを理解する](https://zenn.dev/kaa_a_zu/articles/f1430cf681b185)
 - [名前、電話番号、メールアドレス、郵便番号等の最適なmaxlengthはいくつか調べてみた](https://kyogom.com/tech/design/maxlength/)
   - maxlengthの設定値の参考までに。
--  [背景（background）を2色にする](https://125naroom.com/web/3028)
+- [背景（background）を2色にする](https://125naroom.com/web/3028)
   - `linear-gradient` を使う。
 
 #### Open API Generator

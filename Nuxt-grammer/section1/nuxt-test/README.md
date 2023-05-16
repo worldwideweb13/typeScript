@@ -65,7 +65,7 @@ currentLatLng.value = {name: 'new object'}
   - validationルールを記述することで、様々なvalidatyionを設定することができる。
 
 - [nuxtで画面遷移時のパラメータ受け渡し(params, query)](https://codelikes.com/nuxt-query-or-params/)
- - フォルダ構成をURLディレクトリに合わせる。パラメータをディレクトリに組み込みたい場合は、以下のような構成
+  - フォルダ構成をURLディレクトリに合わせる。パラメータをディレクトリに組み込みたい場合は、以下のような構成
  ```
 └── users
     └── _id.vue

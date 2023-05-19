@@ -321,3 +321,4 @@ setup(props) {
 ### Nuxtで便利だったlibrary一覧　
 - [vue-scrollto](https://note.com/aliz/n/nfd2bfc514ace)
   - ページ内リンクを貼るときにスムーススクロールを実装する
+  - vue2,3 に対応済み

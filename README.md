@@ -110,3 +110,5 @@ export type Data = {
 
 * [CSSのwhite-spaceの使い方：pre、wrap、nowrapなどの違いは？](https://saruwakakun.com/html-css/basic/white-space)
 * [画面サイズに合わせて高さを指定する3つの方法](http://weboook.blog22.fc2.com/blog-entry-411.html)
+
+https://hiyo-code.com/%E3%80%90javascript%E3%80%91%E6%95%B0%E5%80%A4%E5%90%8C%E5%A3[…]3%81%97%E3%81%84%E6%99%82%E3%81%AB%E7%A2%BA%E8%AA%8D%E3%81%99/

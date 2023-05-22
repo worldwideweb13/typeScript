@@ -321,6 +321,6 @@ setup(props) {
 ### Nuxtで便利だったlibrary一覧　
 - [vue-scrollto](https://note.com/aliz/n/nfd2bfc514ace)
   - ページ内リンクを貼るときにスムーススクロールを実装する
-  - ライブラリーインストール後の初期状態では、`modules:[]`に追加した情報が記述されている。nuxt.configの`plugins:[]` に追加して利用する。　または
+  - ライブラリーインストール後の初期状態では、`modules:[]`に追加した情報が記述されている。`plugins:[]` に追加して利用する方法もあり、この場合は、`plugins/vue-scrollto.js`を追加。
   - vue2,3 に対応済み(202３年5月現在)
   - [公式](https://www.npmjs.com/package/vue-scrollto)

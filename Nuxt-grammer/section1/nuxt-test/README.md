@@ -137,6 +137,7 @@ git branch --merged
 </p>
 
 - [Vue.js $emit 使わないで props で method 渡したほうが良くない？](https://techblog.roxx.co.jp/entry/2020/07/09/092955)
+- https://qiita.com/sakurada8514/items/8931318c1fb47e7121b3
 - [GULP 学習コンテンツ](https://note.com/ichikun_/n/n3aa2c5f59725)
   - アイコン(img)をアイコンフォントに変更するツール。
   - 画像、Saasなどの圧縮を行い、サイトの軽量化を図る。

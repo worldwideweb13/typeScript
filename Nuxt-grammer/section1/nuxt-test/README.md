@@ -138,7 +138,8 @@ git branch --merged
 
 - [Vue.js $emit 使わないで props で method 渡したほうが良くない？](https://techblog.roxx.co.jp/entry/2020/07/09/092955)
 - [【Vue3】親<->子間のコンポーネントメソッド発火方法](https://qiita.com/sakurada8514/items/8931318c1fb47e7121b3)
-  - emitも親の値を子では更新しない、という方針は変わっていない
+  - emitも親の値を子では更新しない、という方針は変わらない
+  - 親からプロパティの更新関数(update,set)を記述する
 - [GULP 学習コンテンツ](https://note.com/ichikun_/n/n3aa2c5f59725)
   - アイコン(img)をアイコンフォントに変更するツール。
   - 画像、Saasなどの圧縮を行い、サイトの軽量化を図る。

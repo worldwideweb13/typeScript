@@ -189,8 +189,8 @@ composition API　のスニペット
 
 ## その他の学び
 
-- [Container/Presentationalパターン再入門](https://zenn.dev/kazu777/articles/9460c75b7cd8d1)
-  - Conteiner : 内部ロジック(API)
+* [Container/Presentationalパターン再入門](https://zenn.dev/kazu777/articles/9460c75b7cd8d1)
+  * Conteiner : 内部ロジック(API)
   - Presentational : 外見に関して関心を持つ
 - [Vuetify.js 2.2のMenu, Tooltipコンポーネントについて](https://qiita.com/rubytomato@github/items/9bd8dc197f9ab406bead)
   - vuetify<v-menu>の使い方がGIF画像付きなので、直感的に参考になった。

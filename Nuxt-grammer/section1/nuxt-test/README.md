@@ -275,20 +275,6 @@ setup(props) {
 - `yarn.lock` `package-lock.json`...package.jsonに記載されているバージョン情報をもとにローカルPCの開発環境のバージョン情報を更新した記録ファイル。
 - [Vue3 Composition APIにおいて、Providerパターン(provide/inject)の使い方と、なぜ重要なのか、理解する。](https://qiita.com/karamage/items/4bc90f637487d3fcecf0)
   - componentとしての独立性はなくなる。
-  
----
-
-#### CSS Grid まとめ
-
-- [「CSSグリッド」とは？基礎と使い方を解説](https://ferret-plus.com/8351)
-  - grid　layout　の基本的な使い方
-- [とうとうやってきた！CSSの新しいレイアウトモジュール「CSS Grid」って？](https://ferret-plus.com/6971?under_ct)
-  - grid　layout　のが作成された背景
-- [フロントエンドエンジニアが知るべきキャッシュを理解する](https://zenn.dev/kaa_a_zu/articles/f1430cf681b185)
-- [名前、電話番号、メールアドレス、郵便番号等の最適なmaxlengthはいくつか調べてみた](https://kyogom.com/tech/design/maxlength/)
-  - maxlengthの設定値の参考までに。
-- [背景（background）を2色にする](https://125naroom.com/web/3028)
-  - `linear-gradient` を使う。
 
 ---
 

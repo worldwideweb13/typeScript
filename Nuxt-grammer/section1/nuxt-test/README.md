@@ -313,7 +313,3 @@ setup(props) {
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75665390/197398739-9a55973b-034b-470d-ac59-3cbd7fb2b795.png" />
 </p>
-  
----
-  
-  

@@ -115,8 +115,8 @@ export type Data = {
 * [画面サイズに合わせて高さを指定する3つの方法](http://weboook.blog22.fc2.com/blog-entry-411.html)
 * [フロントエンドエンジニアが知るべきキャッシュを理解する](https://zenn.dev/kaa_a_zu/articles/f1430cf681b185)
 * [【JavaScript】数値同士の比較結果がおかしい時に確認すべきこと](https://hiyo-code.com/%E3%80%90javascript%E3%80%91%E6%95%B0%E5%80%A4%E5%90%8C%E5%A3%AB%E3%81%AE%E6%AF%94%E8%BC%83%E7%B5%90%E6%9E%9C%E3%81%8C%E3%81%8A%E3%81%8B%E3%81%97%E3%81%84%E6%99%82%E3%81%AB%E7%A2%BA%E8%AA%8D%E3%81%99/)
-- [背景（background）を2色にする](https://125naroom.com/web/3028)
-  - `linear-gradient` を使う。
+* [背景（background）を2色にする](https://125naroom.com/web/3028)
+  * `linear-gradient` を使う。
 
 #### CSS Grid まとめ
 

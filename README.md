@@ -124,6 +124,6 @@ export type Data = {
   * grid　layout　の基本的な使い方
 * [とうとうやってきた！CSSの新しいレイアウトモジュール「CSS Grid」って？](https://ferret-plus.com/6971?under_ct)
   * grid　layout　のが作成された背景
-- [名前、電話番号、メールアドレス、郵便番号等の最適なmaxlengthはいくつか調べてみた](https://kyogom.com/tech/design/maxlength/)
+* [名前、電話番号、メールアドレス、郵便番号等の最適なmaxlengthはいくつか調べてみた](https://kyogom.com/tech/design/maxlength/)
   - maxlengthの設定値の参考までに。
 

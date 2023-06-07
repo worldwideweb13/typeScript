@@ -89,7 +89,7 @@ export type Data = {
 }
 ```
 
-- 型の変換 `{ value: string }[]` → `string[]`
+* 型の変換 `{ value: string }[]` → `string[]`
 ```tsc
   const array = _objArr
     .filter((obj) => obj.startsAt !== undefined && obj.endsAt !== undefined)

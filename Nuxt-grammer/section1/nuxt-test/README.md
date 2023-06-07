@@ -283,11 +283,11 @@ setup(props) {
   - open APIの概要。何を目的としたサービスで何ができるかを説明してくれている。
 
 ### Nuxtで便利だったlibrary一覧　
-- [vue-scrollto](https://note.com/aliz/n/nfd2bfc514ace)
-  - ページ内リンクを貼るときにスムーススクロールを実装する
-  - ライブラリーインストール後の初期状態では、`modules:[]`に追加した情報が記述されている。`plugins:[]` に追加して利用する方法もあり、この場合は、`plugins/vue-scrollto.js`を追加。プロジェクト次第だが、pluginsをページ実装のために利用するインストールしたライブラリー群として使っているプロジェクトの場合は、pluginsから読み込ませるようにすべき。
-  - vue2,3 に対応済み(2023年5月現在)
-  - [公式](https://www.npmjs.com/package/vue-scrollto)
+* [vue-scrollto](https://note.com/aliz/n/nfd2bfc514ace)
+  * ページ内リンクを貼るときにスムーススクロールを実装する
+  * ライブラリーインストール後の初期状態では、`modules:[]`に追加した情報が記述されている。`plugins:[]` に追加して利用する方法もあり、この場合は、`plugins/vue-scrollto.js`を追加。プロジェクト次第だが、pluginsをページ実装のために利用するインストールしたライブラリー群として使っているプロジェクトの場合は、pluginsから読み込ませるようにすべき。
+  * vue2,3 に対応済み(2023年5月現在)
+  * [公式](https://www.npmjs.com/package/vue-scrollto)
 
 ---
 ### OA AUTHに関しての考察

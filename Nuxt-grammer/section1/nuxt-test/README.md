@@ -1,10 +1,10 @@
 # Nuxt 学習 〜index〜
 ---
 
-- [RestAPIを参考にルーティングをつくる](https://github.com/worldwideweb13/typeScript/commit/ec0110205af6197c57d7a0d3d7c2db760c22bb7c)
-- [テーブルをつくりリンクを張ってみる]()
-- [オートインポート機能]()
-- [フォルダ名なしでオートインポートする方法]()
+* [RestAPIを参考にルーティングをつくる](https://github.com/worldwideweb13/typeScript/commit/ec0110205af6197c57d7a0d3d7c2db760c22bb7c)
+* [テーブルをつくりリンクを張ってみる]()
+* [オートインポート機能]()
+* [フォルダ名なしでオートインポートする方法]()
 - [ルーティング Nuxtの場合]()
 - [Vue.js 3.0のComposition APIを使ってみた](https://re-engines.com/2020/06/15/vue-composition-api/)
   - Vueのライフサイクルフック(ref,reactive)の使い方を主眼に解説。

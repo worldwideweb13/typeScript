@@ -202,9 +202,9 @@ composition API　のスニペット
 * [MacにHomebrew経由でnodenvを導入する]（＋PHPStorm対策）](https://qiita.com/alice37th/items/989af6749264de50bb85)
 * [nuxt-linkを使うメリット](https://webrandum.net/nuxt-link/#:~:text=%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82-,nuxt%2Dlink%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88,-%E5%85%B7%E4%BD%93%E7%9A%84%E3%81%AA)
 
-- [Promise all](https://www.youtube.com/watch?v=nCJYXNtiCGw)
-  - 非同期処理を同時に走らせる。
-  - Promise.all([①,②,③])
+* [Promise all](https://www.youtube.com/watch?v=nCJYXNtiCGw)
+  * 非同期処理を同時に走らせる。
+  * Promise.all([①,②,③])
 
 ## Vue3 (compositionAPI)
 - [Vue3 Composition APIにおいて、Providerパターン(provide/inject)の使い方と、なぜ重要なのか、理解する。](https://qiita.com/karamage/items/4bc90f637487d3fcecf0)

@@ -57,9 +57,9 @@ currentLatLng.value = {name: 'new object'}
     → エラー文言のような１画面内で頻繁に表示非表示が切り替わる可能性のある箇所は, v-show を使うべきで、１度画面が表示されたら切り替わることのないところ（ラベルの有無など）を操作するような場合は v-ifを使う
 
 #### VeeValidate...Vueで使えるvalidationライブラリー
-- [VeeValidateでVue.js用の超便利なバリデーションを実装する](https://www.kabanoki.net/4955/)
-- [validation-observer,validation-providerの使い方基礎](https://sakitadaiki.hatenablog.com/entry/2021/04/07/112440)
-  - `validation-observer`は検証エラーが出ている時にフォームの送信の実行ができないようにする。
+* [VeeValidateでVue.js用の超便利なバリデーションを実装する](https://www.kabanoki.net/4955/)
+* [validation-observer,validation-providerの使い方基礎](https://sakitadaiki.hatenablog.com/entry/2021/04/07/112440)
+  * `validation-observer`は検証エラーが出ている時にフォームの送信の実行ができないようにする。
   - `validation-provider`内で各入力フォーム`rules`を囲むことでvalidationルールを設定可能。
   - `<validation-provider></validation-provider>`内の`slot-scope`に入力フィールドの状態が入っていおり、この状態を基に、validation error を表示する。
   - validationルールを記述することで、様々なvalidatyionを設定することができる。

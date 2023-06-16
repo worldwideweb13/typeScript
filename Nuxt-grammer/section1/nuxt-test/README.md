@@ -64,8 +64,8 @@ currentLatLng.value = {name: 'new object'}
   * `<validation-provider></validation-provider>`内の`slot-scope`に入力フィールドの状態が入っていおり、この状態を基に、validation error を表示する。
   * validationルールを記述することで、様々なvalidatyionを設定することができる。
 
-- [nuxtで画面遷移時のパラメータ受け渡し(params, query)](https://codelikes.com/nuxt-query-or-params/)
-  - フォルダ構成をURLディレクトリに合わせる。パラメータをディレクトリに組み込みたい場合は、以下のような構成
+* [nuxtで画面遷移時のパラメータ受け渡し(params, query)](https://codelikes.com/nuxt-query-or-params/)
+  * フォルダ構成をURLディレクトリに合わせる。パラメータをディレクトリに組み込みたい場合は、以下のような構成
  ```
 └── users
     └── _id.vue

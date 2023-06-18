@@ -116,7 +116,7 @@ git checkout my-branch
 git merge A-branch
 ```
 
-- 現在チェックアウトしているブランチにマージされているローカルブランチを削除する
+* 現在チェックアウトしているブランチにマージされているローカルブランチを削除する
 ```
 git branch --merged
 ```

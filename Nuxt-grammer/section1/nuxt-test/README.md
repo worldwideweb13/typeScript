@@ -70,7 +70,7 @@ currentLatLng.value = {name: 'new object'}
 └── users
     └── _id.vue
  ```
-  -  画面遷移は　`method:{ function-name(){...} }`で...内に以下のように記述
+  * 画面遷移は　`method:{ function-name(){...} }`で...内に以下のように記述
  ```Vue.js
  this.$router.push({ path: `users/999` });
  ```

@@ -136,7 +136,7 @@ git branch --merged
   <img src="https://user-images.githubusercontent.com/75665390/200177768-0a27422a-379f-449b-bba5-7479b841bdf0.png" />
 </p>
 
-- [Vue.js $emit 使わないで props で method 渡したほうが良くない？](https://techblog.roxx.co.jp/entry/2020/07/09/092955)
+* [Vue.js $emit 使わないで props で method 渡したほうが良くない？](https://techblog.roxx.co.jp/entry/2020/07/09/092955)
 - [【Vue3】親<->子間のコンポーネントメソッド発火方法](https://qiita.com/sakurada8514/items/8931318c1fb47e7121b3)
   - emitも親の値を子では更新しない、という方針は変わらない
   - 親からプロパティの更新関数(update)を記述する

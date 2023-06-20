@@ -95,7 +95,7 @@ git merge "stash@{0}"
 git reset --soft head^
 ```
 
-- [Git で 誤って master ブランチを編集してしまったとき](https://qiita.com/Salinger/items/839a6f467e27235cabc3)
+* [Git で 誤って master ブランチを編集してしまったとき](https://qiita.com/Salinger/items/839a6f467e27235cabc3)
 
 #### gitHub branchの変更を他のbranchにpullする手順
 - 想定される手順...Aさんの作業ブランチを自分が作業しているbranchBに取り込みたい。

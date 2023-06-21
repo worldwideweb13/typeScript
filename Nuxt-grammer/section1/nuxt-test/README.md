@@ -142,9 +142,9 @@ git branch --merged
   * 親からプロパティの更新関数(update)を記述する
   * 子コンポーネントでプロパティの更新関数を`emit`を使って更新する
   * emitを使うことで、親-子-孫のようにコンポーネントを分離した時に、関心の分離ができるようになる。(Presentationnal/model-componentパターン)
-- [GULP 学習コンテンツ](https://note.com/ichikun_/n/n3aa2c5f59725)
-  - アイコン(img)をアイコンフォントに変更するツール。
-  - 画像、Saasなどの圧縮を行い、サイトの軽量化を図る。
+* [GULP 学習コンテンツ](https://note.com/ichikun_/n/n3aa2c5f59725)
+  * アイコン(img)をアイコンフォントに変更するツール。
+  * 画像、Saasなどの圧縮を行い、サイトの軽量化を図る。
  [【DartSass対応】どこよりも詳しいGulp 4環境構築【Mac編】](https://tips-web.net/gulp4-mac/)
 - [SSRとは](https://www.ragate.co.jp/blog/articles/10524)
 　　- サーバーサイドレンダリングの略

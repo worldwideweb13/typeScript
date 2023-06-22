@@ -146,8 +146,8 @@ git branch --merged
   * アイコン(img)をアイコンフォントに変更するツール。
   * 画像、Saasなどの圧縮を行い、サイトの軽量化を図る。
  [【DartSass対応】どこよりも詳しいGulp 4環境構築【Mac編】](https://tips-web.net/gulp4-mac/)
-- [SSRとは](https://www.ragate.co.jp/blog/articles/10524)
-　　- サーバーサイドレンダリングの略
+* [SSRとは](https://www.ragate.co.jp/blog/articles/10524)
+　　* サーバーサイドレンダリングの略
 -  [Visual Studio Codeに定型文（スニペット）を登録する方法](https://slash-mochi.net/blog/2019/07/13/post-1978/)
 
 composition API　のスニペット

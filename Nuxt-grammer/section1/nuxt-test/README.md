@@ -207,7 +207,7 @@ composition API　のスニペット
   * Promise.all([①,②,③])
 
 ## Vue3 (compositionAPI)
-- [Vue3 Composition APIにおいて、Providerパターン(provide/inject)の使い方と、なぜ重要なのか、理解する。](https://qiita.com/karamage/items/4bc90f637487d3fcecf0)
+* [Vue3 Composition APIにおいて、Providerパターン(provide/inject)の使い方と、なぜ重要なのか、理解する。](https://qiita.com/karamage/items/4bc90f637487d3fcecf0)
 https://www.webdesignleaves.com/pr/plugins/vue-basic-02.html
 
 ```ts
@@ -236,7 +236,7 @@ export default {
   
 ```
 
-- `watch`関数についての注意事項
+* `watch`関数についての注意事項
   - 通常、watch関数を使う場合、変数の変更は監視できるが、オブジェクト型プロパティの中身の値の変更は検知することができない。
   - オブジェクト型の値の変更を監視するには、第３引数の`deep`を使う必要がある。
 

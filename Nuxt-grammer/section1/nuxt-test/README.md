@@ -272,7 +272,7 @@ setup(props) {
 
 #### バージョン管理ファイル
 * `package.json` ... プロジェクトファイルを動かす上で必要となるライブラリーや言語のバージョン情報
-- `yarn.lock` `package-lock.json`...package.jsonに記載されているバージョン情報をもとにローカルPCの開発環境のバージョン情報を更新した記録ファイル。
+* `yarn.lock` `package-lock.json`...package.jsonに記載されているバージョン情報をもとにローカルPCの開発環境のバージョン情報を更新した記録ファイル。
 - [Vue3 Composition APIにおいて、Providerパターン(provide/inject)の使い方と、なぜ重要なのか、理解する。](https://qiita.com/karamage/items/4bc90f637487d3fcecf0)
   - componentとしての独立性はなくなる。
 

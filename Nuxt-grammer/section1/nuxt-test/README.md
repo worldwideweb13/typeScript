@@ -279,8 +279,8 @@ setup(props) {
 ---
 
 ### Open API Generator
-- [PHP Conference Japan 2022: OpenAPIで楽に始めるスキーマ駆動開発実… / Taki Komiyama](https://www.youtube.com/watch?v=JBHeKc17KbM)
-  - open APIの概要。何を目的としたサービスで何ができるかを説明してくれている。
+* [PHP Conference Japan 2022: OpenAPIで楽に始めるスキーマ駆動開発実… / Taki Komiyama](https://www.youtube.com/watch?v=JBHeKc17KbM)
+  * open APIの概要。何を目的としたサービスで何ができるかを説明してくれている。
 
 ### Nuxtで便利だったlibrary一覧　
 * [vue-scrollto](https://note.com/aliz/n/nfd2bfc514ace)

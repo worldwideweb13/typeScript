@@ -62,7 +62,7 @@ $ npm install --save-dev @types/express
 $ npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-loader
 ```
 
-### tsc のtips
+#### tsc のtips
 * Data Typeに必須ではないオブジェクトを設定したい時`key?:`にすることで、必須ではない型（必ず必要ではないプロパティ）になる。
 
 ```vue

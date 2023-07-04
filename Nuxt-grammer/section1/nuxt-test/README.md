@@ -186,7 +186,7 @@ composition API　のスニペット
 その後は少し5～10分くらい時間をおいてみてから、
 `make db_upgrade` でDBを最新化
 
-## その他の学び
+### その他の学び
 
 * [Container/Presentationalパターン再入門](https://zenn.dev/kazu777/articles/9460c75b7cd8d1)
   * Conteiner : 内部ロジック(API)

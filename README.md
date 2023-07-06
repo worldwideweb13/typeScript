@@ -127,3 +127,6 @@ export type Data = {
 * [名前、電話番号、メールアドレス、郵便番号等の最適なmaxlengthはいくつか調べてみた](https://kyogom.com/tech/design/maxlength/)
   * maxlengthの設定値の参考までに。
 
+
+#### unity メモ
+

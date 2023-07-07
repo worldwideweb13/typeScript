@@ -130,4 +130,4 @@ export type Data = {
 
 #### unity メモ
 - [Unityで地面を動かしたときの挙動](https://blog.narumium.net/2016/11/19/unity%E3%81%A7%E5%9C%B0%E9%9D%A2%E3%82%92%E5%8B%95%E3%81%8B%E3%81%97%E3%81%9F%E3%81%A8%E3%81%8D%E3%81%AE%E6%8C%99%E5%8B%95/)
-- [Inspectorでセット、GetComponentで取得【Unityメモ】](https://nosystemnolife.com/inspector-getcomponent_unity/)
+* [Inspectorでセット、GetComponentで取得【Unityメモ】](https://nosystemnolife.com/inspector-getcomponent_unity/)

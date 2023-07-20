@@ -121,6 +121,7 @@ export type Data = {
 * [背景（background）を2色にする](https://125naroom.com/web/3028)
   * `linear-gradient` を使う。
 
+---
 #### CSS Grid まとめ
 
 * [「CSSグリッド」とは？基礎と使い方を解説](https://ferret-plus.com/8351)

@@ -123,7 +123,7 @@ export type Data = {
   * `linear-gradient` を使う。
 
 ---
-#### CSS Grid まとめ
+### CSS Grid まとめ
 
 * [「CSSグリッド」とは？基礎と使い方を解説](https://ferret-plus.com/8351)
   * grid　layout　の基本的な使い方

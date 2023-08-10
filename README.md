@@ -15,7 +15,7 @@ typeScript  の全ファイルの変化を監視する（ウォッチモード�
 ```
 $ tsc -w
 ```
-
+---
 * TS-libs　TS-DemoApp ではwebpackを利用しています。これらのフォルダでは、webpackをインストールしてアプリケーションの実行環境を作っています。`npm install --save @types/google.maps`
 * [TS-libs](TS-libs) プロジェクトの実行環境    ※これらのサードパーティライブラリーをインストールした際は、`npm start`でサーバー再起動をかけることで変更が適用されます 
   * [lodash](https://lodash.com/) のインストール　※webpackで利用するため `npm i --save lodash`

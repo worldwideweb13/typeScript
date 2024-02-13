@@ -1,6 +1,7 @@
 # typeScript学習ガイドライン
 
 
+---
 ### 概要
 * 学習期間: 2022年4月~
 * 使用技術: TypeScript, Express, React, Vue2,Vue3, Nuxt,compositon API

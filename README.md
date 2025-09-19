@@ -7,8 +7,6 @@
 * typeScriptの自学習用リポジトリ。`TS-プロジェクト名`でリポジトリを分けて、分野毎の学習しました。
 * Vue.js + typeScript, Nuxt.js 学習状況に関しては[こちら](https://github.com/worldwideweb13/typeScript/blob/main/ts-vue-grammer/README.md)を参照
 
-
----
 ### node-module　のインストール
 ```
 $ npm install
